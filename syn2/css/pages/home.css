@@ -50,7 +50,7 @@
 .sidebar-headshot {
     width: 24px; /* Smaller headshot */
     height: 24px;
-    border-radius: 50%;
+    border-radius: 4px;
     margin-right: 10px;
     object-fit: cover;
     background-color: #000;
