@@ -5,6 +5,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/nav.css?v={time()}">
     <link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/pages/home.css?v={time()}">
+    <style>
+        /* TEMPORARY: These styles are here because the CDN (GitHub) takes time to update after you push.
+           Once you push your local changes to GitHub and they propagate, you can remove this style block. */
+        .navbar { height: 56px !important; }
+        .main-container { margin-top: 56px !important; }
+        .navbar-headshot { height: 40px; width: 40px; border-radius: 50%; margin-right: 10px; }
+    </style>
     </head>
 <body>
 
@@ -16,7 +23,7 @@
         </div>
         <div class="navbar-right">
         <div class="user-stat">
-            <img src='{asset type="Head" id="{$user_data["id"]}" size="100x100"}' class="navbar-headshot">
+            <img src='{asset type="Head" id="{$user_data['id']}" size="100x100"}' class="navbar-headshot">
             <span>{$user_data["username"]}</span>
         </div>
         <div class="user-stat">
