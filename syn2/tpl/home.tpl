@@ -19,26 +19,18 @@
         <div class="content">
             
             <div class="profile-header">
-                <div class="profile-cover">
-                    <div class="profile-greeting">
-                        Welcome back, <span class="greeting-name">{$user_data['username']}</span>!
-                    </div>
-                </div>
                 <div class="profile-content">
                     <div class="profile-avatar-container">
                         <img src="/Thumbs/Head.ashx?x=150&y=150&userId={$user_data['id']}" class="profile-avatar" data-slider="true" alt="{$user_data['username']}">
                         <div class="status-icon"></div>
                     </div>
                     <div class="profile-info">
+                    <div class="profile-names-row">
                         <div class="profile-names">
                             <h1 class="profile-username">{$user_data['username']}</h1>
                             <p class="profile-handle">@{$user_data['username']}</p>
                         </div>
                         
-                        <form action="/users/{$user_data['id']}/profile" method="post" class="status-form">
-                            <input type="text" id="status" name="status" class="status-input-field" value="{$user_data['status']}" placeholder="What are you up to?" maxlength="255">
-                        </form>
-
                         <div class="profile-stats">
                             <div class="stat-item">
                                 <span class="stat-label">Friends</span>
@@ -58,6 +50,11 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <form action="/users/{$user_data['id']}/profile" method="post" class="status-form">
+                        <input type="text" id="status" name="status" class="status-input-field" value="{$user_data['status']}" placeholder="What are you up to?" maxlength="255">
+                    </form>
+                </div>
                 </div>
             </div>
             
