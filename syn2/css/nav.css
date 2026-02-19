@@ -16,11 +16,17 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .nav-logo {
     display: flex;
     align-items: center;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 0;
 }
 
 .nav-logo img {
@@ -35,7 +41,6 @@
     margin: 0;
     padding: 0;
     align-items: center;
-    flex: 1;
 }
 
 .top-nav-item {
@@ -95,6 +100,21 @@
     height: 32px;
     border-radius: 50%;
     background: #333;
+}
+
+.nav-settings {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+    transition: color 0.2s;
+}
+
+.nav-settings:hover {
+    color: white;
 }
 
 /* Sidebar Custom Styles */
