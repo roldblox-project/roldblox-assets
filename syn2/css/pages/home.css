@@ -156,3 +156,16 @@
     margin-bottom: 20px;
     color: #ffffff;
 }
+
+.home-layout {
+    display: flex;
+    gap: 20px;
+}
+
+.feed-section {
+    flex: 1;
+}
+
+.friends-section {
+    width: 300px;
+}

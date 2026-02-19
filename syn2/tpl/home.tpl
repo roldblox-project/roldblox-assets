@@ -9,37 +9,7 @@
 <body>
 
     <!-- Navigation Bar -->
-    <div class="navbar">
-        <div class="navbar-left">
-            <img src="https://github.com/roldblox-project/roldblox-assets/blob/main/images/logo.png?raw=true" alt="ROLDBLOX" class="navbar-logo">
-            <!-- Navigation Links could go here -->
-        </div>
-        <div class="navbar-right">
-        <div class="user-stat" title="{$user_data['robux']} Robux">
-            <a href="{url page="transactions"}" style="display: flex; flex-direction: column-reverse; align-items: center; text-decoration: none; color: inherit; width: 100%; height: 100%; justify-content: center;">
-                <strong class="currency-amount" data-value="{$user_data['robux']}">{$user_data["robux"]}</strong> <span class="b-icon">robux</span>
-            </a>
-        </div>
-        <div class="user-stat" title="{$user_data['tickets']} Tix">
-            <a href="{url page="transactions"}" style="display: flex; flex-direction: column-reverse; align-items: center; text-decoration: none; color: inherit; width: 100%; height: 100%; justify-content: center;">
-                <strong class="currency-amount" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</strong> <span>Tix</span>
-            </a>
-        </div>
-        <div class="user-stat settings-dropdown">
-            <span class="b-icon" style="font-size: 24px;">gear</span>
-            <div class="dropdown-content">
-                <a href="/settings">Settings</a>
-                <a href="/membership">Membership</a>
-                <a href="/giftcard-redeem">Redeem Codes</a>
-                <a href="/switch-accounts">Switch Accounts</a>
-                <form action="/logout" method="post" style="margin: 0;">
-                    <input type="hidden" name="csrf_token" value="{$csrf_token}">
-                    <button type="submit" class="logout-btn">Logout</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    </div>
+    {include file="syn2/tpl/nav.tpl"}
 
     <!-- Main Container with Sidebar and Content -->
     <div class="main-container">
@@ -83,46 +53,18 @@
                 <p>Welcome to ROLDBLOX.</p>
             </div>
             
-            <div style="display: flex; gap: 20px;">
-                <div style="flex: 1;">
+            <div class="home-layout">
+                <div class="feed-section">
                     <h2>Your Feed</h2>
                     <p>This is your home page feed.</p>
                 </div>
                 
-                <div style="width: 300px;">
+                <div class="friends-section">
                     <h3>My Friends</h3>
                     <p>Friends list is temporarily unavailable.</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            function formatNumber(num) {
-                num = parseFloat(num);
-                if (isNaN(num)) return '0';
-                
-                if (num >= 1000000000) {
-                    return (num / 1000000000).toFixed(1).replace(/\.0$/, '') + 'b';
-                }
-                if (num >= 1000000) {
-                    return (num / 1000000).toFixed(1).replace(/\.0$/, '') + 'm';
-                }
-                if (num >= 1000) {
-                    return (num / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
-                }
-                return num.toString();
-            }
-
-            const currencyElements = document.querySelectorAll('.currency-amount');
-            currencyElements.forEach(el => {
-                const originalValue = el.getAttribute('data-value');
-                if (originalValue) {
-                    el.textContent = formatNumber(originalValue);
-                }
-            });
-        });
-    </script>
 </body>
 </html>

@@ -74,6 +74,25 @@ body {
     font-size: 14px;
 }
 
+.b-icon {
+    font-family: 'BuilderIcons';
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    text-rendering: optimizeLegibility;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
 .user-stat {
     display: flex;
     align-items: center;
@@ -85,6 +104,14 @@ body {
     min-width: 44px;
     height: 44px;
     box-sizing: border-box;
+}
+
+.user-stat .b-icon {
+    font-size: 24px;
+}
+
+.user-stat span {
+    font-size: 14px;
 }
 
 .user-stat:hover {
@@ -104,6 +131,7 @@ body {
 /* Settings Dropdown */
 .settings-dropdown {
     position: relative;
+    cursor: pointer;
 }
 
 .dropdown-content {
@@ -120,7 +148,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.settings-dropdown:hover .dropdown-content {
+.dropdown-content.show {
     display: block;
 }
 
@@ -146,6 +174,6 @@ body {
 }
 
 .logout-btn {
-    color: rgb(255, 6, 60);
+    color: rgb(255, 6, 60) !important;
     font-weight: 600;
 }
