@@ -40,24 +40,27 @@
             <li class="top-nav-item"><a href="{url page='catalog'}" class="top-nav-link">Catalog</a></li>
             <li class="top-nav-item"><a href="{url page='users'}" class="top-nav-link">Users</a></li>
             <li class="top-nav-item"><a href="{url page='forum'}" class="top-nav-link">Forum</a></li>
-            
-            {if $user_data}
-                <li class="top-nav-item"><a href="{url page='profile' id=$user_data['id']}" class="top-nav-link">{$user_data["username"]}</a></li>
-            {else}
-                <li class="top-nav-item"><a href="{url page='login'}" class="top-nav-link">Login</a></li>
-                <li class="top-nav-item"><a href="{url page='register'}" class="btn primary-btn" style="padding: 8px 16px;">Sign Up</a></li>
-            {/if}
         </ul>
         
-        <button class="sidebar-toggle-btn" aria-label="Toggle Menu" onclick="document.querySelector('.sidebar').classList.toggle('open'); document.querySelector('.sidebar-overlay').classList.toggle('active');">
-            <span class="hamburger-line"></span>
-            <span class="hamburger-line" style="margin-top: 4px;"></span>
-            <span class="hamburger-line" style="margin-top: 4px;"></span>
-        </button>
+        <div class="nav-right">
+            {if $user_data}
+            <div class="nav-currency">
+                <div class="currency-item" title="Robux">
+                    <span class="currency-robux">R$</span>
+                    <span>{$user_data["robux"]}</span>
+                </div>
+                <div class="currency-item" title="Tickets">
+                    <span class="currency-tix">Tix</span>
+                    <span>{$user_data["tickets"]}</span>
+                </div>
+            </div>
+            <a href="{url page='profile' id=$user_data['id']}" class="nav-user">
+                <img src='{asset type="Head" id=$user_data["id"] size="48x48"}' alt="Avatar" class="nav-user-avatar">
+                <span>{$user_data["username"]}</span>
+            </a>
+            {/if}
+        </div>
     </nav>
-
-    <!-- Sidebar Overlay -->
-    <div class="sidebar-overlay" onclick="document.querySelector('.sidebar').classList.remove('open'); document.querySelector('.sidebar-overlay').classList.remove('active');"></div>
 
     <!-- Sidebar -->
     <aside class="sidebar">
@@ -123,10 +126,35 @@
 
     <!-- Main Home Page Content -->
     <div class="home-page">
+        {if $user_data}
+        <div class="dashboard-container">
+            <div class="welcome-header">
+                <h1 class="welcome-title">Welcome Back, {$user_data["username"]}!</h1>
+                <div class="welcome-subtitle">Revive. Remember. Relive.</div>
+            </div>
+            
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <div class="card-title">My Feed</div>
+                    <p>No new updates available.</p>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-title">Recently Played</div>
+                    <p>You haven't played any games recently.</p>
+                    <a href="{url page='games'}" class="btn primary-btn" style="margin-top: 10px;">Find Games</a>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-title">Friends (0)</div>
+                    <p>You don't have any friends yet.</p>
+                    <a href="{url page='users'}" class="btn secondary-btn" style="margin-top: 10px;">Find Friends</a>
+                </div>
+            </div>
+        </div>
+        {else}
         <section class="hero-section">
             <div class="hero-container">
                 <div class="hero-visual">
-                    <img src="https://github.com/roldblox-project/roldblox-assets/blob/main/images/logo.png?raw=true" alt="ROLDBLOX Logo" class="hero-logo-large" />
+                    <img src="https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/images/logo.png" alt="ROLDBLOX Logo" class="hero-logo-large" />
                     <div class="hero-subtitle">Experience Roblox as it once was</div>
                 </div>
                 
@@ -153,6 +181,7 @@
                 </div>
             </div>
         </section>
+        {/if}
     </div>
 
 </body>
