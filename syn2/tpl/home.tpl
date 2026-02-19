@@ -25,6 +25,19 @@
                 <strong class="currency-amount" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</strong> <span>Tix</span>
             </a>
         </div>
+        <div class="user-stat settings-dropdown">
+            <span class="b-icon" style="font-size: 24px;">gear</span>
+            <div class="dropdown-content">
+                <a href="/settings">Settings</a>
+                <a href="/membership">Membership</a>
+                <a href="/giftcard-redeem">Redeem Codes</a>
+                <a href="/switch-accounts">Switch Accounts</a>
+                <form action="/logout" method="post" style="margin: 0;">
+                    <input type="hidden" name="csrf_token" value="{$csrf_token}">
+                    <button type="submit" class="logout-btn">Logout</button>
+                </form>
+            </div>
+        </div>
     </div>
     </div>
 
@@ -56,7 +69,7 @@
                 <ul class="sidebar-menu">
                     <li><a href="/users/{$user_data['id']}/profile"><span class="b-icon">person</span> My Profile</a></li>
                     <li><a href="{url page="messages"}"><span class="b-icon">two-people-speech-bubble</span> My Messages</a></li>
-                    <li><a href="{url page="character"}"><span class="b-icon">circle-person</span> My Avatar</a></li>
+                    <li><a href="{url page="avatar"}"><span class="b-icon">circle-person</span> My Avatar</a></li>
                     <li><a href="{url page="inventory"}"><span class="b-icon">backpack</span> My Inventory</a></li>
                     <li><a href="{url page="groups"}"><span class="b-icon">three-people</span> My Groups</a></li>
                 </ul>

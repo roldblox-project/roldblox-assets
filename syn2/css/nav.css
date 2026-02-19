@@ -100,3 +100,52 @@ body {
 .user-stat strong {
     font-weight: 700;
 }
+
+/* Settings Dropdown */
+.settings-dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: rgb(30, 30, 40);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1001;
+    border-radius: 4px;
+    padding: 5px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.settings-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a, 
+.dropdown-content button {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    background: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.dropdown-content a:hover, 
+.dropdown-content button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logout-btn {
+    color: rgb(255, 6, 60);
+    font-weight: 600;
+}
