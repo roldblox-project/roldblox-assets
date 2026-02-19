@@ -8,8 +8,8 @@
     background-attachment: fixed;
     position: relative;
     color: white;
-    /* Updated path to use raw github url as requested */
-    background-image: url('https://github.com/roldblox-project/roldblox-assets/blob/main/images/backgrounds/pattern.png?raw=true');
+    /* Updated path to use jsDelivr CDN to avoid CORB/MIME type issues */
+    background-image: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/images/backgrounds/pattern.png');
 }
 
 .home-page::before {
