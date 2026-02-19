@@ -15,37 +15,44 @@
         <!-- Main Content -->
         <div class="content">
             
-            <div class="profile-header">
-                <div class="profile-avatar-container">
-                    <img src="/Thumbs/Head.ashx?x=150&y=150&userId={$user_data['id']}" class="profile-avatar" data-slider="true" alt="{$user_data['username']}">
-                    <div class="status-icon"></div>
-                </div>
-                <div class="profile-info">
-                    <div class="profile-names">
-                        <h1 class="profile-username">{$user_data['username']}</h1>
-                        <p class="profile-handle">@{$user_data['username']}</p>
-                    </div>
-                    
-                    <form action="/users/{$user_data['id']}/profile" method="post" class="status-form">
-                        <input type="text" id="status" name="status" class="status-input-field" value="{$user_data['status']|default:''}" placeholder="What are you up to?" maxlength="255">
-                    </form>
+            <div class="welcome-heading">
+                <h2>Welcome back, {$user_data['username']}!</h2>
+            </div>
 
-                    <div class="profile-stats">
-                        <div class="stat-item">
-                            <span class="stat-label">Friends</span>
-                            <a href="/users/{$user_data['id']}/friends" class="stat-value">28</a>
+            <div class="profile-header">
+                <div class="profile-cover"></div>
+                <div class="profile-content">
+                    <div class="profile-avatar-container">
+                        <img src="/Thumbs/Head.ashx?x=150&y=150&userId={$user_data['id']}" class="profile-avatar" data-slider="true" alt="{$user_data['username']}">
+                        <div class="status-icon"></div>
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-names">
+                            <h1 class="profile-username">{$user_data['username']}</h1>
+                            <p class="profile-handle">@{$user_data['username']}</p>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Followers</span>
-                            <a href="/users/{$user_data['id']}/followers" class="stat-value">4</a>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Following</span>
-                            <a href="/users/{$user_data['id']}/following" class="stat-value">0</a>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">User RAP</span>
-                            <span class="stat-value">0</span>
+                        
+                        <form action="/users/{$user_data['id']}/profile" method="post" class="status-form">
+                            <input type="text" id="status" name="status" class="status-input-field" value="{$user_data['status']}" placeholder="What are you up to?" maxlength="255">
+                        </form>
+
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Friends</span>
+                                <a href="/users/{$user_data['id']}/friends" class="stat-value">28</a>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Followers</span>
+                                <a href="/users/{$user_data['id']}/followers" class="stat-value">4</a>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Following</span>
+                                <a href="/users/{$user_data['id']}/following" class="stat-value">0</a>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">User RAP</span>
+                                <span class="stat-value">0</span>
+                            </div>
                         </div>
                     </div>
                 </div>
