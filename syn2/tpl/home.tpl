@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
     
     <!-- Styles -->
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/pages/home.css">
+    <link rel="stylesheet" href="https://github.com/roldblox-project/roldblox-assets/blob/main/syn2/css/nav.css?raw=true">
+    <link rel="stylesheet" href="https://github.com/roldblox-project/roldblox-assets/blob/main/syn2/css/pages/home.css?raw=true">
     
     <style>
         body {
