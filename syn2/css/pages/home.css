@@ -14,54 +14,57 @@
     padding-top: 60px; /* Nav height */
 }
 
-/* Accurate Button Styles */
+/* Accurate Button Styles matching roldblox-website */
 .btn {
-    padding: 0 28px;
-    background: rgb(16, 130, 55);
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    width: auto;
-    letter-spacing: normal;
-    position: relative;
-    overflow: hidden;
-    z-index: 5;
-    height: 36px;
-    line-height: 36px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    white-space: nowrap;
-    margin: 6px 2px;
-    padding: 0 24px;
-}
-
-.btn:hover {
-    background: rgb(2, 183, 87);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-    background: rgb(19, 65, 35);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+    transition: all 0.2s;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .primary-btn {
     background: #4caf50;
+    color: white;
     padding: 12px 24px;
     font-size: 16px;
 }
 
+.primary-btn:hover {
+    background: #43a047;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: translateY(-1px);
+}
+
+.primary-btn:active {
+    background: #388e3c;
+    transform: translateY(0);
+}
+
 .secondary-btn {
     background: rgb(50, 50, 60);
+    color: white;
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 12px 24px;
     font-size: 1.1rem;
+}
+
+.secondary-btn:hover {
+    background: rgb(60, 60, 70);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: translateY(-1px);
+}
+
+.secondary-btn:active {
+    background: rgb(40, 40, 50);
+    transform: translateY(0);
 }
 
 /* Dashboard / Home Content */
