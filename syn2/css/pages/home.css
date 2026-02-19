@@ -94,16 +94,16 @@
     /* Reference had a bottom border, but vertical lists usually use left border. I'll stick to background for now to be safe, maybe slight border */
 }
 
-.sidebar-menu a i {
+.sidebar-menu a .b-icon {
     margin-right: 10px;
-    font-size: 16px; /* Smaller icons */
-    width: 16px;
+    font-size: 18px;
+    width: 18px;
     text-align: center;
     display: inline-block;
     color: #888; /* Muted icons by default */
 }
 
-.sidebar-menu a:hover i {
+.sidebar-menu a:hover .b-icon {
     color: #fff;
 }
 

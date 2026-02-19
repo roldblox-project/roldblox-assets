@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Home - ROLDBLOX</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
     <link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/nav.css?v={time()}">
     <link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/pages/home.css?v={time()}">
     </head>
@@ -39,11 +39,11 @@
             <div class="sidebar-section">
                 <h3 class="sidebar-header">GENERAL</h3>
                 <ul class="sidebar-menu">
-                    <li><a href="{url page="home"}"><i class="bi bi-house-door"></i> Home</a></li>
-                    <li><a href="{url page="games"}"><i class="bi bi-controller"></i> Discover</a></li>
-                    <li><a href="{url page="catalog"}"><i class="bi bi-bag"></i> Avatar Shop</a></li>
-                    <li><a href="{url page="develop"}"><i class="bi bi-hammer"></i> Create</a></li>
-                    <li><a href="{url page="upgrade"}"><i class="bi bi-currency-dollar"></i> Robux</a></li>
+                    <li><a href="{url page="home"}"><span class="b-icon">home</span> Home</a></li>
+                    <li><a href="{url page="games"}"><span class="b-icon">games</span> Discover</a></li>
+                    <li><a href="{url page="catalog"}"><span class="b-icon">catalog</span> Avatar Shop</a></li>
+                    <li><a href="{url page="develop"}"><span class="b-icon">studio</span> Create</a></li>
+                    <li><a href="{url page="upgrade"}"><span class="b-icon">robux</span> Robux</a></li>
                 </ul>
             </div>
 
