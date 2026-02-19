@@ -2,6 +2,9 @@
 <html>
 <head>
     <title>Home - ROLDBLOX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
     <link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/pages/home.css?v={time()}">
 </head>
@@ -15,12 +18,12 @@
         <!-- Main Content -->
         <div class="content">
             
-            <div class="welcome-heading">
-                <h2>Welcome back, {$user_data['username']}!</h2>
-            </div>
-
             <div class="profile-header">
-                <div class="profile-cover"></div>
+                <div class="profile-cover">
+                    <div class="profile-greeting">
+                        Welcome back, <span class="greeting-name">{$user_data['username']}</span>!
+                    </div>
+                </div>
                 <div class="profile-content">
                     <div class="profile-avatar-container">
                         <img src="/Thumbs/Head.ashx?x=150&y=150&userId={$user_data['id']}" class="profile-avatar" data-slider="true" alt="{$user_data['username']}">
