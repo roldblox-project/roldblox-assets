@@ -15,13 +15,13 @@
             <!-- Navigation Links could go here -->
         </div>
         <div class="navbar-right">
-        <div class="user-stat" title="{$user_data['robux']}">
-            <a href="{url page="transactions"}" style="display: flex; flex-direction: column-reverse; align-items: center; text-decoration: none; color: inherit;">
+        <div class="user-stat" title="{$user_data['robux']} Robux">
+            <a href="{url page="transactions"}" style="display: flex; flex-direction: column-reverse; align-items: center; text-decoration: none; color: inherit; width: 100%; height: 100%; justify-content: center;">
                 <strong class="currency-amount" data-value="{$user_data['robux']}">{$user_data["robux"]}</strong> <span class="b-icon">robux</span>
             </a>
         </div>
-        <div class="user-stat" title="{$user_data['tickets']}">
-            <a href="{url page="transactions"}" style="display: flex; flex-direction: column-reverse; align-items: center; text-decoration: none; color: inherit;">
+        <div class="user-stat" title="{$user_data['tickets']} Tix">
+            <a href="{url page="transactions"}" style="display: flex; flex-direction: column-reverse; align-items: center; text-decoration: none; color: inherit; width: 100%; height: 100%; justify-content: center;">
                 <strong class="currency-amount" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</strong> <span>Tix</span>
             </a>
         </div>
