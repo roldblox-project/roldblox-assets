@@ -16,12 +16,6 @@
         </div>
         <div class="navbar-right">
         <div class="user-stat">
-            <a href="/users/{$user_data['id']}/profile" style="color: inherit; text-decoration: none; display: flex; align-items: center;">
-                <img src="/Thumbs/Head.ashx?x=150&y=150&userId={$user_data['id']}" class="navbar-headshot">
-                <span>{$user_data['username']}</span>
-            </a>
-        </div>
-        <div class="user-stat">
             <strong>{$user_data["robux"]}</strong> Robux
         </div>
         <div class="user-stat">
