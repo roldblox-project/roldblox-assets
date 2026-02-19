@@ -15,11 +15,15 @@
             <!-- Navigation Links could go here -->
         </div>
         <div class="navbar-right">
-        <div class="user-stat">
-            <strong>{$user_data["robux"]}</strong> Robux
+        <div class="user-stat" title="{$user_data['robux']}">
+            <a href="{url page="transactions"}" style="display: flex; flex-direction: column-reverse; align-items: center; text-decoration: none; color: inherit;">
+                <strong class="currency-amount" data-value="{$user_data['robux']}">{$user_data["robux"]}</strong> <span class="b-icon">robux</span>
+            </a>
         </div>
-        <div class="user-stat">
-            <strong>{$user_data["tickets"]}</strong> Tix
+        <div class="user-stat" title="{$user_data['tickets']}">
+            <a href="{url page="transactions"}" style="display: flex; flex-direction: column-reverse; align-items: center; text-decoration: none; color: inherit;">
+                <strong class="currency-amount" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</strong> <span>Tix</span>
+            </a>
         </div>
     </div>
     </div>
@@ -39,10 +43,10 @@
             <div class="sidebar-section">
                 <h3 class="sidebar-header">GENERAL</h3>
                 <ul class="sidebar-menu">
-                    <li><a href="{url page="home"}"><span class="b-icon">home</span> Home</a></li>
-                    <li><a href="{url page="games"}"><span class="b-icon">games</span> Discover</a></li>
-                    <li><a href="{url page="catalog"}"><span class="b-icon">catalog</span> Avatar Shop</a></li>
-                    <li><a href="{url page="develop"}"><span class="b-icon">studio</span> Create</a></li>
+                    <li><a href="{url page="home"}"><span class="b-icon">house</span> Home</a></li>
+                    <li><a href="{url page="games"}"><span class="b-icon">controller</span> Games</a></li>
+                    <li><a href="{url page="catalog"}"><span class="b-icon">shopping-cart</span> Avatar Shop</a></li>
+                    <li><a href="{url page="develop"}"><span class="b-icon">square-code</span> Create</a></li>
                     <li><a href="{url page="upgrade"}"><span class="b-icon">robux</span> Robux</a></li>
                 </ul>
             </div>
@@ -50,18 +54,11 @@
             <div class="sidebar-section">
                 <h3 class="sidebar-header">MY</h3>
                 <ul class="sidebar-menu">
-                    <li><a href="/users/{$user_data['id']}/profile"><i class="bi bi-person"></i> My Profile</a></li>
-                    <li><a href="{url page="messages"}"><i class="bi bi-chat-left-text"></i> My Messages</a></li>
-                    <li><a href="{url page="character"}"><i class="bi bi-person-circle"></i> My Avatar</a></li>
-                    <li><a href="{url page="inventory"}"><i class="bi bi-box-seam"></i> My Inventory</a></li>
-                    <li><a href="{url page="groups"}"><i class="bi bi-people"></i> My Groups</a></li>
-                </ul>
-            </div>
-            
-             <div class="sidebar-section">
-                <h3 class="sidebar-header">MORE</h3>
-                <ul class="sidebar-menu">
-                    <li><a href="{url page="blog"}"><span class="b-icon">book-open</span> Blog</a></li>
+                    <li><a href="/users/{$user_data['id']}/profile"><span class="b-icon">person</span> My Profile</a></li>
+                    <li><a href="{url page="messages"}"><span class="b-icon">two-people-speech-bubble</span> My Messages</a></li>
+                    <li><a href="{url page="character"}"><span class="b-icon">circle-person</span> My Avatar</a></li>
+                    <li><a href="{url page="inventory"}"><span class="b-icon">backpack</span> My Inventory</a></li>
+                    <li><a href="{url page="groups"}"><span class="b-icon">three-people</span> My Groups</a></li>
                 </ul>
             </div>
         </div>
@@ -87,5 +84,32 @@
         </div>
     </div>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            function formatNumber(num) {
+                num = parseFloat(num);
+                if (isNaN(num)) return '0';
+                
+                if (num >= 1000000000) {
+                    return (num / 1000000000).toFixed(1).replace(/\.0$/, '') + 'b';
+                }
+                if (num >= 1000000) {
+                    return (num / 1000000).toFixed(1).replace(/\.0$/, '') + 'm';
+                }
+                if (num >= 1000) {
+                    return (num / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+                }
+                return num.toString();
+            }
+
+            const currencyElements = document.querySelectorAll('.currency-amount');
+            currencyElements.forEach(el => {
+                const originalValue = el.getAttribute('data-value');
+                if (originalValue) {
+                    el.textContent = formatNumber(originalValue);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
