@@ -1,4 +1,30 @@
-/* styles/navbar.css */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/fonts/SourceSansPro/SourceSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
 
 .top-nav {
     --nav-height: 60px;
@@ -117,7 +143,6 @@
     color: white;
 }
 
-/* Sidebar Custom Styles */
 .sidebar {
     position: fixed;
     top: var(--nav-height, 60px);
@@ -197,7 +222,6 @@
     visibility: visible;
 }
 
-/* User Info in Sidebar (Mobile mainly) */
 .sidebar-user-info {
     padding: 20px 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.05);

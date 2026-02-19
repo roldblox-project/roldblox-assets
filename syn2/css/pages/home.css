@@ -8,13 +8,11 @@
     background-attachment: fixed;
     position: relative;
     color: white;
-    /* Updated path to use jsDelivr CDN to avoid CORB/MIME type issues */
     background-image: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/images/backgrounds/pattern.png');
-    margin-left: 250px; /* Fixed sidebar width */
-    padding-top: 60px; /* Nav height */
+    margin-left: 250px;
+    padding-top: 60px;
 }
 
-/* Accurate Button Styles matching roldblox-website */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -67,7 +65,6 @@
     transform: translateY(0);
 }
 
-/* Dashboard / Home Content */
 .dashboard-container {
     padding: 40px;
     max-width: 1200px;
@@ -93,28 +90,143 @@
     font-weight: 300;
 }
 
-.dashboard-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+.dashboard-section {
+    margin-bottom: 40px;
 }
 
-.dashboard-card {
-    background: rgba(30, 30, 40, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    padding: 20px;
-    backdrop-filter: blur(10px);
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.card-title {
-    font-size: 20px;
+.section-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.see-all {
+    color: #00a2ff;
+    text-decoration: none;
     font-weight: 600;
-    margin-bottom: 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+}
+
+.see-all:hover {
+    text-decoration: underline;
+}
+
+.friends-grid {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
     padding-bottom: 10px;
 }
 
+.friend-card {
+    min-width: 100px;
+    text-align: center;
+}
+
+.friend-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 8px;
+}
+
+.friend-avatar-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #2a2a35;
+    position: relative;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.friend-link:hover .friend-avatar-container {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.friend-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.friend-name {
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.game-card {
+    background: #23252f;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.game-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.game-link {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.game-thumbnail {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    background: #1e1e28;
+}
+
+.game-info {
+    padding: 12px;
+}
+
+.game-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.game-stats {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.empty-state {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    border-radius: 8px;
+    width: 100%;
+}
 
 .home-page::before {
     content: "";
@@ -132,11 +244,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh - 70px); /* Adjusted for nav height */
+    min-height: calc(100vh - 70px);
     padding: 2rem;
     position: relative;
     z-index: 1;
-    margin-top: 70px; /* Offset for fixed nav */
+    margin-top: 70px;
 }
 
 .hero-container {
@@ -222,35 +334,11 @@
     justify-content: center;
 }
 
-.primary-btn {
-    background-color: #00a2ff;
-    color: white;
-}
-
-.primary-btn:hover {
-    background-color: #008ecc;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 162, 255, 0.3);
-}
-
-.secondary-btn {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
-}
-
-.secondary-btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
-}
-
-/* Feature Section (Optional/Future) */
 .features-section {
     padding: 6rem 2rem;
     background: rgb(20, 20, 30);
 }
 
-/* Responsive Adjustments */
 @media (max-width: 1024px) {
     .hero-container {
         flex-direction: column;

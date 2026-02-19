@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROLDBLOX - Revive. Remember. Relive.</title>
     
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     
-    <!-- Styles -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/syn2/css/nav.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/syn2/css/pages/home.css">
+    <link rel="stylesheet" href="/syn2/css/nav.css">
+    <link rel="stylesheet" href="/syn2/css/pages/home.css">
     
     <style>
         body {
@@ -28,35 +26,65 @@
 </head>
 <body>
 
-    <!-- Top Navigation -->
-    {include file="inc/topnav.tpl"}
+    {include file="topnav.tpl"}
 
-    <!-- Sidebar -->
-    {include file="inc/sidebar.tpl"}
+    {include file="sidebar.tpl"}
 
-    <!-- Main Home Page Content -->
     <div class="home-page">
         {if $user_data}
         <div class="dashboard-container">
             <div class="welcome-header">
-                <h1 class="welcome-title">Welcome Back, {$user_data["username"]}!</h1>
-                <div class="welcome-subtitle">Revive. Remember. Relive.</div>
+                <h1 class="welcome-title">Welcome, {$user_data["username"]}!</h1>
             </div>
             
-            <div class="dashboard-grid">
-                <div class="dashboard-card">
-                    <div class="card-title">My Feed</div>
-                    <p>No new updates available.</p>
+            {api endpoint="/api/friends-list.php" var="friends"}
+            <div class="dashboard-section">
+                <div class="section-header">
+                    <h2>Friends ({if isset($friends) && isset($friends.count)}{$friends.count}{else}0{/if})</h2>
+                    <a href="{url page='users'}" class="see-all">See All</a>
                 </div>
-                <div class="dashboard-card">
-                    <div class="card-title">Recently Played</div>
-                    <p>You haven't played any games recently.</p>
-                    <a href="{url page='games'}" class="btn primary-btn" style="margin-top: 10px;">Find Games</a>
+                <div class="friends-grid">
+                    {if isset($friends) && isset($friends.friends) && $friends.friends}
+                        {foreach $friends.friends as $friend}
+                            <div class="friend-card">
+                                <a href="{url page='profile' id=$friend.id}" class="friend-link">
+                                    <div class="friend-avatar-container">
+                                        <img src='{asset type="Head" id=$friend.id size="100x100"}' alt="{$friend.username}" class="friend-avatar">
+                                    </div>
+                                    <span class="friend-name">{$friend.username}</span>
+                                </a>
+                            </div>
+                        {/foreach}
+                    {else}
+                        <p class="empty-state">No friends yet.</p>
+                    {/if}
                 </div>
-                <div class="dashboard-card">
-                    <div class="card-title">Friends (0)</div>
-                    <p>You don't have any friends yet.</p>
-                    <a href="{url page='users'}" class="btn secondary-btn" style="margin-top: 10px;">Find Friends</a>
+            </div>
+
+            {api endpoint="/api/games-list.php" var="gameData"}
+            <div class="dashboard-section">
+                <div class="section-header">
+                    <h2>Continue Playing</h2>
+                    <a href="{url page='games'}" class="see-all">See All</a>
+                </div>
+                <div class="games-grid">
+                    {if isset($gameData) && isset($gameData.games) && $gameData.games}
+                        {foreach $gameData.games as $game}
+                            <div class="game-card">
+                                <a href="{url page='games' id=$game.id}" class="game-link">
+                                    <img src='{asset type="PlaceIcon" id=$game.id size="150x150"}' class="game-thumbnail">
+                                    <div class="game-info">
+                                        <h3 class="game-title">{$game.title}</h3>
+                                        <div class="game-stats">
+                                            <span class="game-playing">{$game.playing} Playing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        {/foreach}
+                    {else}
+                        <p class="empty-state">No games found.</p>
+                    {/if}
                 </div>
             </div>
         </div>
