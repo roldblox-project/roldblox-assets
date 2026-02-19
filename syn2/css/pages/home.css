@@ -6,9 +6,9 @@
 
 .sidebar {
     width: 200px;
-    background-color: #f2f2f2;
+    background-color: rgb(20, 20, 30);
     padding: 20px 10px;
-    border-right: 1px solid #dcdcdc;
+    border-right: 1px solid rgb(40, 40, 50);
     flex-shrink: 0;
 }
 
@@ -24,7 +24,7 @@
 
 .sidebar-menu a {
     text-decoration: none;
-    color: #343434;
+    color: #e0e0e0;
     font-size: 16px;
     display: block;
     padding: 8px 10px;
@@ -33,19 +33,22 @@
 }
 
 .sidebar-menu a:hover {
-    background-color: #e0e0e0;
+    background-color: rgb(40, 40, 50);
+    color: #ffffff;
 }
 
 .content {
     flex-grow: 1;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: rgb(10, 10, 20);
+    color: #ffffff;
 }
 
 .welcome-box {
-    background-color: #fff;
-    border: 1px solid #dcdcdc;
+    background-color: rgb(20, 20, 30);
+    border: 1px solid rgb(40, 40, 50);
     padding: 20px;
     border-radius: 4px;
     margin-bottom: 20px;
+    color: #ffffff;
 }
