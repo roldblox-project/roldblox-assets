@@ -5,14 +5,14 @@
 }
 
 .sidebar {
-    width: 240px; /* Increased width for better spacing */
+    width: 200px; /* Reduced width for compactness */
     background-color: rgb(20, 20, 30);
-    padding: 20px 15px;
+    padding: 15px 10px;
     border-right: 1px solid rgb(40, 40, 50);
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px; /* Tighter gap between sections */
 }
 
 /* Sidebar Sections */
@@ -22,13 +22,13 @@
 }
 
 .sidebar-header {
-    font-size: 12px;
-    font-weight: 700;
-    color: #888;
+    font-size: 11px; /* Smaller header */
+    font-weight: 800;
+    color: #666; /* Darker grey as requested */
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-bottom: 8px;
-    padding-left: 12px; /* Align with link padding */
+    margin-bottom: 5px;
+    padding-left: 10px;
 }
 
 /* User Profile in Sidebar */
@@ -37,28 +37,28 @@
     align-items: center;
     text-decoration: none;
     color: #fff;
-    padding: 8px 12px;
-    border-radius: 8px;
+    padding: 6px 10px; /* Reduced padding */
+    border-radius: 4px; /* Slightly squarer */
     transition: background-color 0.2s;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .sidebar-user-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 .sidebar-headshot {
-    width: 32px;
-    height: 32px;
+    width: 24px; /* Smaller headshot */
+    height: 24px;
     border-radius: 50%;
-    margin-right: 12px;
+    margin-right: 10px;
     object-fit: cover;
     background-color: #000;
 }
 
 .sidebar-username {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px; /* Smaller username */
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -72,7 +72,7 @@
 }
 
 .sidebar-menu li {
-    margin-bottom: 2px;
+    margin-bottom: 1px; /* Tighter list */
 }
 
 .sidebar-menu a {
@@ -80,23 +80,31 @@
     align-items: center;
     text-decoration: none;
     color: #ccc;
-    font-size: 15px;
-    padding: 8px 12px;
-    border-radius: 8px;
+    font-size: 14px; /* Smaller font */
+    padding: 6px 10px; /* Compact padding */
+    border-radius: 4px;
     transition: all 0.2s ease;
+    border-left: 3px solid transparent; /* Prepare for active/hover border */
 }
 
 .sidebar-menu a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.08);
     color: #fff;
+    /* Mimic the blue underline/border style from reference (using left border for vertical list) or just background */
+    /* Reference had a bottom border, but vertical lists usually use left border. I'll stick to background for now to be safe, maybe slight border */
 }
 
 .sidebar-menu a i {
-    margin-right: 12px;
-    font-size: 18px;
-    width: 20px;
+    margin-right: 10px;
+    font-size: 16px; /* Smaller icons */
+    width: 16px;
     text-align: center;
     display: inline-block;
+    color: #888; /* Muted icons by default */
+}
+
+.sidebar-menu a:hover i {
+    color: #fff;
 }
 
 .content {
