@@ -1,7 +1,7 @@
 .main-container {
     display: flex;
-    margin-top: 40px; /* Height of navbar */
-    min-height: calc(100vh - 40px);
+    margin-top: 56px; /* Height of navbar */
+    min-height: calc(100vh - 56px);
 }
 
 .sidebar {

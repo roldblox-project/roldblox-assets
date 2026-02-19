@@ -15,18 +15,17 @@
             <!-- Navigation Links could go here -->
         </div>
         <div class="navbar-right">
-            <div class="user-info">
-                <span>{$user_data["username"]}</span>
-            </div>
-            <div class="user-stat">
-                <span>Robux:</span>
-                <strong>{$user_data["robux"]}</strong>
-            </div>
-            <div class="user-stat">
-                <span>Tix:</span>
-                <strong>{$user_data["tickets"]}</strong>
-            </div>
+        <div class="user-stat">
+            <img src='{asset type="Head" id="{$user_data["id"]}" size="100x100"}' class="navbar-headshot">
+            <span>{$user_data["username"]}</span>
         </div>
+        <div class="user-stat">
+            <strong>{$user_data["robux"]}</strong> Robux
+        </div>
+        <div class="user-stat">
+            <strong>{$user_data["tickets"]}</strong> Tix
+        </div>
+    </div>
     </div>
 
     <!-- Main Container with Sidebar and Content -->

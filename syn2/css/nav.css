@@ -37,16 +37,22 @@ body {
 .navbar {
     background-color: rgb(30, 30, 40);
     color: white;
-    height: 40px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+}
+
+.navbar-headshot {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .navbar-left {
