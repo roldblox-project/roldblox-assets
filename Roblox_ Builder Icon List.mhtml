@@ -1,0 +1,4952 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://voxlenox.github.io/RobloxBuilderIconList/
+Subject: Roblox: Builder Icon List
+Date: Thu, 19 Feb 2026 21:28:49 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--B9PxQwGt3mYcJAHjPCQkgYvVY8RDqtt11kwprqbbOn----"
+
+
+------MultipartBoundary--B9PxQwGt3mYcJAHjPCQkgYvVY8RDqtt11kwprqbbOn----
+Content-Type: text/html
+Content-ID: <frame-F0BAB4FA7EF3E16DD9F70CD7D7F1B45E@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://voxlenox.github.io/RobloxBuilderIconList/
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-4f4bf4d3-6c18-4cb4-8a09-8ba7acf65fce@mhtml.blink" />
+	=09
+		<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+		<meta name=3D"title" content=3D"Roblox: Builder Icon List">
+		<meta name=3D"description" content=3D"Automatically generated list of Rob=
+lox builder icons">
+		<meta name=3D"keywords" content=3D"roblox, builder icon, roblox builder i=
+con, roblox icon, icon">
+		<meta property=3D"og:type" content=3D"website">
+		<meta property=3D"og:url" content=3D"https://voxlenox.github.io/RobloxBui=
+lderIconList">
+		<meta property=3D"og:site_name" content=3D"Builder Icon List">
+		<meta property=3D"og:title" content=3D"Roblox: Builder Icon List">
+		<meta property=3D"og:description" content=3D"Automatically generated list=
+ of Roblox builder icons">
+
+		<title>Roblox: Builder Icon List</title>
+
+		<link rel=3D"icon" type=3D"image/x-icon" href=3D"https://voxlenox.github.=
+io/RobloxBuilderIconList/favicon.ico">
+
+	=09
+
+	=09
+	</head>
+	<body>
+		<div id=3D"loading-screen" style=3D"display: none;">
+			<div id=3D"loading-spinner"></div>
+			<p id=3D"loading-text">Parsing font files...</p>
+		</div>
+	=09
+		<table id=3D"list-table" cellspacing=3D"3px" style=3D"display: block;">
+			<thead>
+				<tr>
+					<th rowspan=3D"2" id=3D"index-header-row">Index (536)</th>
+					<th colspan=3D"2">Icon</th>
+					<th rowspan=3D"2" style=3D"width: 100%;">Name / Ligature components</t=
+h>
+					<th rowspan=3D"2">Glyph codepoint</th>
+				</tr>
+				<tr>
+					<th>Normal</th>
+					<th>Filled (Bold)</th>
+				</tr>
+			</thead>
+			<tbody id=3D"list-body">
+		=09
+			<tr>
+				<td>1</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A4</=
+td>
+				<td>3d-cube-arrow-left</td>
+				<td>U+F264</td>
+			</tr>
+	=09
+			<tr>
+				<td>2</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=81</=
+td>
+				<td>amazon</td>
+				<td>U+F101</td>
+			</tr>
+	=09
+			<tr>
+				<td>3</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=96</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=96</=
+td>
+				<td>android</td>
+				<td>U+F316</td>
+			</tr>
+	=09
+			<tr>
+				<td>4</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B8</=
+td>
+				<td>apple</td>
+				<td>U+F2F8</td>
+			</tr>
+	=09
+			<tr>
+				<td>5</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=82</=
+td>
+				<td>arm</td>
+				<td>U+F102</td>
+			</tr>
+	=09
+			<tr>
+				<td>6</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=BE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=BE</=
+td>
+				<td>arm-left</td>
+				<td>U+F23E</td>
+			</tr>
+	=09
+			<tr>
+				<td>7</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=82</=
+td>
+				<td>arm-right</td>
+				<td>U+F102</td>
+			</tr>
+	=09
+			<tr>
+				<td>8</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A5</=
+td>
+				<td>arrow-curl-to-left</td>
+				<td>U+F265</td>
+			</tr>
+	=09
+			<tr>
+				<td>9</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B8</=
+td>
+				<td>arrow-curl-to-right</td>
+				<td>U+F2B8</td>
+			</tr>
+	=09
+			<tr>
+				<td>10</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=83</=
+td>
+				<td>arrow-down-to-line</td>
+				<td>U+F103</td>
+			</tr>
+	=09
+			<tr>
+				<td>11</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=84</=
+td>
+				<td>arrow-large-down</td>
+				<td>U+F104</td>
+			</tr>
+	=09
+			<tr>
+				<td>12</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=85</=
+td>
+				<td>arrow-large-left</td>
+				<td>U+F105</td>
+			</tr>
+	=09
+			<tr>
+				<td>13</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=86</=
+td>
+				<td>arrow-large-right</td>
+				<td>U+F106</td>
+			</tr>
+	=09
+			<tr>
+				<td>14</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=87</=
+td>
+				<td>arrow-large-up</td>
+				<td>U+F107</td>
+			</tr>
+	=09
+			<tr>
+				<td>15</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=80</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=80</=
+td>
+				<td>arrow-right-from-portrait-rectangle</td>
+				<td>U+F240</td>
+			</tr>
+	=09
+			<tr>
+				<td>16</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B8</=
+td>
+				<td>arrow-right-to-portrait-rectangle</td>
+				<td>U+F238</td>
+			</tr>
+	=09
+			<tr>
+				<td>17</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=88</=
+td>
+				<td>arrow-rotate-down-dashed</td>
+				<td>U+F108</td>
+			</tr>
+	=09
+			<tr>
+				<td>18</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=89</=
+td>
+				<td>arrow-rotate-right</td>
+				<td>U+F109</td>
+			</tr>
+	=09
+			<tr>
+				<td>19</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=8A</=
+td>
+				<td>arrow-rotate-right-dashed</td>
+				<td>U+F10A</td>
+			</tr>
+	=09
+			<tr>
+				<td>20</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=8B</=
+td>
+				<td>arrow-small-down</td>
+				<td>U+F10B</td>
+			</tr>
+	=09
+			<tr>
+				<td>21</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=8C</=
+td>
+				<td>arrow-small-left</td>
+				<td>U+F10C</td>
+			</tr>
+	=09
+			<tr>
+				<td>22</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=8D</=
+td>
+				<td>arrow-small-right</td>
+				<td>U+F10D</td>
+			</tr>
+	=09
+			<tr>
+				<td>23</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=8E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=8E</=
+td>
+				<td>arrow-small-up</td>
+				<td>U+F10E</td>
+			</tr>
+	=09
+			<tr>
+				<td>24</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=8F</=
+td>
+				<td>arrow-spin-clockwise</td>
+				<td>U+F10F</td>
+			</tr>
+	=09
+			<tr>
+				<td>25</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A6</=
+td>
+				<td>arrow-spin-clockwise-10</td>
+				<td>U+F266</td>
+			</tr>
+	=09
+			<tr>
+				<td>26</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A7</=
+td>
+				<td>arrow-spin-clockwise-15</td>
+				<td>U+F267</td>
+			</tr>
+	=09
+			<tr>
+				<td>27</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A8</=
+td>
+				<td>arrow-spin-clockwise-30</td>
+				<td>U+F268</td>
+			</tr>
+	=09
+			<tr>
+				<td>28</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B0</=
+td>
+				<td>arrow-spin-clockwise-dashed-dot</td>
+				<td>U+F2F0</td>
+			</tr>
+	=09
+			<tr>
+				<td>29</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A9</=
+td>
+				<td>arrow-spin-counter-clockwise-10</td>
+				<td>U+F269</td>
+			</tr>
+	=09
+			<tr>
+				<td>30</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=AA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=AA</=
+td>
+				<td>arrow-spin-counter-clockwise-15</td>
+				<td>U+F26A</td>
+			</tr>
+	=09
+			<tr>
+				<td>31</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=AB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=AB</=
+td>
+				<td>arrow-spin-counter-clockwise-30</td>
+				<td>U+F26B</td>
+			</tr>
+	=09
+			<tr>
+				<td>32</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=AC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=AC</=
+td>
+				<td>arrow-thick-to-left</td>
+				<td>U+F26C</td>
+			</tr>
+	=09
+			<tr>
+				<td>33</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=90</=
+td>
+				<td>arrow-thick-to-right</td>
+				<td>U+F110</td>
+			</tr>
+	=09
+			<tr>
+				<td>34</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=91</=
+td>
+				<td>arrow-up-from-landscape-rectangle</td>
+				<td>U+F111</td>
+			</tr>
+	=09
+			<tr>
+				<td>35</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B1</=
+td>
+				<td>arrow-up-from-line</td>
+				<td>U+F2F1</td>
+			</tr>
+	=09
+			<tr>
+				<td>36</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=92</=
+td>
+				<td>arrow-up-right-from-square</td>
+				<td>U+F112</td>
+			</tr>
+	=09
+			<tr>
+				<td>37</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=AD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=AD</=
+td>
+				<td>arrow-wide-short-down</td>
+				<td>U+F26D</td>
+			</tr>
+	=09
+			<tr>
+				<td>38</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=AE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=AE</=
+td>
+				<td>arrow-wide-short-left</td>
+				<td>U+F26E</td>
+			</tr>
+	=09
+			<tr>
+				<td>39</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=AF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=AF</=
+td>
+				<td>arrow-wide-short-right</td>
+				<td>U+F26F</td>
+			</tr>
+	=09
+			<tr>
+				<td>40</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B0</=
+td>
+				<td>arrow-wide-short-up</td>
+				<td>U+F270</td>
+			</tr>
+	=09
+			<tr>
+				<td>41</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B1</=
+td>
+				<td>arrows-small-directional</td>
+				<td>U+F271</td>
+			</tr>
+	=09
+			<tr>
+				<td>42</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=86</=
+td>
+				<td>at-sign</td>
+				<td>U+F306</td>
+			</tr>
+	=09
+			<tr>
+				<td>43</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B2</=
+td>
+				<td>audio-wave-dotted-line</td>
+				<td>U+F272</td>
+			</tr>
+	=09
+			<tr>
+				<td>44</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=93</=
+td>
+				<td>backpack</td>
+				<td>U+F113</td>
+			</tr>
+	=09
+			<tr>
+				<td>45</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=94</=
+td>
+				<td>beard</td>
+				<td>U+F114</td>
+			</tr>
+	=09
+			<tr>
+				<td>46</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=95</=
+td>
+				<td>bell</td>
+				<td>U+F115</td>
+			</tr>
+	=09
+			<tr>
+				<td>47</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=81</=
+td>
+				<td>bell-clock</td>
+				<td>U+F241</td>
+			</tr>
+	=09
+			<tr>
+				<td>48</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=82</=
+td>
+				<td>bell-plus</td>
+				<td>U+F242</td>
+			</tr>
+	=09
+			<tr>
+				<td>49</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=83</=
+td>
+				<td>bell-slash</td>
+				<td>U+F243</td>
+			</tr>
+	=09
+			<tr>
+				<td>50</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=96</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=96</=
+td>
+				<td>belt</td>
+				<td>U+F116</td>
+			</tr>
+	=09
+			<tr>
+				<td>51</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=93</=
+td>
+				<td>binoculars</td>
+				<td>U+F2D3</td>
+			</tr>
+	=09
+			<tr>
+				<td>52</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B3</=
+td>
+				<td>book-closed</td>
+				<td>U+F273</td>
+			</tr>
+	=09
+			<tr>
+				<td>53</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=8B</=
+td>
+				<td>book-open</td>
+				<td>U+F30B</td>
+			</tr>
+	=09
+			<tr>
+				<td>54</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=97</=
+td>
+				<td>bookmark</td>
+				<td>U+F117</td>
+			</tr>
+	=09
+			<tr>
+				<td>55</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=98</=
+td>
+				<td>bow-tie</td>
+				<td>U+F118</td>
+			</tr>
+	=09
+			<tr>
+				<td>56</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=99</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=99</=
+td>
+				<td>building-store</td>
+				<td>U+F119</td>
+			</tr>
+	=09
+			<tr>
+				<td>57</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=84</=
+td>
+				<td>bullet-flying</td>
+				<td>U+F244</td>
+			</tr>
+	=09
+			<tr>
+				<td>58</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=9A</=
+td>
+				<td>butterfly-wings</td>
+				<td>U+F11A</td>
+			</tr>
+	=09
+			<tr>
+				<td>59</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=9B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=9B</=
+td>
+				<td>calendar</td>
+				<td>U+F11B</td>
+			</tr>
+	=09
+			<tr>
+				<td>60</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=9C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=9C</=
+td>
+				<td>calendar-plus</td>
+				<td>U+F11C</td>
+			</tr>
+	=09
+			<tr>
+				<td>61</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=9D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=9D</=
+td>
+				<td>calendar-star</td>
+				<td>U+F11D</td>
+			</tr>
+	=09
+			<tr>
+				<td>62</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=8C</=
+td>
+				<td>camera-slash</td>
+				<td>U+F30C</td>
+			</tr>
+	=09
+			<tr>
+				<td>63</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B4</=
+td>
+				<td>camera-small</td>
+				<td>U+F274</td>
+			</tr>
+	=09
+			<tr>
+				<td>64</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B9</=
+td>
+				<td>caret-small-down</td>
+				<td>U+F2B9</td>
+			</tr>
+	=09
+			<tr>
+				<td>65</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=BA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=BA</=
+td>
+				<td>caret-small-left</td>
+				<td>U+F2BA</td>
+			</tr>
+	=09
+			<tr>
+				<td>66</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=BB</=
+td>
+				<td>caret-small-right</td>
+				<td>U+F2BB</td>
+			</tr>
+	=09
+			<tr>
+				<td>67</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=BC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=BC</=
+td>
+				<td>caret-small-up</td>
+				<td>U+F2BC</td>
+			</tr>
+	=09
+			<tr>
+				<td>68</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=9E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=9E</=
+td>
+				<td>chain-link</td>
+				<td>U+F11E</td>
+			</tr>
+	=09
+			<tr>
+				<td>69</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B5</=
+td>
+				<td>chart-four-vertical-bars</td>
+				<td>U+F275</td>
+			</tr>
+	=09
+			<tr>
+				<td>70</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B6</=
+td>
+				<td>chart-line</td>
+				<td>U+F276</td>
+			</tr>
+	=09
+			<tr>
+				<td>71</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B7</=
+td>
+				<td>chart-pie</td>
+				<td>U+F277</td>
+			</tr>
+	=09
+			<tr>
+				<td>72</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=9F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=9F</=
+td>
+				<td>chart-scatter-plot</td>
+				<td>U+F11F</td>
+			</tr>
+	=09
+			<tr>
+				<td>73</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B9</=
+td>
+				<td>chart-three-vertical-bars</td>
+				<td>U+F239</td>
+			</tr>
+	=09
+			<tr>
+				<td>74</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A0</=
+td>
+				<td>check</td>
+				<td>U+F120</td>
+			</tr>
+	=09
+			<tr>
+				<td>75</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=BA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=BA</=
+td>
+				<td>check-large</td>
+				<td>U+F23A</td>
+			</tr>
+	=09
+			<tr>
+				<td>76</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A1</=
+td>
+				<td>check-small</td>
+				<td>U+F121</td>
+			</tr>
+	=09
+			<tr>
+				<td>77</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=8D</=
+td>
+				<td>checkmark-square</td>
+				<td>U+F30D</td>
+			</tr>
+	=09
+			<tr>
+				<td>78</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A2</=
+td>
+				<td>chevron-large-down</td>
+				<td>U+F122</td>
+			</tr>
+	=09
+			<tr>
+				<td>79</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=BD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=BD</=
+td>
+				<td>chevron-large-down-to-line</td>
+				<td>U+F2BD</td>
+			</tr>
+	=09
+			<tr>
+				<td>80</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A3</=
+td>
+				<td>chevron-large-left</td>
+				<td>U+F123</td>
+			</tr>
+	=09
+			<tr>
+				<td>81</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=BE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=BE</=
+td>
+				<td>chevron-large-left-to-line</td>
+				<td>U+F2BE</td>
+			</tr>
+	=09
+			<tr>
+				<td>82</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A4</=
+td>
+				<td>chevron-large-right</td>
+				<td>U+F124</td>
+			</tr>
+	=09
+			<tr>
+				<td>83</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=BF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=BF</=
+td>
+				<td>chevron-large-right-to-line</td>
+				<td>U+F2BF</td>
+			</tr>
+	=09
+			<tr>
+				<td>84</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A5</=
+td>
+				<td>chevron-large-up</td>
+				<td>U+F125</td>
+			</tr>
+	=09
+			<tr>
+				<td>85</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=80</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=80</=
+td>
+				<td>chevron-large-up-to-line</td>
+				<td>U+F2C0</td>
+			</tr>
+	=09
+			<tr>
+				<td>86</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A6</=
+td>
+				<td>chevron-small-down</td>
+				<td>U+F126</td>
+			</tr>
+	=09
+			<tr>
+				<td>87</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=81</=
+td>
+				<td>chevron-small-down-to-line</td>
+				<td>U+F2C1</td>
+			</tr>
+	=09
+			<tr>
+				<td>88</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A7</=
+td>
+				<td>chevron-small-left</td>
+				<td>U+F127</td>
+			</tr>
+	=09
+			<tr>
+				<td>89</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=82</=
+td>
+				<td>chevron-small-left-to-line</td>
+				<td>U+F2C2</td>
+			</tr>
+	=09
+			<tr>
+				<td>90</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A8</=
+td>
+				<td>chevron-small-right</td>
+				<td>U+F128</td>
+			</tr>
+	=09
+			<tr>
+				<td>91</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=83</=
+td>
+				<td>chevron-small-right-to-line</td>
+				<td>U+F2C3</td>
+			</tr>
+	=09
+			<tr>
+				<td>92</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=A9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=A9</=
+td>
+				<td>chevron-small-up</td>
+				<td>U+F129</td>
+			</tr>
+	=09
+			<tr>
+				<td>93</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=84</=
+td>
+				<td>chevron-small-up-to-line</td>
+				<td>U+F2C4</td>
+			</tr>
+	=09
+			<tr>
+				<td>94</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=AA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=AA</=
+td>
+				<td>circle-check</td>
+				<td>U+F12A</td>
+			</tr>
+	=09
+			<tr>
+				<td>95</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=AB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=AB</=
+td>
+				<td>circle-i</td>
+				<td>U+F12B</td>
+			</tr>
+	=09
+			<tr>
+				<td>96</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=AC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=AC</=
+td>
+				<td>circle-minus</td>
+				<td>U+F12C</td>
+			</tr>
+	=09
+			<tr>
+				<td>97</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=9F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=9F</=
+td>
+				<td>circle-person</td>
+				<td>U+F25F</td>
+			</tr>
+	=09
+			<tr>
+				<td>98</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B2</=
+td>
+				<td>circle-person-three-horizontal-bars-wrapping-right</td>
+				<td>U+F2B2</td>
+			</tr>
+	=09
+			<tr>
+				<td>99</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=AD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=AD</=
+td>
+				<td>circle-play</td>
+				<td>U+F12D</td>
+			</tr>
+	=09
+			<tr>
+				<td>100</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=AE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=AE</=
+td>
+				<td>circle-plus</td>
+				<td>U+F12E</td>
+			</tr>
+	=09
+			<tr>
+				<td>101</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=AF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=AF</=
+td>
+				<td>circle-question</td>
+				<td>U+F12F</td>
+			</tr>
+	=09
+			<tr>
+				<td>102</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B0</=
+td>
+				<td>circle-slash</td>
+				<td>U+F130</td>
+			</tr>
+	=09
+			<tr>
+				<td>103</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=85</=
+td>
+				<td>circle-star</td>
+				<td>U+F245</td>
+			</tr>
+	=09
+			<tr>
+				<td>104</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B1</=
+td>
+				<td>circle-three-dots-horizontal</td>
+				<td>U+F131</td>
+			</tr>
+	=09
+			<tr>
+				<td>105</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B2</=
+td>
+				<td>circle-three-dots-vertical</td>
+				<td>U+F132</td>
+			</tr>
+	=09
+			<tr>
+				<td>106</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B3</=
+td>
+				<td>circle-x</td>
+				<td>U+F133</td>
+			</tr>
+	=09
+			<tr>
+				<td>107</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=8E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=8E</=
+td>
+				<td>clipboard-pencil</td>
+				<td>U+F30E</td>
+			</tr>
+	=09
+			<tr>
+				<td>108</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B4</=
+td>
+				<td>clock</td>
+				<td>U+F134</td>
+			</tr>
+	=09
+			<tr>
+				<td>109</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B3</=
+td>
+				<td>clock-dashed</td>
+				<td>U+F2B3</td>
+			</tr>
+	=09
+			<tr>
+				<td>110</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B5</=
+td>
+				<td>clock-spin-reverse</td>
+				<td>U+F135</td>
+			</tr>
+	=09
+			<tr>
+				<td>111</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B6</=
+td>
+				<td>clock-spin-reverse-dashed</td>
+				<td>U+F136</td>
+			</tr>
+	=09
+			<tr>
+				<td>112</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B7</=
+td>
+				<td>clothes-hanger</td>
+				<td>U+F137</td>
+			</tr>
+	=09
+			<tr>
+				<td>113</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B8</=
+td>
+				<td>cloud</td>
+				<td>U+F138</td>
+			</tr>
+	=09
+			<tr>
+				<td>114</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=B9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=B9</=
+td>
+				<td>cloud-arrow-down</td>
+				<td>U+F139</td>
+			</tr>
+	=09
+			<tr>
+				<td>115</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B8</=
+td>
+				<td>code</td>
+				<td>U+F278</td>
+			</tr>
+	=09
+			<tr>
+				<td>116</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=B9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=B9</=
+td>
+				<td>compact-makeup-brush</td>
+				<td>U+F279</td>
+			</tr>
+	=09
+			<tr>
+				<td>117</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=BA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=BA</=
+td>
+				<td>compass</td>
+				<td>U+F13A</td>
+			</tr>
+	=09
+			<tr>
+				<td>118</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=97</=
+td>
+				<td>controller</td>
+				<td>U+F317</td>
+			</tr>
+	=09
+			<tr>
+				<td>119</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B4</=
+td>
+				<td>controller-with-cog</td>
+				<td>U+F2B4</td>
+			</tr>
+	=09
+			<tr>
+				<td>120</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=BB</=
+td>
+				<td>crop</td>
+				<td>U+F13B</td>
+			</tr>
+	=09
+			<tr>
+				<td>121</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=86</=
+td>
+				<td>crosshairs</td>
+				<td>U+F246</td>
+			</tr>
+	=09
+			<tr>
+				<td>122</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=87</=
+td>
+				<td>crosshairs-slash</td>
+				<td>U+F247</td>
+			</tr>
+	=09
+			<tr>
+				<td>123</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B2</=
+td>
+				<td>crown</td>
+				<td>U+F2F2</td>
+			</tr>
+	=09
+			<tr>
+				<td>124</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=88</=
+td>
+				<td>cube-vertexes</td>
+				<td>U+F248</td>
+			</tr>
+	=09
+			<tr>
+				<td>125</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=BA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=BA</=
+td>
+				<td>curved-rectangle-megaphone</td>
+				<td>U+F27A</td>
+			</tr>
+	=09
+			<tr>
+				<td>126</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=85</=
+td>
+				<td>diagonal-line-pattern</td>
+				<td>U+F2C5</td>
+			</tr>
+	=09
+			<tr>
+				<td>127</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=86</=
+td>
+				<td>diagonal-line-pattern-sticker</td>
+				<td>U+F2C6</td>
+			</tr>
+	=09
+			<tr>
+				<td>128</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B3</=
+td>
+				<td>diamond</td>
+				<td>U+F2F3</td>
+			</tr>
+	=09
+			<tr>
+				<td>129</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=BC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=BC</=
+td>
+				<td>diamond-simplified</td>
+				<td>U+F13C</td>
+			</tr>
+	=09
+			<tr>
+				<td>130</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=BD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=BD</=
+td>
+				<td>discord</td>
+				<td>U+F13D</td>
+			</tr>
+	=09
+			<tr>
+				<td>131</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=BE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=BE</=
+td>
+				<td>disguise-nose-glasses</td>
+				<td>U+F13E</td>
+			</tr>
+	=09
+			<tr>
+				<td>132</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=BB</=
+td>
+				<td>document-circle-slash</td>
+				<td>U+F27B</td>
+			</tr>
+	=09
+			<tr>
+				<td>133</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=84=BF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=84=BF</=
+td>
+				<td>document-list-heart</td>
+				<td>U+F13F</td>
+			</tr>
+	=09
+			<tr>
+				<td>134</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=80</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=80</=
+td>
+				<td>door-open-arrow-to-bottom-right</td>
+				<td>U+F140</td>
+			</tr>
+	=09
+			<tr>
+				<td>135</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B4</=
+td>
+				<td>dot-frame-head-blank</td>
+				<td>U+F2F4</td>
+			</tr>
+	=09
+			<tr>
+				<td>136</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B5</=
+td>
+				<td>dot-frame-person-standing</td>
+				<td>U+F2F5</td>
+			</tr>
+	=09
+			<tr>
+				<td>137</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B6</=
+td>
+				<td>dot-frame-tshirt</td>
+				<td>U+F2F6</td>
+			</tr>
+	=09
+			<tr>
+				<td>138</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=81</=
+td>
+				<td>dress</td>
+				<td>U+F141</td>
+			</tr>
+	=09
+			<tr>
+				<td>139</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=82</=
+td>
+				<td>dual-arrows-horizontal</td>
+				<td>U+F142</td>
+			</tr>
+	=09
+			<tr>
+				<td>140</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=80</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=80</=
+td>
+				<td>dual-arrows-horizontal-text-v-a</td>
+				<td>U+F300</td>
+			</tr>
+	=09
+			<tr>
+				<td>141</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=83</=
+td>
+				<td>dual-arrows-to-corners</td>
+				<td>U+F143</td>
+			</tr>
+	=09
+			<tr>
+				<td>142</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=84</=
+td>
+				<td>dual-arrows-vertical</td>
+				<td>U+F144</td>
+			</tr>
+	=09
+			<tr>
+				<td>143</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=81</=
+td>
+				<td>dual-arrows-vertical-four-horizontal-lines</td>
+				<td>U+F301</td>
+			</tr>
+	=09
+			<tr>
+				<td>144</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=85</=
+td>
+				<td>envelope</td>
+				<td>U+F145</td>
+			</tr>
+	=09
+			<tr>
+				<td>145</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=87</=
+td>
+				<td>eraser</td>
+				<td>U+F2C7</td>
+			</tr>
+	=09
+			<tr>
+				<td>146</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=86</=
+td>
+				<td>eye</td>
+				<td>U+F146</td>
+			</tr>
+	=09
+			<tr>
+				<td>147</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=87</=
+td>
+				<td>eye-slash</td>
+				<td>U+F147</td>
+			</tr>
+	=09
+			<tr>
+				<td>148</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=BC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=BC</=
+td>
+				<td>eye-with-eyeliner</td>
+				<td>U+F27C</td>
+			</tr>
+	=09
+			<tr>
+				<td>149</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=88</=
+td>
+				<td>eyebrows</td>
+				<td>U+F148</td>
+			</tr>
+	=09
+			<tr>
+				<td>150</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=89</=
+td>
+				<td>eyelashes</td>
+				<td>U+F149</td>
+			</tr>
+	=09
+			<tr>
+				<td>151</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=8A</=
+td>
+				<td>face-winking</td>
+				<td>U+F14A</td>
+			</tr>
+	=09
+			<tr>
+				<td>152</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=8B</=
+td>
+				<td>facebook</td>
+				<td>U+F14B</td>
+			</tr>
+	=09
+			<tr>
+				<td>153</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=82</=
+td>
+				<td>figma</td>
+				<td>U+F302</td>
+			</tr>
+	=09
+			<tr>
+				<td>154</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=8C</=
+td>
+				<td>file-box</td>
+				<td>U+F14C</td>
+			</tr>
+	=09
+			<tr>
+				<td>155</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=8D</=
+td>
+				<td>fingerprint</td>
+				<td>U+F14D</td>
+			</tr>
+	=09
+			<tr>
+				<td>156</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=8E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=8E</=
+td>
+				<td>flag</td>
+				<td>U+F14E</td>
+			</tr>
+	=09
+			<tr>
+				<td>157</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=8F</=
+td>
+				<td>flame</td>
+				<td>U+F14F</td>
+			</tr>
+	=09
+			<tr>
+				<td>158</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B7</=
+td>
+				<td>floppy-disk</td>
+				<td>U+F2F7</td>
+			</tr>
+	=09
+			<tr>
+				<td>159</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B5</=
+td>
+				<td>folder</td>
+				<td>U+F2B5</td>
+			</tr>
+	=09
+			<tr>
+				<td>160</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=90</=
+td>
+				<td>fountain-pen-nib</td>
+				<td>U+F150</td>
+			</tr>
+	=09
+			<tr>
+				<td>161</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=94</=
+td>
+				<td>four-bars-horizontal-center-aligned</td>
+				<td>U+F2D4</td>
+			</tr>
+	=09
+			<tr>
+				<td>162</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=95</=
+td>
+				<td>four-bars-horizontal-chevron-left</td>
+				<td>U+F2D5</td>
+			</tr>
+	=09
+			<tr>
+				<td>163</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=96</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=96</=
+td>
+				<td>four-bars-horizontal-chevron-right</td>
+				<td>U+F2D6</td>
+			</tr>
+	=09
+			<tr>
+				<td>164</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=97</=
+td>
+				<td>four-bars-horizontal-justified-aligned</td>
+				<td>U+F2D7</td>
+			</tr>
+	=09
+			<tr>
+				<td>165</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=98</=
+td>
+				<td>four-bars-horizontal-left-aligned</td>
+				<td>U+F2D8</td>
+			</tr>
+	=09
+			<tr>
+				<td>166</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=99</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=99</=
+td>
+				<td>four-bars-horizontal-right-aligned</td>
+				<td>U+F2D9</td>
+			</tr>
+	=09
+			<tr>
+				<td>167</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=91</=
+td>
+				<td>frame-bubble-slash</td>
+				<td>U+F151</td>
+			</tr>
+	=09
+			<tr>
+				<td>168</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=92</=
+td>
+				<td>frame-bubble-soundwave</td>
+				<td>U+F152</td>
+			</tr>
+	=09
+			<tr>
+				<td>169</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=93</=
+td>
+				<td>frame-camera</td>
+				<td>U+F153</td>
+			</tr>
+	=09
+			<tr>
+				<td>170</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=BD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=BD</=
+td>
+				<td>frame-camera-center</td>
+				<td>U+F27D</td>
+			</tr>
+	=09
+			<tr>
+				<td>171</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=94</=
+td>
+				<td>frame-collapsed</td>
+				<td>U+F154</td>
+			</tr>
+	=09
+			<tr>
+				<td>172</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=89</=
+td>
+				<td>frame-corners</td>
+				<td>U+F249</td>
+			</tr>
+	=09
+			<tr>
+				<td>173</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=95</=
+td>
+				<td>frame-expanded</td>
+				<td>U+F155</td>
+			</tr>
+	=09
+			<tr>
+				<td>174</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=96</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=96</=
+td>
+				<td>frame-face</td>
+				<td>U+F156</td>
+			</tr>
+	=09
+			<tr>
+				<td>175</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=97</=
+td>
+				<td>frame-person-torso</td>
+				<td>U+F157</td>
+			</tr>
+	=09
+			<tr>
+				<td>176</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=98</=
+td>
+				<td>frame-record</td>
+				<td>U+F158</td>
+			</tr>
+	=09
+			<tr>
+				<td>177</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=99</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=99</=
+td>
+				<td>frame-single-bar-horizontal</td>
+				<td>U+F159</td>
+			</tr>
+	=09
+			<tr>
+				<td>178</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=9A</=
+td>
+				<td>frame-soundwave</td>
+				<td>U+F15A</td>
+			</tr>
+	=09
+			<tr>
+				<td>179</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=9B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=9B</=
+td>
+				<td>frame-video-camera</td>
+				<td>U+F15B</td>
+			</tr>
+	=09
+			<tr>
+				<td>180</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=9C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=9C</=
+td>
+				<td>gear</td>
+				<td>U+F15C</td>
+			</tr>
+	=09
+			<tr>
+				<td>181</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=8A</=
+td>
+				<td>generic-dpad</td>
+				<td>U+F24A</td>
+			</tr>
+	=09
+			<tr>
+				<td>182</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=BE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=BE</=
+td>
+				<td>gift-box</td>
+				<td>U+F27E</td>
+			</tr>
+	=09
+			<tr>
+				<td>183</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=9D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=9D</=
+td>
+				<td>gift-card</td>
+				<td>U+F15D</td>
+			</tr>
+	=09
+			<tr>
+				<td>184</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=87</=
+td>
+				<td>github</td>
+				<td>U+F307</td>
+			</tr>
+	=09
+			<tr>
+				<td>185</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=9E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=9E</=
+td>
+				<td>glasses</td>
+				<td>U+F15E</td>
+			</tr>
+	=09
+			<tr>
+				<td>186</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=9F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=9F</=
+td>
+				<td>globe-detailed</td>
+				<td>U+F15F</td>
+			</tr>
+	=09
+			<tr>
+				<td>187</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A0</=
+td>
+				<td>globe-simplified</td>
+				<td>U+F160</td>
+			</tr>
+	=09
+			<tr>
+				<td>188</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=8B</=
+td>
+				<td>globe-simplipfied-speech-bubble</td>
+				<td>U+F24B</td>
+			</tr>
+	=09
+			<tr>
+				<td>189</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A1</=
+td>
+				<td>grid</td>
+				<td>U+F161</td>
+			</tr>
+	=09
+			<tr>
+				<td>190</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A2</=
+td>
+				<td>guilded</td>
+				<td>U+F162</td>
+			</tr>
+	=09
+			<tr>
+				<td>191</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=9A</=
+td>
+				<td>hack-week</td>
+				<td>U+F2DA</td>
+			</tr>
+	=09
+			<tr>
+				<td>192</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A3</=
+td>
+				<td>hammer-code</td>
+				<td>U+F163</td>
+			</tr>
+	=09
+			<tr>
+				<td>193</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A1</=
+td>
+				<td>hand-curved-arrow-left</td>
+				<td>U+F261</td>
+			</tr>
+	=09
+			<tr>
+				<td>194</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A2</=
+td>
+				<td>hand-dual-arrows</td>
+				<td>U+F262</td>
+			</tr>
+	=09
+			<tr>
+				<td>195</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A4</=
+td>
+				<td>hand-ellipse</td>
+				<td>U+F164</td>
+			</tr>
+	=09
+			<tr>
+				<td>196</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A3</=
+td>
+				<td>hand-half-ellipse</td>
+				<td>U+F263</td>
+			</tr>
+	=09
+			<tr>
+				<td>197</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A5</=
+td>
+				<td>hand-two-arrows-horizontal</td>
+				<td>U+F165</td>
+			</tr>
+	=09
+			<tr>
+				<td>198</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A6</=
+td>
+				<td>hashtag</td>
+				<td>U+F166</td>
+			</tr>
+	=09
+			<tr>
+				<td>199</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A7</=
+td>
+				<td>hat-fedora</td>
+				<td>U+F167</td>
+			</tr>
+	=09
+			<tr>
+				<td>200</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A8</=
+td>
+				<td>hat-toque</td>
+				<td>U+F168</td>
+			</tr>
+	=09
+			<tr>
+				<td>201</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=A9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=A9</=
+td>
+				<td>head-blank</td>
+				<td>U+F169</td>
+			</tr>
+	=09
+			<tr>
+				<td>202</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=BF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=BF</=
+td>
+				<td>head-blush</td>
+				<td>U+F27F</td>
+			</tr>
+	=09
+			<tr>
+				<td>203</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=AA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=AA</=
+td>
+				<td>head-female</td>
+				<td>U+F16A</td>
+			</tr>
+	=09
+			<tr>
+				<td>204</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=AB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=AB</=
+td>
+				<td>head-freckles</td>
+				<td>U+F16B</td>
+			</tr>
+	=09
+			<tr>
+				<td>205</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=80</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=80</=
+td>
+				<td>head-lips</td>
+				<td>U+F280</td>
+			</tr>
+	=09
+			<tr>
+				<td>206</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=AC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=AC</=
+td>
+				<td>head-male</td>
+				<td>U+F16C</td>
+			</tr>
+	=09
+			<tr>
+				<td>207</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=AD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=AD</=
+td>
+				<td>headphones</td>
+				<td>U+F16D</td>
+			</tr>
+	=09
+			<tr>
+				<td>208</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=AE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=AE</=
+td>
+				<td>headphones-arrow-up</td>
+				<td>U+F16E</td>
+			</tr>
+	=09
+			<tr>
+				<td>209</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=AF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=AF</=
+td>
+				<td>headphones-arrow-up-lock</td>
+				<td>U+F16F</td>
+			</tr>
+	=09
+			<tr>
+				<td>210</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B0</=
+td>
+				<td>headphones-slash</td>
+				<td>U+F170</td>
+			</tr>
+	=09
+			<tr>
+				<td>211</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B1</=
+td>
+				<td>headphones-x</td>
+				<td>U+F171</td>
+			</tr>
+	=09
+			<tr>
+				<td>212</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B2</=
+td>
+				<td>headphones-x-lock</td>
+				<td>U+F172</td>
+			</tr>
+	=09
+			<tr>
+				<td>213</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B3</=
+td>
+				<td>heart</td>
+				<td>U+F173</td>
+			</tr>
+	=09
+			<tr>
+				<td>214</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=8F</=
+td>
+				<td>horiztonal-lines-descending-rectangle</td>
+				<td>U+F30F</td>
+			</tr>
+	=09
+			<tr>
+				<td>215</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B4</=
+td>
+				<td>house</td>
+				<td>U+F174</td>
+			</tr>
+	=09
+			<tr>
+				<td>216</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B5</=
+td>
+				<td>image</td>
+				<td>U+F175</td>
+			</tr>
+	=09
+			<tr>
+				<td>217</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B6</=
+td>
+				<td>image-stacked</td>
+				<td>U+F176</td>
+			</tr>
+	=09
+			<tr>
+				<td>218</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B7</=
+td>
+				<td>instagram</td>
+				<td>U+F177</td>
+			</tr>
+	=09
+			<tr>
+				<td>219</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B8</=
+td>
+				<td>jacket</td>
+				<td>U+F178</td>
+			</tr>
+	=09
+			<tr>
+				<td>220</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=B9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=B9</=
+td>
+				<td>key</td>
+				<td>U+F179</td>
+			</tr>
+	=09
+			<tr>
+				<td>221</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=8C</=
+td>
+				<td>key-alt</td>
+				<td>U+F24C</td>
+			</tr>
+	=09
+			<tr>
+				<td>222</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=81</=
+td>
+				<td>key-apostrophe</td>
+				<td>U+F281</td>
+			</tr>
+	=09
+			<tr>
+				<td>223</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=82</=
+td>
+				<td>key-arrow-down</td>
+				<td>U+F282</td>
+			</tr>
+	=09
+			<tr>
+				<td>224</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=83</=
+td>
+				<td>key-arrow-right</td>
+				<td>U+F283</td>
+			</tr>
+	=09
+			<tr>
+				<td>225</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=84</=
+td>
+				<td>key-arrow-up</td>
+				<td>U+F284</td>
+			</tr>
+	=09
+			<tr>
+				<td>226</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=85</=
+td>
+				<td>key-asterisk</td>
+				<td>U+F285</td>
+			</tr>
+	=09
+			<tr>
+				<td>227</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=86</=
+td>
+				<td>key-backspace</td>
+				<td>U+F286</td>
+			</tr>
+	=09
+			<tr>
+				<td>228</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=87</=
+td>
+				<td>key-caps-lock</td>
+				<td>U+F287</td>
+			</tr>
+	=09
+			<tr>
+				<td>229</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=88</=
+td>
+				<td>key-caret</td>
+				<td>U+F288</td>
+			</tr>
+	=09
+			<tr>
+				<td>230</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=89</=
+td>
+				<td>key-comma</td>
+				<td>U+F289</td>
+			</tr>
+	=09
+			<tr>
+				<td>231</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=8A</=
+td>
+				<td>key-command</td>
+				<td>U+F28A</td>
+			</tr>
+	=09
+			<tr>
+				<td>232</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=8B</=
+td>
+				<td>key-control</td>
+				<td>U+F28B</td>
+			</tr>
+	=09
+			<tr>
+				<td>233</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=8C</=
+td>
+				<td>key-grave-accent</td>
+				<td>U+F28C</td>
+			</tr>
+	=09
+			<tr>
+				<td>234</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=8D</=
+td>
+				<td>key-period</td>
+				<td>U+F28D</td>
+			</tr>
+	=09
+			<tr>
+				<td>235</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=8E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=8E</=
+td>
+				<td>key-return</td>
+				<td>U+F28E</td>
+			</tr>
+	=09
+			<tr>
+				<td>236</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=8F</=
+td>
+				<td>key-shift</td>
+				<td>U+F28F</td>
+			</tr>
+	=09
+			<tr>
+				<td>237</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=90</=
+td>
+				<td>key-space</td>
+				<td>U+F290</td>
+			</tr>
+	=09
+			<tr>
+				<td>238</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=91</=
+td>
+				<td>key-tab</td>
+				<td>U+F291</td>
+			</tr>
+	=09
+			<tr>
+				<td>239</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=B9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=B9</=
+td>
+				<td>lab-beaker</td>
+				<td>U+F2F9</td>
+			</tr>
+	=09
+			<tr>
+				<td>240</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=BA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=BA</=
+td>
+				<td>language-characters</td>
+				<td>U+F17A</td>
+			</tr>
+	=09
+			<tr>
+				<td>241</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=BB</=
+td>
+				<td>leg</td>
+				<td>U+F17B</td>
+			</tr>
+	=09
+			<tr>
+				<td>242</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=8D</=
+td>
+				<td>leg-left</td>
+				<td>U+F24D</td>
+			</tr>
+	=09
+			<tr>
+				<td>243</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=BB</=
+td>
+				<td>leg-right</td>
+				<td>U+F17B</td>
+			</tr>
+	=09
+			<tr>
+				<td>244</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=BC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=BC</=
+td>
+				<td>lightning-bolt</td>
+				<td>U+F17C</td>
+			</tr>
+	=09
+			<tr>
+				<td>245</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=88</=
+td>
+				<td>linkedin</td>
+				<td>U+F2C8</td>
+			</tr>
+	=09
+			<tr>
+				<td>246</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=92</=
+td>
+				<td>lips</td>
+				<td>U+F292</td>
+			</tr>
+	=09
+			<tr>
+				<td>247</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=BA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=BA</=
+td>
+				<td>lips-lipstick-makeup-brush</td>
+				<td>U+F2FA</td>
+			</tr>
+	=09
+			<tr>
+				<td>248</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=93</=
+td>
+				<td>lipstick</td>
+				<td>U+F293</td>
+			</tr>
+	=09
+			<tr>
+				<td>249</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=BD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=BD</=
+td>
+				<td>list-bulleted</td>
+				<td>U+F17D</td>
+			</tr>
+	=09
+			<tr>
+				<td>250</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=88</=
+td>
+				<td>list-numbered</td>
+				<td>U+F308</td>
+			</tr>
+	=09
+			<tr>
+				<td>251</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=BE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=BE</=
+td>
+				<td>location-pin</td>
+				<td>U+F17E</td>
+			</tr>
+	=09
+			<tr>
+				<td>252</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=85=BF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=85=BF</=
+td>
+				<td>location-pin-map</td>
+				<td>U+F17F</td>
+			</tr>
+	=09
+			<tr>
+				<td>253</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=80</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=80</=
+td>
+				<td>lock-closed</td>
+				<td>U+F180</td>
+			</tr>
+	=09
+			<tr>
+				<td>254</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=81</=
+td>
+				<td>lollipop</td>
+				<td>U+F181</td>
+			</tr>
+	=09
+			<tr>
+				<td>255</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=82</=
+td>
+				<td>magnifying-glass</td>
+				<td>U+F182</td>
+			</tr>
+	=09
+			<tr>
+				<td>256</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=83</=
+td>
+				<td>magnifying-glass-minus</td>
+				<td>U+F183</td>
+			</tr>
+	=09
+			<tr>
+				<td>257</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=84</=
+td>
+				<td>magnifying-glass-plus</td>
+				<td>U+F184</td>
+			</tr>
+	=09
+			<tr>
+				<td>258</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=94</=
+td>
+				<td>mascara</td>
+				<td>U+F294</td>
+			</tr>
+	=09
+			<tr>
+				<td>259</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=85</=
+td>
+				<td>megaphone</td>
+				<td>U+F185</td>
+			</tr>
+	=09
+			<tr>
+				<td>260</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=86</=
+td>
+				<td>memory-card</td>
+				<td>U+F186</td>
+			</tr>
+	=09
+			<tr>
+				<td>261</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=87</=
+td>
+				<td>messenger</td>
+				<td>U+F187</td>
+			</tr>
+	=09
+			<tr>
+				<td>262</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=BB</=
+td>
+				<td>meta</td>
+				<td>U+F2FB</td>
+			</tr>
+	=09
+			<tr>
+				<td>263</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=88</=
+td>
+				<td>microphone</td>
+				<td>U+F188</td>
+			</tr>
+	=09
+			<tr>
+				<td>264</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=89</=
+td>
+				<td>microphone-slash</td>
+				<td>U+F189</td>
+			</tr>
+	=09
+			<tr>
+				<td>265</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=95</=
+td>
+				<td>microphone-text-box</td>
+				<td>U+F295</td>
+			</tr>
+	=09
+			<tr>
+				<td>266</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=8A</=
+td>
+				<td>microphone-triangle-exclamation</td>
+				<td>U+F18A</td>
+			</tr>
+	=09
+			<tr>
+				<td>267</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=BC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=BC</=
+td>
+				<td>microsoft</td>
+				<td>U+F2FC</td>
+			</tr>
+	=09
+			<tr>
+				<td>268</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=8B</=
+td>
+				<td>minus</td>
+				<td>U+F18B</td>
+			</tr>
+	=09
+			<tr>
+				<td>269</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=8C</=
+td>
+				<td>minus-small</td>
+				<td>U+F18C</td>
+			</tr>
+	=09
+			<tr>
+				<td>270</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=8D</=
+td>
+				<td>mirror-standing</td>
+				<td>U+F18D</td>
+			</tr>
+	=09
+			<tr>
+				<td>271</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=A0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=A0</=
+td>
+				<td>moments</td>
+				<td>U+F260</td>
+			</tr>
+	=09
+			<tr>
+				<td>272</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=8E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=8E</=
+td>
+				<td>moon</td>
+				<td>U+F18E</td>
+			</tr>
+	=09
+			<tr>
+				<td>273</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=83</=
+td>
+				<td>moon-with-stars</td>
+				<td>U+F303</td>
+			</tr>
+	=09
+			<tr>
+				<td>274</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=8F</=
+td>
+				<td>mouse-button-left</td>
+				<td>U+F18F</td>
+			</tr>
+	=09
+			<tr>
+				<td>275</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=90</=
+td>
+				<td>mouse-button-right</td>
+				<td>U+F190</td>
+			</tr>
+	=09
+			<tr>
+				<td>276</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=91</=
+td>
+				<td>mouse-scrollwheel</td>
+				<td>U+F191</td>
+			</tr>
+	=09
+			<tr>
+				<td>277</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=92</=
+td>
+				<td>music-note</td>
+				<td>U+F192</td>
+			</tr>
+	=09
+			<tr>
+				<td>278</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=89</=
+td>
+				<td>nebula</td>
+				<td>U+F2C9</td>
+			</tr>
+	=09
+			<tr>
+				<td>279</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=93</=
+td>
+				<td>necklace</td>
+				<td>U+F193</td>
+			</tr>
+	=09
+			<tr>
+				<td>280</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=90</=
+td>
+				<td>nexus</td>
+				<td>U+F310</td>
+			</tr>
+	=09
+			<tr>
+				<td>281</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=94</=
+td>
+				<td>nine-dots-grid</td>
+				<td>U+F194</td>
+			</tr>
+	=09
+			<tr>
+				<td>282</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=95</=
+td>
+				<td>ninja</td>
+				<td>U+F195</td>
+			</tr>
+	=09
+			<tr>
+				<td>283</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=96</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=96</=
+td>
+				<td>nose</td>
+				<td>U+F196</td>
+			</tr>
+	=09
+			<tr>
+				<td>284</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=97</=
+td>
+				<td>page</td>
+				<td>U+F197</td>
+			</tr>
+	=09
+			<tr>
+				<td>285</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=8A</=
+td>
+				<td>paint-brush</td>
+				<td>U+F2CA</td>
+			</tr>
+	=09
+			<tr>
+				<td>286</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=8B</=
+td>
+				<td>paint-bucket</td>
+				<td>U+F2CB</td>
+			</tr>
+	=09
+			<tr>
+				<td>287</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=98</=
+td>
+				<td>pants</td>
+				<td>U+F198</td>
+			</tr>
+	=09
+			<tr>
+				<td>288</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=8F</=
+td>
+				<td>pants-2d-text</td>
+				<td>U+F24F</td>
+			</tr>
+	=09
+			<tr>
+				<td>289</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=99</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=99</=
+td>
+				<td>paper-airplane</td>
+				<td>U+F199</td>
+			</tr>
+	=09
+			<tr>
+				<td>290</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=89</=
+td>
+				<td>paragraph</td>
+				<td>U+F309</td>
+			</tr>
+	=09
+			<tr>
+				<td>291</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=9A</=
+td>
+				<td>parrot</td>
+				<td>U+F19A</td>
+			</tr>
+	=09
+			<tr>
+				<td>292</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=9B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=9B</=
+td>
+				<td>pause-large</td>
+				<td>U+F19B</td>
+			</tr>
+	=09
+			<tr>
+				<td>293</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=9C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=9C</=
+td>
+				<td>pause-small</td>
+				<td>U+F19C</td>
+			</tr>
+	=09
+			<tr>
+				<td>294</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=9D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=9D</=
+td>
+				<td>pencil</td>
+				<td>U+F19D</td>
+			</tr>
+	=09
+			<tr>
+				<td>295</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=9E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=9E</=
+td>
+				<td>pencil-square</td>
+				<td>U+F19E</td>
+			</tr>
+	=09
+			<tr>
+				<td>296</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=9F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=9F</=
+td>
+				<td>person</td>
+				<td>U+F19F</td>
+			</tr>
+	=09
+			<tr>
+				<td>297</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A0</=
+td>
+				<td>person-arrow-from-bottom-right</td>
+				<td>U+F1A0</td>
+			</tr>
+	=09
+			<tr>
+				<td>298</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A1</=
+td>
+				<td>person-check</td>
+				<td>U+F1A1</td>
+			</tr>
+	=09
+			<tr>
+				<td>299</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A2</=
+td>
+				<td>person-circle-slash</td>
+				<td>U+F1A2</td>
+			</tr>
+	=09
+			<tr>
+				<td>300</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=9B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=9B</=
+td>
+				<td>person-climbing</td>
+				<td>U+F2DB</td>
+			</tr>
+	=09
+			<tr>
+				<td>301</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A3</=
+td>
+				<td>person-clock</td>
+				<td>U+F1A3</td>
+			</tr>
+	=09
+			<tr>
+				<td>302</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=9C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=9C</=
+td>
+				<td>person-falling</td>
+				<td>U+F2DC</td>
+			</tr>
+	=09
+			<tr>
+				<td>303</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A4</=
+td>
+				<td>person-graduate</td>
+				<td>U+F1A4</td>
+			</tr>
+	=09
+			<tr>
+				<td>304</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=9D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=9D</=
+td>
+				<td>person-jumping</td>
+				<td>U+F2DD</td>
+			</tr>
+	=09
+			<tr>
+				<td>305</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A5</=
+td>
+				<td>person-magnifying-glass</td>
+				<td>U+F1A5</td>
+			</tr>
+	=09
+			<tr>
+				<td>306</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A6</=
+td>
+				<td>person-photo-camera</td>
+				<td>U+F1A6</td>
+			</tr>
+	=09
+			<tr>
+				<td>307</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A7</=
+td>
+				<td>person-play</td>
+				<td>U+F1A7</td>
+			</tr>
+	=09
+			<tr>
+				<td>308</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A8</=
+td>
+				<td>person-play-clock</td>
+				<td>U+F1A8</td>
+			</tr>
+	=09
+			<tr>
+				<td>309</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=A9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=A9</=
+td>
+				<td>person-plus</td>
+				<td>U+F1A9</td>
+			</tr>
+	=09
+			<tr>
+				<td>310</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=9E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=9E</=
+td>
+				<td>person-racing</td>
+				<td>U+F2DE</td>
+			</tr>
+	=09
+			<tr>
+				<td>311</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=9F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=9F</=
+td>
+				<td>person-running</td>
+				<td>U+F2DF</td>
+			</tr>
+	=09
+			<tr>
+				<td>312</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=92</=
+td>
+				<td>person-standing</td>
+				<td>U+F2D2</td>
+			</tr>
+	=09
+			<tr>
+				<td>313</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=90</=
+td>
+				<td>person-standing-arrow-reverse</td>
+				<td>U+F250</td>
+			</tr>
+	=09
+			<tr>
+				<td>314</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=96</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=96</=
+td>
+				<td>person-standing-dual-arrows-vertical</td>
+				<td>U+F296</td>
+			</tr>
+	=09
+			<tr>
+				<td>315</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=97</=
+td>
+				<td>person-standing-gear</td>
+				<td>U+F297</td>
+			</tr>
+	=09
+			<tr>
+				<td>316</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A0</=
+td>
+				<td>person-swimming</td>
+				<td>U+F2E0</td>
+			</tr>
+	=09
+			<tr>
+				<td>317</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A1</=
+td>
+				<td>person-teleport</td>
+				<td>U+F2E1</td>
+			</tr>
+	=09
+			<tr>
+				<td>318</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=AA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=AA</=
+td>
+				<td>person-trash-can</td>
+				<td>U+F1AA</td>
+			</tr>
+	=09
+			<tr>
+				<td>319</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A2</=
+td>
+				<td>person-walking</td>
+				<td>U+F2E2</td>
+			</tr>
+	=09
+			<tr>
+				<td>320</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=8C</=
+td>
+				<td>person-with-smaller-person</td>
+				<td>U+F2CC</td>
+			</tr>
+	=09
+			<tr>
+				<td>321</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=AB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=AB</=
+td>
+				<td>phone</td>
+				<td>U+F1AB</td>
+			</tr>
+	=09
+			<tr>
+				<td>322</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=AC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=AC</=
+td>
+				<td>phone-down</td>
+				<td>U+F1AC</td>
+			</tr>
+	=09
+			<tr>
+				<td>323</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=AD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=AD</=
+td>
+				<td>phone-plus</td>
+				<td>U+F1AD</td>
+			</tr>
+	=09
+			<tr>
+				<td>324</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=AE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=AE</=
+td>
+				<td>phone-volume</td>
+				<td>U+F1AE</td>
+			</tr>
+	=09
+			<tr>
+				<td>325</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=AF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=AF</=
+td>
+				<td>phone-x</td>
+				<td>U+F1AF</td>
+			</tr>
+	=09
+			<tr>
+				<td>326</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=BD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=BD</=
+td>
+				<td>photo-camera</td>
+				<td>U+F23D</td>
+			</tr>
+	=09
+			<tr>
+				<td>327</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B0</=
+td>
+				<td>photo-camera-face</td>
+				<td>U+F1B0</td>
+			</tr>
+	=09
+			<tr>
+				<td>328</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B1</=
+td>
+				<td>photo-camera-slash</td>
+				<td>U+F1B1</td>
+			</tr>
+	=09
+			<tr>
+				<td>329</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B2</=
+td>
+				<td>picture-in-picture</td>
+				<td>U+F1B2</td>
+			</tr>
+	=09
+			<tr>
+				<td>330</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B3</=
+td>
+				<td>pig</td>
+				<td>U+F1B3</td>
+			</tr>
+	=09
+			<tr>
+				<td>331</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B4</=
+td>
+				<td>pin</td>
+				<td>U+F1B4</td>
+			</tr>
+	=09
+			<tr>
+				<td>332</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B5</=
+td>
+				<td>pin-slash</td>
+				<td>U+F1B5</td>
+			</tr>
+	=09
+			<tr>
+				<td>333</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B6</=
+td>
+				<td>play-large</td>
+				<td>U+F1B6</td>
+			</tr>
+	=09
+			<tr>
+				<td>334</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B7</=
+td>
+				<td>play-small</td>
+				<td>U+F1B7</td>
+			</tr>
+	=09
+			<tr>
+				<td>335</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=91</=
+td>
+				<td>play-xlarge</td>
+				<td>U+F311</td>
+			</tr>
+	=09
+			<tr>
+				<td>336</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=BD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=BD</=
+td>
+				<td>playstation</td>
+				<td>U+F2FD</td>
+			</tr>
+	=09
+			<tr>
+				<td>337</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=BE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=BE</=
+td>
+				<td>playstation-circle</td>
+				<td>U+F2FE</td>
+			</tr>
+	=09
+			<tr>
+				<td>338</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B8</=
+td>
+				<td>plus-large</td>
+				<td>U+F1B8</td>
+			</tr>
+	=09
+			<tr>
+				<td>339</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=B9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=B9</=
+td>
+				<td>plus-small</td>
+				<td>U+F1B9</td>
+			</tr>
+	=09
+			<tr>
+				<td>340</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=BA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=BA</=
+td>
+				<td>premium</td>
+				<td>U+F1BA</td>
+			</tr>
+	=09
+			<tr>
+				<td>341</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=BB</=
+td>
+				<td>ps-circle</td>
+				<td>U+F1BB</td>
+			</tr>
+	=09
+			<tr>
+				<td>342</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=98</=
+td>
+				<td>ps-dpad</td>
+				<td>U+F318</td>
+			</tr>
+	=09
+			<tr>
+				<td>343</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=BC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=BC</=
+td>
+				<td>ps-dpad-down</td>
+				<td>U+F1BC</td>
+			</tr>
+	=09
+			<tr>
+				<td>344</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=BD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=BD</=
+td>
+				<td>ps-dpad-left</td>
+				<td>U+F1BD</td>
+			</tr>
+	=09
+			<tr>
+				<td>345</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=BE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=BE</=
+td>
+				<td>ps-dpad-right</td>
+				<td>U+F1BE</td>
+			</tr>
+	=09
+			<tr>
+				<td>346</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=86=BF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=86=BF</=
+td>
+				<td>ps-dpad-up</td>
+				<td>U+F1BF</td>
+			</tr>
+	=09
+			<tr>
+				<td>347</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=80</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=80</=
+td>
+				<td>ps-l1</td>
+				<td>U+F1C0</td>
+			</tr>
+	=09
+			<tr>
+				<td>348</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=81</=
+td>
+				<td>ps-l2</td>
+				<td>U+F1C1</td>
+			</tr>
+	=09
+			<tr>
+				<td>349</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=82</=
+td>
+				<td>ps-l3</td>
+				<td>U+F1C2</td>
+			</tr>
+	=09
+			<tr>
+				<td>350</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=83</=
+td>
+				<td>ps-r1</td>
+				<td>U+F1C3</td>
+			</tr>
+	=09
+			<tr>
+				<td>351</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=84</=
+td>
+				<td>ps-r2</td>
+				<td>U+F1C4</td>
+			</tr>
+	=09
+			<tr>
+				<td>352</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=85</=
+td>
+				<td>ps-r3</td>
+				<td>U+F1C5</td>
+			</tr>
+	=09
+			<tr>
+				<td>353</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B6</=
+td>
+				<td>ps-square</td>
+				<td>U+F236</td>
+			</tr>
+	=09
+			<tr>
+				<td>354</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=86</=
+td>
+				<td>ps-stick-left</td>
+				<td>U+F1C6</td>
+			</tr>
+	=09
+			<tr>
+				<td>355</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=87</=
+td>
+				<td>ps-stick-right</td>
+				<td>U+F1C7</td>
+			</tr>
+	=09
+			<tr>
+				<td>356</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=88</=
+td>
+				<td>ps-triagle</td>
+				<td>U+F1C8</td>
+			</tr>
+	=09
+			<tr>
+				<td>357</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=89</=
+td>
+				<td>ps-x</td>
+				<td>U+F1C9</td>
+			</tr>
+	=09
+			<tr>
+				<td>358</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=8A</=
+td>
+				<td>ps4-options</td>
+				<td>U+F1CA</td>
+			</tr>
+	=09
+			<tr>
+				<td>359</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=8B</=
+td>
+				<td>ps4-share</td>
+				<td>U+F1CB</td>
+			</tr>
+	=09
+			<tr>
+				<td>360</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=8C</=
+td>
+				<td>ps4-touchpad</td>
+				<td>U+F1CC</td>
+			</tr>
+	=09
+			<tr>
+				<td>361</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=8D</=
+td>
+				<td>ps5-options</td>
+				<td>U+F1CD</td>
+			</tr>
+	=09
+			<tr>
+				<td>362</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=8E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=8E</=
+td>
+				<td>ps5-share</td>
+				<td>U+F1CE</td>
+			</tr>
+	=09
+			<tr>
+				<td>363</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=8F</=
+td>
+				<td>ps5-touchpad</td>
+				<td>U+F1CF</td>
+			</tr>
+	=09
+			<tr>
+				<td>364</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=91</=
+td>
+				<td>pumpkin</td>
+				<td>U+F251</td>
+			</tr>
+	=09
+			<tr>
+				<td>365</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=90</=
+td>
+				<td>purse</td>
+				<td>U+F1D0</td>
+			</tr>
+	=09
+			<tr>
+				<td>366</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=84</=
+td>
+				<td>quotation</td>
+				<td>U+F304</td>
+			</tr>
+	=09
+			<tr>
+				<td>367</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=91</=
+td>
+				<td>rectangle-list</td>
+				<td>U+F1D1</td>
+			</tr>
+	=09
+			<tr>
+				<td>368</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=92</=
+td>
+				<td>rectangle-numbers-counting</td>
+				<td>U+F252</td>
+			</tr>
+	=09
+			<tr>
+				<td>369</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=8D</=
+td>
+				<td>rectangle-person-with-three-horizontal-lines</td>
+				<td>U+F2CD</td>
+			</tr>
+	=09
+			<tr>
+				<td>370</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=92</=
+td>
+				<td>ro-gro</td>
+				<td>U+F312</td>
+			</tr>
+	=09
+			<tr>
+				<td>371</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=92</=
+td>
+				<td>robux</td>
+				<td>U+F1D2</td>
+			</tr>
+	=09
+			<tr>
+				<td>372</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=98</=
+td>
+				<td>rosette-seven-point</td>
+				<td>U+F298</td>
+			</tr>
+	=09
+			<tr>
+				<td>373</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=9A</=
+td>
+				<td>rosette-ten-point</td>
+				<td>U+F25A</td>
+			</tr>
+	=09
+			<tr>
+				<td>374</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=93</=
+td>
+				<td>seven-point-rosette</td>
+				<td>U+F253</td>
+			</tr>
+	=09
+			<tr>
+				<td>375</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=93</=
+td>
+				<td>shield-check</td>
+				<td>U+F1D3</td>
+			</tr>
+	=09
+			<tr>
+				<td>376</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=94</=
+td>
+				<td>shield-lock</td>
+				<td>U+F1D4</td>
+			</tr>
+	=09
+			<tr>
+				<td>377</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=95</=
+td>
+				<td>shirt</td>
+				<td>U+F1D5</td>
+			</tr>
+	=09
+			<tr>
+				<td>378</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=94</=
+td>
+				<td>shirt-2d-text</td>
+				<td>U+F254</td>
+			</tr>
+	=09
+			<tr>
+				<td>379</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=96</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=96</=
+td>
+				<td>shirt-pants</td>
+				<td>U+F1D6</td>
+			</tr>
+	=09
+			<tr>
+				<td>380</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=97</=
+td>
+				<td>shoe</td>
+				<td>U+F1D7</td>
+			</tr>
+	=09
+			<tr>
+				<td>381</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=95</=
+td>
+				<td>shoe-left</td>
+				<td>U+F255</td>
+			</tr>
+	=09
+			<tr>
+				<td>382</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=97</=
+td>
+				<td>shoe-right</td>
+				<td>U+F1D7</td>
+			</tr>
+	=09
+			<tr>
+				<td>383</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=98</=
+td>
+				<td>shopping-basket</td>
+				<td>U+F1D8</td>
+			</tr>
+	=09
+			<tr>
+				<td>384</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=99</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=99</=
+td>
+				<td>shopping-basket-check</td>
+				<td>U+F1D9</td>
+			</tr>
+	=09
+			<tr>
+				<td>385</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=BB</=
+td>
+				<td>shopping-cart</td>
+				<td>U+F23B</td>
+			</tr>
+	=09
+			<tr>
+				<td>386</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=9A</=
+td>
+				<td>shorts</td>
+				<td>U+F1DA</td>
+			</tr>
+	=09
+			<tr>
+				<td>387</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=9B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=9B</=
+td>
+				<td>sidebar</td>
+				<td>U+F1DB</td>
+			</tr>
+	=09
+			<tr>
+				<td>388</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=9C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=9C</=
+td>
+				<td>signal-exclamation</td>
+				<td>U+F1DC</td>
+			</tr>
+	=09
+			<tr>
+				<td>389</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=9A</=
+td>
+				<td>six-dots-two-column-grid</td>
+				<td>U+F29A</td>
+			</tr>
+	=09
+			<tr>
+				<td>390</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=9B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=9B</=
+td>
+				<td>skip-end-large</td>
+				<td>U+F29B</td>
+			</tr>
+	=09
+			<tr>
+				<td>391</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=9C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=9C</=
+td>
+				<td>skip-end-small</td>
+				<td>U+F29C</td>
+			</tr>
+	=09
+			<tr>
+				<td>392</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=9D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=9D</=
+td>
+				<td>skip-next-large</td>
+				<td>U+F29D</td>
+			</tr>
+	=09
+			<tr>
+				<td>393</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=9E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=9E</=
+td>
+				<td>skip-next-small</td>
+				<td>U+F29E</td>
+			</tr>
+	=09
+			<tr>
+				<td>394</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=9F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=9F</=
+td>
+				<td>skip-previous-large</td>
+				<td>U+F29F</td>
+			</tr>
+	=09
+			<tr>
+				<td>395</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A0</=
+td>
+				<td>skip-previous-small</td>
+				<td>U+F2A0</td>
+			</tr>
+	=09
+			<tr>
+				<td>396</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A1</=
+td>
+				<td>skip-start-large</td>
+				<td>U+F2A1</td>
+			</tr>
+	=09
+			<tr>
+				<td>397</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A2</=
+td>
+				<td>skip-start-small</td>
+				<td>U+F2A2</td>
+			</tr>
+	=09
+			<tr>
+				<td>398</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=85</=
+td>
+				<td>slack</td>
+				<td>U+F305</td>
+			</tr>
+	=09
+			<tr>
+				<td>399</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=9D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=9D</=
+td>
+				<td>smartphone-portrait</td>
+				<td>U+F1DD</td>
+			</tr>
+	=09
+			<tr>
+				<td>400</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=9E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=9E</=
+td>
+				<td>speaker</td>
+				<td>U+F1DE</td>
+			</tr>
+	=09
+			<tr>
+				<td>401</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=9F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=9F</=
+td>
+				<td>speaker-slash</td>
+				<td>U+F1DF</td>
+			</tr>
+	=09
+			<tr>
+				<td>402</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A0</=
+td>
+				<td>speaker-triangle-exclamation</td>
+				<td>U+F1E0</td>
+			</tr>
+	=09
+			<tr>
+				<td>403</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A3</=
+td>
+				<td>speaker-x</td>
+				<td>U+F2A3</td>
+			</tr>
+	=09
+			<tr>
+				<td>404</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A1</=
+td>
+				<td>speech-bubble-align-center</td>
+				<td>U+F1E1</td>
+			</tr>
+	=09
+			<tr>
+				<td>405</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A2</=
+td>
+				<td>speech-bubble-align-left</td>
+				<td>U+F1E2</td>
+			</tr>
+	=09
+			<tr>
+				<td>406</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A3</=
+td>
+				<td>speech-bubble-exclamation</td>
+				<td>U+F1E3</td>
+			</tr>
+	=09
+			<tr>
+				<td>407</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A4</=
+td>
+				<td>speech-bubble-round</td>
+				<td>U+F2A4</td>
+			</tr>
+	=09
+			<tr>
+				<td>408</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=93</=
+td>
+				<td>speedometer</td>
+				<td>U+F313</td>
+			</tr>
+	=09
+			<tr>
+				<td>409</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=94</=
+td>
+				<td>square-bar-graph</td>
+				<td>U+F314</td>
+			</tr>
+	=09
+			<tr>
+				<td>410</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A5</=
+td>
+				<td>square-bone</td>
+				<td>U+F2A5</td>
+			</tr>
+	=09
+			<tr>
+				<td>411</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A4</=
+td>
+				<td>square-books</td>
+				<td>U+F1E4</td>
+			</tr>
+	=09
+			<tr>
+				<td>412</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A5</=
+td>
+				<td>square-check</td>
+				<td>U+F1E5</td>
+			</tr>
+	=09
+			<tr>
+				<td>413</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A6</=
+td>
+				<td>square-code</td>
+				<td>U+F1E6</td>
+			</tr>
+	=09
+			<tr>
+				<td>414</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A7</=
+td>
+				<td>square-dashed-person-standing</td>
+				<td>U+F1E7</td>
+			</tr>
+	=09
+			<tr>
+				<td>415</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A6</=
+td>
+				<td>square-dual-arrows-horizontal</td>
+				<td>U+F2A6</td>
+			</tr>
+	=09
+			<tr>
+				<td>416</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A8</=
+td>
+				<td>square-dual-arrows-to-corner</td>
+				<td>U+F1E8</td>
+			</tr>
+	=09
+			<tr>
+				<td>417</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=8A</=
+td>
+				<td>square-face-emoji</td>
+				<td>U+F30A</td>
+			</tr>
+	=09
+			<tr>
+				<td>418</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=A9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=A9</=
+td>
+				<td>square-face-sound</td>
+				<td>U+F1E9</td>
+			</tr>
+	=09
+			<tr>
+				<td>419</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=AA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=AA</=
+td>
+				<td>square-face-waving-hand</td>
+				<td>U+F1EA</td>
+			</tr>
+	=09
+			<tr>
+				<td>420</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=AB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=AB</=
+td>
+				<td>square-face-winking</td>
+				<td>U+F1EB</td>
+			</tr>
+	=09
+			<tr>
+				<td>421</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=AC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=AC</=
+td>
+				<td>square-minus</td>
+				<td>U+F1EC</td>
+			</tr>
+	=09
+			<tr>
+				<td>422</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=97</=
+td>
+				<td>square-person</td>
+				<td>U+F257</td>
+			</tr>
+	=09
+			<tr>
+				<td>423</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=AD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=AD</=
+td>
+				<td>squares-grid-plus</td>
+				<td>U+F1ED</td>
+			</tr>
+	=09
+			<tr>
+				<td>424</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=AE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=AE</=
+td>
+				<td>squares-grid-qr</td>
+				<td>U+F1EE</td>
+			</tr>
+	=09
+			<tr>
+				<td>425</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=98</=
+td>
+				<td>stacked-squares-arrow-down-left</td>
+				<td>U+F258</td>
+			</tr>
+	=09
+			<tr>
+				<td>426</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=99</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=99</=
+td>
+				<td>stacked-squares-arrow-up-right</td>
+				<td>U+F259</td>
+			</tr>
+	=09
+			<tr>
+				<td>427</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=AF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=AF</=
+td>
+				<td>stacked-squares-plus</td>
+				<td>U+F1EF</td>
+			</tr>
+	=09
+			<tr>
+				<td>428</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B0</=
+td>
+				<td>star</td>
+				<td>U+F1F0</td>
+			</tr>
+	=09
+			<tr>
+				<td>429</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A7</=
+td>
+				<td>stop-large</td>
+				<td>U+F2A7</td>
+			</tr>
+	=09
+			<tr>
+				<td>430</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A8</=
+td>
+				<td>stop-small</td>
+				<td>U+F2A8</td>
+			</tr>
+	=09
+			<tr>
+				<td>431</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B1</=
+td>
+				<td>studio</td>
+				<td>U+F1F1</td>
+			</tr>
+	=09
+			<tr>
+				<td>432</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B2</=
+td>
+				<td>sun</td>
+				<td>U+F1F2</td>
+			</tr>
+	=09
+			<tr>
+				<td>433</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B3</=
+td>
+				<td>sweater</td>
+				<td>U+F1F3</td>
+			</tr>
+	=09
+			<tr>
+				<td>434</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B4</=
+td>
+				<td>sword</td>
+				<td>U+F1F4</td>
+			</tr>
+	=09
+			<tr>
+				<td>435</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B5</=
+td>
+				<td>tag-sparkle</td>
+				<td>U+F1F5</td>
+			</tr>
+	=09
+			<tr>
+				<td>436</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A3</=
+td>
+				<td>teletype</td>
+				<td>U+F2E3</td>
+			</tr>
+	=09
+			<tr>
+				<td>437</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=9A</=
+td>
+				<td>ten-point-rosette</td>
+				<td>U+F25A</td>
+			</tr>
+	=09
+			<tr>
+				<td>438</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=8E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=8E</=
+td>
+				<td>tencent-qq</td>
+				<td>U+F2CE</td>
+			</tr>
+	=09
+			<tr>
+				<td>439</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A4</=
+td>
+				<td>text-b-bold</td>
+				<td>U+F2E4</td>
+			</tr>
+	=09
+			<tr>
+				<td>440</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=A9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=A9</=
+td>
+				<td>text-box-microphone</td>
+				<td>U+F2A9</td>
+			</tr>
+	=09
+			<tr>
+				<td>441</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A5</=
+td>
+				<td>text-h-subscript-1</td>
+				<td>U+F2E5</td>
+			</tr>
+	=09
+			<tr>
+				<td>442</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A6</=
+td>
+				<td>text-h-subscript-2</td>
+				<td>U+F2E6</td>
+			</tr>
+	=09
+			<tr>
+				<td>443</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A7</=
+td>
+				<td>text-h-subscript-3</td>
+				<td>U+F2E7</td>
+			</tr>
+	=09
+			<tr>
+				<td>444</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A8</=
+td>
+				<td>text-i-italic</td>
+				<td>U+F2E8</td>
+			</tr>
+	=09
+			<tr>
+				<td>445</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=A9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=A9</=
+td>
+				<td>text-s-strikethrough</td>
+				<td>U+F2E9</td>
+			</tr>
+	=09
+			<tr>
+				<td>446</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=AA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=AA</=
+td>
+				<td>text-u-underline</td>
+				<td>U+F2EA</td>
+			</tr>
+	=09
+			<tr>
+				<td>447</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=AB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=AB</=
+td>
+				<td>text-uppercase-a-lowercase-a</td>
+				<td>U+F2EB</td>
+			</tr>
+	=09
+			<tr>
+				<td>448</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=AC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=AC</=
+td>
+				<td>text-x-subscript-2</td>
+				<td>U+F2EC</td>
+			</tr>
+	=09
+			<tr>
+				<td>449</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=AD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=AD</=
+td>
+				<td>text-x-superscript-2</td>
+				<td>U+F2ED</td>
+			</tr>
+	=09
+			<tr>
+				<td>450</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B6</=
+td>
+				<td>three-bars-horizontal</td>
+				<td>U+F1F6</td>
+			</tr>
+	=09
+			<tr>
+				<td>451</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=AA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=AA</=
+td>
+				<td>three-bars-horizontal-chevron-left</td>
+				<td>U+F2AA</td>
+			</tr>
+	=09
+			<tr>
+				<td>452</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=BC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=BC</=
+td>
+				<td>three-bars-horizontal-narrowing</td>
+				<td>U+F23C</td>
+			</tr>
+	=09
+			<tr>
+				<td>453</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B7</=
+td>
+				<td>three-bars-horizontal-triangles-vertical</td>
+				<td>U+F1F7</td>
+			</tr>
+	=09
+			<tr>
+				<td>454</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B8</=
+td>
+				<td>three-bars-vertical-triangles-horizontal</td>
+				<td>U+F1F8</td>
+			</tr>
+	=09
+			<tr>
+				<td>455</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=9B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=9B</=
+td>
+				<td>three-chevrons-enlarging-down</td>
+				<td>U+F25B</td>
+			</tr>
+	=09
+			<tr>
+				<td>456</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=9C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=9C</=
+td>
+				<td>three-chevrons-enlarging-up</td>
+				<td>U+F25C</td>
+			</tr>
+	=09
+			<tr>
+				<td>457</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=B9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=B9</=
+td>
+				<td>three-dots-horizontal</td>
+				<td>U+F1F9</td>
+			</tr>
+	=09
+			<tr>
+				<td>458</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=BA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=BA</=
+td>
+				<td>three-dots-vertical</td>
+				<td>U+F1FA</td>
+			</tr>
+	=09
+			<tr>
+				<td>459</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B6</=
+td>
+				<td>three-horizontal-bars-wrapping-right</td>
+				<td>U+F2B6</td>
+			</tr>
+	=09
+			<tr>
+				<td>460</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=BB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=BB</=
+td>
+				<td>three-people</td>
+				<td>U+F1FB</td>
+			</tr>
+	=09
+			<tr>
+				<td>461</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=AE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=AE</=
+td>
+				<td>three-ring-note</td>
+				<td>U+F2EE</td>
+			</tr>
+	=09
+			<tr>
+				<td>462</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=BC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=BC</=
+td>
+				<td>three-sliders-horizontal</td>
+				<td>U+F1FC</td>
+			</tr>
+	=09
+			<tr>
+				<td>463</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=BD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=BD</=
+td>
+				<td>three-stacked-squares-tilted</td>
+				<td>U+F1FD</td>
+			</tr>
+	=09
+			<tr>
+				<td>464</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=BE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=BE</=
+td>
+				<td>thumb-down</td>
+				<td>U+F1FE</td>
+			</tr>
+	=09
+			<tr>
+				<td>465</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=87=BF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=87=BF</=
+td>
+				<td>thumb-up</td>
+				<td>U+F1FF</td>
+			</tr>
+	=09
+			<tr>
+				<td>466</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=8F</=
+td>
+				<td>tik-tok</td>
+				<td>U+F2CF</td>
+			</tr>
+	=09
+			<tr>
+				<td>467</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=80</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=80</=
+td>
+				<td>tilt</td>
+				<td>U+F200</td>
+			</tr>
+	=09
+			<tr>
+				<td>468</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=81</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=81</=
+td>
+				<td>torso</td>
+				<td>U+F201</td>
+			</tr>
+	=09
+			<tr>
+				<td>469</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=82</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=82</=
+td>
+				<td>trash-can</td>
+				<td>U+F202</td>
+			</tr>
+	=09
+			<tr>
+				<td>470</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=83</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=83</=
+td>
+				<td>triangle-exclamation</td>
+				<td>U+F203</td>
+			</tr>
+	=09
+			<tr>
+				<td>471</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=84</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=84</=
+td>
+				<td>trophy</td>
+				<td>U+F204</td>
+			</tr>
+	=09
+			<tr>
+				<td>472</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=85</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=85</=
+td>
+				<td>tshirt</td>
+				<td>U+F205</td>
+			</tr>
+	=09
+			<tr>
+				<td>473</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=9D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=9D</=
+td>
+				<td>tshirt-2d-text</td>
+				<td>U+F25D</td>
+			</tr>
+	=09
+			<tr>
+				<td>474</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=90</=
+td>
+				<td>tshirt-dual-arrows</td>
+				<td>U+F2D0</td>
+			</tr>
+	=09
+			<tr>
+				<td>475</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=86</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=86</=
+td>
+				<td>twitch</td>
+				<td>U+F206</td>
+			</tr>
+	=09
+			<tr>
+				<td>476</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=87</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=87</=
+td>
+				<td>twitter</td>
+				<td>U+F207</td>
+			</tr>
+	=09
+			<tr>
+				<td>477</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8C=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8C=95</=
+td>
+				<td>two-arrows-branch-right</td>
+				<td>U+F315</td>
+			</tr>
+	=09
+			<tr>
+				<td>478</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=88</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=88</=
+td>
+				<td>two-arrows-down-and-up</td>
+				<td>U+F208</td>
+			</tr>
+	=09
+			<tr>
+				<td>479</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=89</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=89</=
+td>
+				<td>two-arrows-from-center</td>
+				<td>U+F209</td>
+			</tr>
+	=09
+			<tr>
+				<td>480</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=AF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=AF</=
+td>
+				<td>two-arrows-left-right</td>
+				<td>U+F2EF</td>
+			</tr>
+	=09
+			<tr>
+				<td>481</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=AB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=AB</=
+td>
+				<td>two-arrows-loop-clockwise</td>
+				<td>U+F2AB</td>
+			</tr>
+	=09
+			<tr>
+				<td>482</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=AC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=AC</=
+td>
+				<td>two-arrows-loop-clockwise-1</td>
+				<td>U+F2AC</td>
+			</tr>
+	=09
+			<tr>
+				<td>483</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=AD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=AD</=
+td>
+				<td>two-arrows-loop-clockwise-infinity</td>
+				<td>U+F2AD</td>
+			</tr>
+	=09
+			<tr>
+				<td>484</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=8A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=8A</=
+td>
+				<td>two-arrows-spin-clockwise</td>
+				<td>U+F20A</td>
+			</tr>
+	=09
+			<tr>
+				<td>485</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=AE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=AE</=
+td>
+				<td>two-arrows-spin-clockwise-plus</td>
+				<td>U+F2AE</td>
+			</tr>
+	=09
+			<tr>
+				<td>486</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=8B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=8B</=
+td>
+				<td>two-arrows-switch-right</td>
+				<td>U+F20B</td>
+			</tr>
+	=09
+			<tr>
+				<td>487</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=8C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=8C</=
+td>
+				<td>two-arrows-to-center</td>
+				<td>U+F20C</td>
+			</tr>
+	=09
+			<tr>
+				<td>488</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B7</=
+td>
+				<td>two-folders</td>
+				<td>U+F2B7</td>
+			</tr>
+	=09
+			<tr>
+				<td>489</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=8D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=8D</=
+td>
+				<td>two-location-pins-connecting-arrow</td>
+				<td>U+F20D</td>
+			</tr>
+	=09
+			<tr>
+				<td>490</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=AF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=AF</=
+td>
+				<td>two-makeup-brushes</td>
+				<td>U+F2AF</td>
+			</tr>
+	=09
+			<tr>
+				<td>491</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=8E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=8E</=
+td>
+				<td>two-people</td>
+				<td>U+F20E</td>
+			</tr>
+	=09
+			<tr>
+				<td>492</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=8F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=8F</=
+td>
+				<td>two-people-speech-bubble</td>
+				<td>U+F20F</td>
+			</tr>
+	=09
+			<tr>
+				<td>493</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=90</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=90</=
+td>
+				<td>two-stacked-squares</td>
+				<td>U+F210</td>
+			</tr>
+	=09
+			<tr>
+				<td>494</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=91</=
+td>
+				<td>two-switches-horizontal</td>
+				<td>U+F211</td>
+			</tr>
+	=09
+			<tr>
+				<td>495</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=92</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=92</=
+td>
+				<td>verified-backplate</td>
+				<td>U+F212</td>
+			</tr>
+	=09
+			<tr>
+				<td>496</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=93</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=93</=
+td>
+				<td>verified-check</td>
+				<td>U+F213</td>
+			</tr>
+	=09
+			<tr>
+				<td>497</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=94</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=94</=
+td>
+				<td>verified-mono</td>
+				<td>U+F214</td>
+			</tr>
+	=09
+			<tr>
+				<td>498</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=95</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=95</=
+td>
+				<td>video-camera</td>
+				<td>U+F215</td>
+			</tr>
+	=09
+			<tr>
+				<td>499</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=96</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=96</=
+td>
+				<td>video-camera-arrow-to-bottom-left</td>
+				<td>U+F216</td>
+			</tr>
+	=09
+			<tr>
+				<td>500</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=97</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=97</=
+td>
+				<td>video-camera-arrow-to-top-right</td>
+				<td>U+F217</td>
+			</tr>
+	=09
+			<tr>
+				<td>501</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=98</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=98</=
+td>
+				<td>video-camera-slash</td>
+				<td>U+F218</td>
+			</tr>
+	=09
+			<tr>
+				<td>502</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=99</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=99</=
+td>
+				<td>video-camera-triangle-exclamation</td>
+				<td>U+F219</td>
+			</tr>
+	=09
+			<tr>
+				<td>503</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=9A</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=9A</=
+td>
+				<td>video-camera-x</td>
+				<td>U+F21A</td>
+			</tr>
+	=09
+			<tr>
+				<td>504</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=9B</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=9B</=
+td>
+				<td>wallet</td>
+				<td>U+F21B</td>
+			</tr>
+	=09
+			<tr>
+				<td>505</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=91</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=91</=
+td>
+				<td>we-chat</td>
+				<td>U+F2D1</td>
+			</tr>
+	=09
+			<tr>
+				<td>506</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=89=9E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=89=9E</=
+td>
+				<td>whatsapp</td>
+				<td>U+F25E</td>
+			</tr>
+	=09
+			<tr>
+				<td>507</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=9C</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=9C</=
+td>
+				<td>x</td>
+				<td>U+F21C</td>
+			</tr>
+	=09
+			<tr>
+				<td>508</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=9D</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=9D</=
+td>
+				<td>x-small</td>
+				<td>U+F21D</td>
+			</tr>
+	=09
+			<tr>
+				<td>509</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8B=BF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8B=BF</=
+td>
+				<td>xbox</td>
+				<td>U+F2FF</td>
+			</tr>
+	=09
+			<tr>
+				<td>510</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=9E</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=9E</=
+td>
+				<td>xbox-a</td>
+				<td>U+F21E</td>
+			</tr>
+	=09
+			<tr>
+				<td>511</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B0</=
+td>
+				<td>xbox-a-pressed</td>
+				<td>U+F2B0</td>
+			</tr>
+	=09
+			<tr>
+				<td>512</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=8A=B1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=8A=B1</=
+td>
+				<td>xbox-a-unpressed</td>
+				<td>U+F2B1</td>
+			</tr>
+	=09
+			<tr>
+				<td>513</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=9F</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=9F</=
+td>
+				<td>xbox-b</td>
+				<td>U+F21F</td>
+			</tr>
+	=09
+			<tr>
+				<td>514</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A0</=
+td>
+				<td>xbox-dpad</td>
+				<td>U+F220</td>
+			</tr>
+	=09
+			<tr>
+				<td>515</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A1</=
+td>
+				<td>xbox-dpad-down</td>
+				<td>U+F221</td>
+			</tr>
+	=09
+			<tr>
+				<td>516</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A2</=
+td>
+				<td>xbox-dpad-left</td>
+				<td>U+F222</td>
+			</tr>
+	=09
+			<tr>
+				<td>517</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A3</=
+td>
+				<td>xbox-dpad-right</td>
+				<td>U+F223</td>
+			</tr>
+	=09
+			<tr>
+				<td>518</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A4</=
+td>
+				<td>xbox-dpad-up</td>
+				<td>U+F224</td>
+			</tr>
+	=09
+			<tr>
+				<td>519</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A5</=
+td>
+				<td>xbox-lb</td>
+				<td>U+F225</td>
+			</tr>
+	=09
+			<tr>
+				<td>520</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A6</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A6</=
+td>
+				<td>xbox-lt</td>
+				<td>U+F226</td>
+			</tr>
+	=09
+			<tr>
+				<td>521</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A7</=
+td>
+				<td>xbox-menu</td>
+				<td>U+F227</td>
+			</tr>
+	=09
+			<tr>
+				<td>522</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A8</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A8</=
+td>
+				<td>xbox-rb</td>
+				<td>U+F228</td>
+			</tr>
+	=09
+			<tr>
+				<td>523</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=A9</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=A9</=
+td>
+				<td>xbox-rt</td>
+				<td>U+F229</td>
+			</tr>
+	=09
+			<tr>
+				<td>524</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=AA</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=AA</=
+td>
+				<td>xbox-stick-left</td>
+				<td>U+F22A</td>
+			</tr>
+	=09
+			<tr>
+				<td>525</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=AB</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=AB</=
+td>
+				<td>xbox-stick-left-directional</td>
+				<td>U+F22B</td>
+			</tr>
+	=09
+			<tr>
+				<td>526</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=AC</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=AC</=
+td>
+				<td>xbox-stick-left-horizontal</td>
+				<td>U+F22C</td>
+			</tr>
+	=09
+			<tr>
+				<td>527</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B7</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B7</=
+td>
+				<td>xbox-stick-left-vertical</td>
+				<td>U+F237</td>
+			</tr>
+	=09
+			<tr>
+				<td>528</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=AD</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=AD</=
+td>
+				<td>xbox-stick-right</td>
+				<td>U+F22D</td>
+			</tr>
+	=09
+			<tr>
+				<td>529</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=AE</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=AE</=
+td>
+				<td>xbox-stick-right-directional</td>
+				<td>U+F22E</td>
+			</tr>
+	=09
+			<tr>
+				<td>530</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=AF</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=AF</=
+td>
+				<td>xbox-stick-right-horizontal</td>
+				<td>U+F22F</td>
+			</tr>
+	=09
+			<tr>
+				<td>531</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B0</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B0</=
+td>
+				<td>xbox-stick-right-vertical</td>
+				<td>U+F230</td>
+			</tr>
+	=09
+			<tr>
+				<td>532</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B1</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B1</=
+td>
+				<td>xbox-view</td>
+				<td>U+F231</td>
+			</tr>
+	=09
+			<tr>
+				<td>533</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B2</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B2</=
+td>
+				<td>xbox-x</td>
+				<td>U+F232</td>
+			</tr>
+	=09
+			<tr>
+				<td>534</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B3</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B3</=
+td>
+				<td>xbox-y</td>
+				<td>U+F233</td>
+			</tr>
+	=09
+			<tr>
+				<td>535</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B4</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B4</=
+td>
+				<td>xr-headset</td>
+				<td>U+F234</td>
+			</tr>
+	=09
+			<tr>
+				<td>536</td>
+				<td style=3D"font-family: BuilderIcons;">=EF=88=B5</td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;">=EF=88=B5</=
+td>
+				<td>youtube</td>
+				<td>U+F235</td>
+			</tr>
+		</tbody>
+		</table>
+	=09
+		<template id=3D"entry-template">
+			<tr>
+				<td></td>
+				<td style=3D"font-family: BuilderIcons;"></td>
+				<td style=3D"font-family: BuilderIcons; font-weight: bold;"></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</template>
+	=09
+	=09
+
+	=09
+
+	=09
+=09
+
+
+
+</body></html>
+------MultipartBoundary--B9PxQwGt3mYcJAHjPCQkgYvVY8RDqtt11kwprqbbOn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4f4bf4d3-6c18-4cb4-8a09-8ba7acf65fce@mhtml.blink
+
+@charset "utf-8";
+
+* { margin: 0px; padding: 0px; }
+
+body { background-color: rgb(25, 25, 25); font-family: monospace; color: wh=
+ite; }
+
+#loading-screen { position: fixed; width: 100%; height: 100%; display: flex=
+; justify-content: center; align-items: center; flex-direction: column; z-i=
+ndex: 2; }
+
+#loading-spinner { border-width: 20px; border-style: solid; border-color: r=
+gb(52, 152, 219) rgb(45, 45, 45) rgb(45, 45, 45); border-image: initial; bo=
+rder-radius: 50%; width: 120px; aspect-ratio: 1 / 1; animation: 1s linear 0=
+s infinite normal none running loading-spin; }
+
+#loading-text { margin-top: 25px; font-size: 20px; }
+
+@keyframes loading-spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#list-table { width: 100%; z-index: 1; table-layout: fixed; }
+
+#list-table th, #list-table td { text-align: center; padding: 5px 10px; }
+
+#list-table thead { background-color: rgb(60, 60, 60); }
+
+#list-table tbody { background-color: rgb(50, 50, 50); }
+
+#list-table tbody tr:nth-child(2n) { background-color: rgb(40, 40, 40); }
+
+::selection { background-color: white; color: black; }
+------MultipartBoundary--B9PxQwGt3mYcJAHjPCQkgYvVY8RDqtt11kwprqbbOn------

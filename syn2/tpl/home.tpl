@@ -61,7 +61,7 @@
              <div class="sidebar-section">
                 <h3 class="sidebar-header">MORE</h3>
                 <ul class="sidebar-menu">
-                    <li><a href="{url page="blog"}"><i class="bi bi-newspaper"></i> Blog</a></li>
+                    <li><a href="{url page="blog"}"><span class="b-icon">book-open</span> Blog</a></li>
                 </ul>
             </div>
         </div>
