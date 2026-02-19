@@ -89,18 +89,19 @@
 }
 
 .status-btn {
-    background-color: #00a2ff;
+    background-color: #2ea44f;
     color: white;
     border: none;
     padding: 8px 20px;
     border-radius: 4px;
     cursor: pointer;
-    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
     transition: background-color 0.2s;
 }
 
 .status-btn:hover {
-    background-color: #0088d6;
+    background-color: #2c974b;
 }
 
 .friend-list {

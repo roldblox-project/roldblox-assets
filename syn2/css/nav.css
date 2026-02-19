@@ -28,14 +28,14 @@
 
 @font-face {
     font-family: 'BuilderIcons';
-    src: url('../../../icons/BuilderIcons-Regular.ttf') format('truetype');
+    src: url('../../icons/BuilderIcons-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'BuilderIcons';
-    src: url('../../../icons/BuilderIcons-Filled.ttf') format('truetype');
+    src: url('../../icons/BuilderIcons-Filled.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -303,4 +303,25 @@ body {
     margin-left: 220px; /* Sidebar width + padding */
     min-height: calc(100vh - 56px);
     display: block;
+}
+
+/* Helpers for removing inline styles */
+.navbar-brand-link {
+    display: flex;
+    align-items: center;
+}
+
+.stat-link {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.logout-form {
+    margin: 0;
 }
