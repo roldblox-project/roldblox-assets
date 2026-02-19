@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
     
     <!-- Styles -->
-    <link rel="stylesheet" href="https://github.com/roldblox-project/roldblox-assets/blob/main/syn2/css/nav.css?raw=true">
-    <link rel="stylesheet" href="https://github.com/roldblox-project/roldblox-assets/blob/main/syn2/css/pages/home.css?raw=true">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/syn2/css/nav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/syn2/css/pages/home.css">
     
     <style>
         body {
@@ -31,7 +31,7 @@
     <!-- Top Navigation -->
     <nav class="top-nav">
         <a href="/" class="nav-logo">
-            <img src="https://github.com/roldblox-project/roldblox-assets/blob/main/images/logo.png?raw=true" alt="ROLDBLOX">
+            <img src="https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/images/logo.png" alt="ROLDBLOX">
         </a>
         
         <ul class="top-nav-list">
