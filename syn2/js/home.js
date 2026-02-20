@@ -142,23 +142,72 @@ class HomeRenderer {
         const nextBtn = document.getElementById('friends-next');
         if (!friends || friends.length === 0) {
             container.innerHTML = '<p class="empty-message d-table align-items-center d-flex">No friends found <img data-slider="true" width="21" height="21" src="https://media.tenor.com/jeYb8iK3YfsAAAAi/skull-skullgif.gif"></p>';
-            if (prevBtn)
-                prevBtn.style.display = 'none';
-            if (nextBtn)
-                nextBtn.style.display = 'none';
-            return
+            if (prevBtn) prevBtn.style.display = 'none';
+            if (nextBtn) nextBtn.style.display = 'none';
+            return;
         }
-        container.innerHTML = '';
+        // Build map of existing cards to update in place
+        const existing = new Map();
+        Array.from(container.children).forEach(el => {
+            if (el.classList && el.classList.contains('friend-card')) {
+                const id = el.getAttribute('data-friend-id');
+                if (id) existing.set(id, el);
+            }
+        });
+        const seen = new Set();
         friends.forEach(friend => {
-            const card = this.createFriendCard(friend);
-            container.appendChild(card)
+            const id = String(friend.friend_id);
+            seen.add(id);
+            let card = existing.get(id);
+            const now = Math.floor(Date.now() / 1000);
+            const statusTime = friend.friend_status ? new Date(friend.friend_status).getTime() / 1000 : 0;
+            const playedTime = friend.last_played_at ? new Date(friend.last_played_at).getTime() / 1000 : 0;
+            const studioTime = friend.last_studio_at ? new Date(friend.last_studio_at).getTime() / 1000 : 0;
+            const isOnline = (now - statusTime) <= 60;
+            const isIngame = (now - playedTime) <= 20;
+            const isInstudio = (now - studioTime) <= 30;
+            let statusClass = '';
+            let statusText = '';
+            if (isInstudio) {
+                statusClass = 'status-instudio';
+                statusText = 'In Studio';
+            } else if (isIngame) {
+                statusClass = 'status-ingame';
+                statusText = `Playing ${friend.game_title || 'a game'}`;
+            } else if (isOnline) {
+                statusClass = 'status-online';
+                statusText = 'Online';
+            }
+            if (card) {
+                // Update only what changed
+                card.className = `friend-card ${statusClass}`;
+                card.setAttribute('data-friend-name', friend.username);
+                card.setAttribute('data-game-title', friend.game_title || '');
+                card.title = `${friend.username} - ${statusText || 'Offline'}`;
+                const imgWrap = card.querySelector('.friend-card-image-container');
+                if (imgWrap) imgWrap.className = `friend-card-image-container ${statusClass}`;
+                const nameEl = card.querySelector('.friend-card-name');
+                if (nameEl) nameEl.textContent = friend.username;
+                const statusEl = card.querySelector('.friend-card-status');
+                if (statusEl) statusEl.textContent = statusText;
+            } else {
+                // Create and append new card
+                card = this.createFriendCard(friend);
+                container.appendChild(card);
+            }
+        });
+        // Remove cards that no longer exist
+        Array.from(container.querySelectorAll('.friend-card')).forEach(el => {
+            const id = el.getAttribute('data-friend-id');
+            if (id && !seen.has(id)) el.remove();
+        });
+        // Request thumbnails only for those we don't already have loaded
+        const toLoad = friends
+            .filter(f => !this.loadedThumbnails.has(f.friend_id))
+            .map(f => ({ id: f.friend_id, type: 'AvatarHeadShot', size: '100x100' }));
+        if (toLoad.length) {
+            this.batchLoadThumbnails(toLoad);
         }
-        );
-        this.batchLoadThumbnails(friends.map(f => ({
-            id: f.friend_id,
-            type: 'AvatarHeadShot',
-            size: '100x100'
-        })))
     }
     createFriendCard(friend) {
         const card = document.createElement('div');
@@ -187,6 +236,7 @@ class HomeRenderer {
             statusText = 'Online';
         }
         card.className = `friend-card ${statusClass}`;
+        card.title = `${friend.username} - ${statusText || 'Offline'}`;
         card.innerHTML = `
             <div class="friend-card-image-container ${statusClass}">
                 <img class="friend-card-img" data-thumb-id="${friend.friend_id}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
