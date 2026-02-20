@@ -5,6 +5,9 @@
     <div style="font-family: 'BuilderIcons'; font-weight: bold; opacity: 0; position: absolute; pointer-events: none;">.</div>
     
     <div class="navbar-left">
+        <button class="navbar-burger" aria-label="Open menu">
+            <span class="b-icon">three-bars-horizontal</span>
+        </button>
         <a href="{url page="home"}" class="navbar-brand-link">
             <img src="https://github.com/roldblox-project/roldblox-assets/blob/main/images/logo.png?raw=true" alt="ROLDBLOX" class="navbar-logo">
         </a>
@@ -91,6 +94,7 @@
         </ul>
     </div>
 </div>
+<div class="sidebar-backdrop"></div>
 
 <script>
     function toggleDropdown(event) {
@@ -134,6 +138,49 @@
             const originalValue = el.getAttribute('data-value');
             if (originalValue) {
                 el.textContent = formatNumber(originalValue);
+            }
+        });
+
+        const burger = document.querySelector('.navbar-burger');
+        const sidebar = document.querySelector('.sidebar');
+        const backdrop = document.querySelector('.sidebar-backdrop');
+
+        function openMenu() {
+            if (!sidebar || !backdrop) return;
+            sidebar.classList.add('open');
+            backdrop.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            if (!sidebar || !backdrop) return;
+            sidebar.classList.remove('open');
+            backdrop.classList.remove('show');
+            document.body.style.overflow = '';
+        }
+
+        if (burger) {
+            burger.addEventListener('click', function(e) {
+                e.stopPropagation();
+                if (sidebar.classList.contains('open')) {
+                    closeMenu();
+                } else {
+                    openMenu();
+                }
+            });
+        }
+
+        if (backdrop) {
+            backdrop.addEventListener('click', closeMenu);
+        }
+
+        document.querySelectorAll('.sidebar a').forEach(function(a) {
+            a.addEventListener('click', closeMenu);
+        });
+
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 900) {
+                closeMenu();
             }
         });
     });
