@@ -84,8 +84,7 @@ body {
 .navbar-right {
     display: flex;
     align-items: center;
-    gap: 15px;
-    font-size: 14px;
+    height: 100%;
 }
 
 .b-icon {
@@ -197,7 +196,8 @@ body {
 /* Sidebar Styles */
 .sidebar {
     width: 200px;
-    background-color: rgb(20, 20, 30);
+    background-color: rgba(20, 20, 30, 0.5);
+    backdrop-filter: blur(8px);
     padding: 15px 10px;
     border-right: 1px solid rgb(40, 40, 50);
     display: flex;

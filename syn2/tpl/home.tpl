@@ -91,9 +91,9 @@
                         <h3 id="todays-picks-title" style="display: none; margin: 0; font-size: 20px; font-weight: 600;">Today's Picks</h3>
                         <div id="todays-picks-subtitle" style="display: none; color: #666; font-size: 12px; margin-bottom: 10px;">Highlights from the community</div>
                         <div class="game-carousel-container" style="position: relative;">
-                             <button id="picks-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&lt;</button>
+                             <button id="picks-prev" class="carousel-btn prev" style="display: none; position: absolute; left: 5px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: transparent; color: white; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
                              <div id="todays-picks-container" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; scrollbar-width: none;"></div>
-                             <button id="picks-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&gt;</button>
+                             <button id="picks-next" class="carousel-btn next" style="display: none; position: absolute; right: 5px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: transparent; color: white; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
                         </div>
                     </div>
                 </div>
