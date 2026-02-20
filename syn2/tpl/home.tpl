@@ -98,6 +98,7 @@
         </div>
     </div>
     
+    <script>window.CURRENT_USER_ID={$user_data['id']};</script>
     <script src="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/js/home.js?v={time()}"></script>
 </body>
 </html>

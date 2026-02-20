@@ -10,8 +10,22 @@ class HomeRenderer {
             this.setupCarousels();
             this.setupScrollFades();
             this.setupLauncher()
+            this.loadFriendCount()
         } catch (error) {
             console.error('Error initializing home:', error)
+        }
+    }
+    async loadFriendCount() {
+        try {
+            const id = (window.CURRENT_USER_ID || '').toString();
+            if (!id) return;
+            const res = await fetch(`/v1/users/${id}/friends/count`, { credentials: 'include' });
+            if (!res.ok) return;
+            const data = await res.json();
+            const n = (data && (data.count ?? data.data ?? data.total)) || 0;
+            const els = document.querySelectorAll('.friend-count-display');
+            els.forEach(el => el.textContent = n);
+        } catch (e) {
         }
     }
     async loadFriends() {
