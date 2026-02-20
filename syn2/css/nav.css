@@ -132,7 +132,6 @@ body {
 
 .b-icon {
     font-family: 'BuilderIcons';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -355,7 +354,6 @@ body {
 .navbar-nav-links {
     display: flex;
     align-items: center;
-    margin-left: 20px;
     height: 100%;
 }
 
@@ -405,8 +403,4 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
-}
-
-.navbar-right .nav-item-link {
-    /* Ensure they behave the same */
 }
