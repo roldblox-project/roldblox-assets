@@ -272,10 +272,10 @@ body {
     width: 100%;
     text-align: center;
     white-space: nowrap;
-    overflow-x: hidden;
-    overflow-y: visible;
+    overflow: hidden;
     text-overflow: ellipsis;
-    line-height: 1.2;
+    line-height: 1.25;
+    padding-bottom: 2px;
     margin: 0;
 }
 
@@ -285,8 +285,7 @@ body {
     margin-top: 2px;
     text-align: center;
     white-space: nowrap;
-    overflow-x: hidden;
-    overflow-y: visible;
+    overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1.25;
     max-width: 100%;
