@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/nav.css?v={time()}">
+<link rel="stylesheet" href="/syn2/css/nav.css?v={time()}">
 
 <div class="navbar">
     <!-- Preload filled icons -->

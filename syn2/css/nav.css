@@ -49,13 +49,15 @@ body {
 }
 
 .navbar {
-    background-color: rgb(30, 30, 40);
+    background-color: rgba(30, 30, 40, 0.75);
+    backdrop-filter: blur(8px);
     color: white;
     height: 56px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 0 0 10px;
+    /* Removed right padding */
     position: fixed;
     top: 0;
     width: 100%;
@@ -74,74 +76,79 @@ body {
 .navbar-left {
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .navbar-logo {
     height: 30px;
     margin-right: 20px;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navbar-logo:hover {
+    transform: scale(1.08);
+}
+
+.navbar-brand-link {
+    width: 200px;
+    height: 56px;
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-right {
     display: flex;
     align-items: center;
     height: 100%;
+    margin-right: 0;
 }
 
-.b-icon {
-    font-family: 'BuilderIcons';
-    font-weight: normal;
-    font-style: normal;
-    font-variant-ligatures: common-ligatures;
-    -webkit-font-feature-settings: "liga";
-    -moz-font-feature-settings: "liga";
-    font-feature-settings: "liga";
-    text-rendering: optimizeLegibility;
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-    -webkit-font-smoothing: antialiased;
-}
-
-.user-stat {
+.nav-item-link {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2px;
-    padding: 2px;
-    border-radius: 4px;
-    margin-top: 2px;
-    min-width: 44px;
-    height: 44px;
+    height: 56px;
+    /* Full navbar height */
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.2s;
     box-sizing: border-box;
 }
 
-.user-stat .b-icon {
-    font-size: 24px;
-    font-weight: normal;
+.navbar-left .nav-item-link {
+    width: 64px;
 }
 
-.user-stat span {
-    font-size: 14px;
-    font-weight: normal;
+.navbar-right .nav-item-link {
+    width: 56px;
 }
 
-.user-stat:hover {
+.nav-item-link:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    cursor: pointer;
 }
 
-.user-stat:hover .b-icon,
-.user-stat:hover span {
+.nav-item-link .b-icon {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.nav-item-link .nav-label {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.nav-item-link:hover .nav-label {
     font-weight: bold;
 }
 
-.user-stat strong {
-    font-weight: 700;
+/* Remove old user-stat styles if they conflict or reuse them */
+.user-stat {
+    display: none;
+    /* Deprecated in favor of nav-item-link */
 }
+
 
 /* Settings Dropdown */
 .settings-dropdown {
@@ -196,7 +203,8 @@ body {
 /* Sidebar Styles */
 .sidebar {
     width: 200px;
-    background-color: rgba(20, 20, 30, 0.5);
+    box-sizing: border-box;
+    background-color: rgba(20, 20, 30, 0.75);
     backdrop-filter: blur(8px);
     padding: 15px 10px;
     border-right: 1px solid rgb(40, 40, 50);
@@ -349,6 +357,7 @@ body {
     transition: background-color 0.2s;
     width: 64px;
     height: 100%;
+    /* Ensure it takes full height */
     box-sizing: border-box;
 }
 

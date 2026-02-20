@@ -251,29 +251,71 @@ class HomeRenderer {
         })))
     }
     createGameCard(game, style) {
-        const votePercentage = game.total_votes > 0 ? Math.min(Math.round((game.total_likes / game.total_votes) * 100), 100) : 'N/A';
-        const assetId = game.asset_id || game.id;
-        const title = this.escapeHtml(game.title);
-        const version = game.version_type || '2016';
+        // Mock data if properties are missing (adjust based on actual API response)
+        const votePercentage = game.total_votes > 0 ? Math.min(Math.round((game.total_likes / game.total_votes) * 100), 100) : 0;
+        // If API doesn't provide vote counts, use mock or 0
+
+        // For demonstration, let's assume game object has total_likes and total_votes. 
+        // If not, we'll check if they exist or default.
+
+        const card = document.createElement('li');
+        card.className = 'game-card';
+        // Remove hover transform in CSS, no inline style needed for that.
+
+        // Construct the card HTML
+        const gameUrl = `/games/${game.place_id || game.id}`; // Handle both place_id and id
+        const gameTitle = this.escapeHtml(game.name || game.title || 'Unknown Game');
         const playerCount = game.player_count || 0;
-        const isSponsored = game.is_sponsored || 0;
-        let gameUrl = `/games/${assetId}/${this.generateAssetName(title)}`;
-        if (isSponsored)
-            gameUrl += `?sponsored=${isSponsored}`;
-        if (style === 'landscape') {
-            const a = document.createElement('a');
-            a.className = 'text-decoration-none gamelaunch-btn flex-shrink-0';
-            a.href = gameUrl;
-            a.setAttribute('data-placeid', assetId);
-            a.style.width = '280px';
-            a.innerHTML = `<div class="overflow-hidden rounded"><div class="position-relative"><div class="shimmer-box rounded" data-thumb-id="${assetId}" style="width:280px;height:158px;display:block;aspect-ratio:16/9"></div>${game.category ? `<span class="badge bg-primary position-absolute top-0 start-0 m-2" style="z-index:1;font-size:11px">${this.escapeHtml(game.category)}</span>` : ''}<div class="position-absolute bottom-0 start-0 m-2"><span class="badge bg-dark" style="font-size:10px">${version}</span></div></div><h6 class="mt-2 mb-0 text-white text-truncate" style="font-size:15px;font-weight:600">${title}</h6>${playerCount > 0 ? `<p class="text-secondary mb-0" style="font-size:12px"><i class="bi bi-people"></i> ${this.formatNumber(playerCount)} playing</p>` : ''}</div>`;
-            return a
-        } else {
-            const li = document.createElement('li');
-            li.className = 'list-item game-card game-tile';
-            li.innerHTML = `<div class="game-card-container"><a class="game-card-link" href="${gameUrl}" tabindex="0"><div class="game-card-thumb-container"><span class="thumbnail-2d-container game-card-thumb position-relative"><div class="shimmer-box" data-thumb-id="${assetId}" style="width:150px;height:150px"></div><div class="position-absolute" style="bottom:0;left:0;z-index:10"><div class="fw-bold bg-dark text-white" style="font-size:12px;padding:3px;border-top-right-radius:4px">${version}</div></div></span></div><div class="game-card-name game-name-title" title="${title}">${title}</div><div class="game-card-info"><span class="info-label icon-votes-gray"></span><span class="info-label vote-percentage-label">${votePercentage}%</span><span class="info-label icon-playing-counts-gray"></span><span class="info-label playing-counts-label">${this.formatNumber(playerCount)}</span></div></a></div>`;
-            return li
-        }
+
+        card.innerHTML = `
+            <div class="game-card-container">
+                <a class="game-card-link" href="${gameUrl}" tabindex="0">
+                    <div class="game-card-thumb-container">
+                        <img class="game-card-thumb" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-thumb-id="${game.asset_id || game.id}" alt="${gameTitle}">
+                    </div>
+                    <div class="game-card-info">
+                        <div class="game-card-title" title="${gameTitle}">${gameTitle}</div>
+                        
+                        <div class="game-rating-container">
+                            <div class="vote-bar-bg">
+                                <div class="vote-bar-fill" style="width: ${votePercentage}%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="rating-icons">
+                             <div class="rating-icon-item">
+                                <span class="b-icon">thumb-up</span> <span>${votePercentage}%</span>
+                            </div>
+                            <div class="rating-icon-item" style="margin-left: auto;">
+                                <span class="b-icon">playing</span> <span>${this.formatNumber(playerCount)}</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        `;
+
+        // Add styles if not present in CSS yet (we added them to home.css, but just to be safe let's ensure structure matches)
+        return card;
+    }
+
+    // Helper for number formatting if not exists
+    formatNumber(num) {
+        if (num >= 1000000000) return (num / 1000000000).toFixed(1).replace(/\.0$/, '') + 'b';
+        if (num >= 1000000) return (num / 1000000).toFixed(1).replace(/\.0$/, '') + 'm';
+        if (num >= 1000) return (num / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+        return num.toString();
+    }
+
+    // Override escapeHtml to be safe
+    escapeHtml(unsafe) {
+        if (!unsafe) return '';
+        return unsafe
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
     }
     async batchLoadThumbnails(items) {
         if (!items || items.length === 0)

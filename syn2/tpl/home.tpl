@@ -33,7 +33,7 @@
                         <div class="profile-stats">
                             <div class="stat-item">
                                 <span class="stat-label">Friends</span>
-                                <a href="/users/{$user_data['id']}/friends" class="stat-value" id="friend-count">...</a>
+                                <a href="/users/{$user_data['id']}/friends" class="stat-value friend-count-display" id="friend-count">...</a>
                             </div>
                             <div class="stat-item">
                                 <span class="stat-label">Followers</span>
@@ -59,11 +59,11 @@
                 <div class="friends-section">
                     <h3 class="section-header"><div>My Friends (<span class="friend-count-display">...</span>)</div> <a href="/users" style="font-size: 12px; font-weight: normal; color: #00a2ff; text-decoration: none;">Find Friends</a></h3>
                     <div class="friends-carousel-wrapper" style="position: relative;">
-                        <button id="friends-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon">chevron-large-left</span></button>
+                        <button id="friends-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
                         <div class="friend-list" id="friends-container" style="display: flex; overflow-x: auto; scrollbar-width: none; gap: 10px;">
                             <!-- Friends injected here by home.js -->
                         </div>
-                        <button id="friends-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon">chevron-large-right</span></button>
+                        <button id="friends-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
                     </div>
                     <div id="no-friends-msg" style="text-align: center; padding: 20px; color: #666; font-size: 13px; font-style: italic; display: none;">
                         You don't have any friends yet.
@@ -79,10 +79,10 @@
                             <h3 style="margin: 0; font-size: 20px; font-weight: 600;">Continue</h3>
                         </div>
                         <div class="game-carousel-container" style="position: relative;">
-                            <button id="recent-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon">chevron-large-left</span></button>
+                            <button id="recent-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
                             <ul id="recent-container" class="game-list" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; margin: 0; list-style: none; scrollbar-width: none;">
                             </ul>
-                            <button id="recent-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon">chevron-large-right</span></button>
+                            <button id="recent-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
                         </div>
                     </div>
 
@@ -91,9 +91,9 @@
                         <h3 id="todays-picks-title" style="display: none; margin: 0; font-size: 20px; font-weight: 600;">Today's Picks</h3>
                         <div id="todays-picks-subtitle" style="display: none; color: #666; font-size: 12px; margin-bottom: 10px;">Highlights from the community</div>
                         <div class="game-carousel-container" style="position: relative;">
-                             <button id="picks-prev" class="carousel-btn prev" style="display: none; position: absolute; left: 5px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: transparent; color: white; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
+                             <button id="picks-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
                              <div id="todays-picks-container" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; scrollbar-width: none;"></div>
-                             <button id="picks-next" class="carousel-btn next" style="display: none; position: absolute; right: 5px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: transparent; color: white; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
+                             <button id="picks-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
                         </div>
                     </div>
                 </div>
@@ -105,6 +105,6 @@
         </div>
     </div>
     
-    <script src="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/js/home.js?v={time()}"></script>
+    <script src="/syn2/js/home.js?v={time()}"></script>
 </body>
 </html>
