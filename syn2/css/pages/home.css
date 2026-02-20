@@ -33,7 +33,7 @@ body {
     padding: 15px;
     align-items: center;
     /* Vertically center everything */
-    background-color: rgba(20, 20, 30, 0.6);
+    background-color: rgba(10, 10, 20, 0.25);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 4px;
@@ -174,14 +174,14 @@ body {
 }
 
 .friends-carousel-wrapper {
-    background-color: rgba(30, 30, 40, 0.85);
+    background-color: rgba(30, 30, 40, 0.25);
     border-radius: 4px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .game-carousel-container {
-    background-color: rgba(30, 30, 40, 0.85);
+    background-color: rgba(30, 30, 40, 0.25);
     border-radius: 4px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
