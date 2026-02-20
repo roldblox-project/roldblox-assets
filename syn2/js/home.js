@@ -88,7 +88,7 @@ class HomeRenderer {
         const prevBtn = document.getElementById('friends-prev');
         const nextBtn = document.getElementById('friends-next');
         if (!friends || friends.length === 0) {
-            container.innerHTML = '<p style="margin: auto auto;" class="d-table align-items-center d-flex">No friends found <img data-slider="true" width="21" height="21" src="https://media.tenor.com/jeYb8iK3YfsAAAAi/skull-skullgif.gif"></p>';
+            container.innerHTML = '<p class="empty-message d-table align-items-center d-flex">No friends found <img data-slider="true" width="21" height="21" src="https://media.tenor.com/jeYb8iK3YfsAAAAi/skull-skullgif.gif"></p>';
             if (prevBtn)
                 prevBtn.style.display = 'none';
             if (nextBtn)
@@ -109,7 +109,7 @@ class HomeRenderer {
     }
     createFriendCard(friend) {
         const card = document.createElement('div');
-        card.className = 'friend-card me-3';
+        card.className = 'friend-card';
         card.setAttribute('data-friend-id', friend.friend_id);
         card.setAttribute('data-friend-name', friend.username);
         card.setAttribute('data-game-title', friend.game_title || '');
@@ -130,7 +130,13 @@ class HomeRenderer {
         } else if (isOnline) {
             statusIcon = '<div class="status-icon"></div>'
         }
-        card.innerHTML = `<div class="image-container" style="position:relative"><img class="rounded w-100" data-thumb-id="${friend.friend_id}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="margin:0 auto;opacity:0;transition:opacity 0.3s">${statusIcon}</div><p class="text-white w-100 text-center d-inline-block m-0 text-truncate" style="font-size: 12px;">${this.escapeHtml(friend.username)}</p>`;
+        card.innerHTML = `
+            <div class="friend-card-image-container">
+                <img class="friend-card-img" data-thumb-id="${friend.friend_id}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                ${statusIcon}
+            </div>
+            <p class="friend-card-name">${this.escapeHtml(friend.username)}</p>
+        `;
         card.onclick = () => window.location.href = `/users/${friend.friend_id}/profile`;
         return card
     }
@@ -196,7 +202,7 @@ class HomeRenderer {
         const prevBtn = document.getElementById('recent-prev');
         const nextBtn = document.getElementById('recent-next');
         if (!games || games.length === 0) {
-            container.innerHTML = '<p style="margin: auto auto;" class="d-table">...</p>';
+            container.innerHTML = '<p class="empty-message d-table">...</p>';
             if (prevBtn)
                 prevBtn.style.display = 'none';
             if (nextBtn)
@@ -262,11 +268,18 @@ class HomeRenderer {
             gameUrl += `?sponsored=${isSponsored}`;
         if (style === 'landscape') {
             const a = document.createElement('a');
-            a.className = 'text-decoration-none gamelaunch-btn flex-shrink-0';
+            a.className = 'game-card-landscape';
             a.href = gameUrl;
             a.setAttribute('data-placeid', assetId);
-            a.style.width = '280px';
-            a.innerHTML = `<div class="overflow-hidden rounded"><div class="position-relative"><div class="shimmer-box rounded" data-thumb-id="${assetId}" style="width:280px;height:158px;display:block;aspect-ratio:16/9"></div>${game.category ? `<span class="badge bg-primary position-absolute top-0 start-0 m-2" style="z-index:1;font-size:11px">${this.escapeHtml(game.category)}</span>` : ''}<div class="position-absolute bottom-0 start-0 m-2"><span class="badge bg-dark" style="font-size:10px">${version}</span></div></div><h6 class="mt-2 mb-0 text-white text-truncate" style="font-size:15px;font-weight:600">${title}</h6>${playerCount > 0 ? `<p class="text-secondary mb-0" style="font-size:12px"><i class="bi bi-people"></i> ${this.formatNumber(playerCount)} playing</p>` : ''}</div>`;
+            a.innerHTML = `
+                <div class="game-card-landscape-thumb-container">
+                    <div class="shimmer-box rounded shimmer-landscape" data-thumb-id="${assetId}"></div>
+                    ${game.category ? `<span class="game-category-badge">${this.escapeHtml(game.category)}</span>` : ''}
+                    <div class="game-version-badge game-version-badge-landscape">${version}</div>
+                </div>
+                <h6 class="game-card-landscape-title">${title}</h6>
+                ${playerCount > 0 ? `<p class="game-card-landscape-info"><span class="b-icon game-card-stats-icon">people</span> ${this.formatNumber(playerCount)} playing</p>` : ''}
+            `;
             return a
         } else {
             const li = document.createElement('li');
@@ -276,17 +289,15 @@ class HomeRenderer {
                 <a class="game-card-link" href="${gameUrl}" tabindex="0">
                     <div class="game-card-thumb-container">
                         <span class="thumbnail-2d-container game-card-thumb position-relative">
-                            <div class="shimmer-box" data-thumb-id="${assetId}" style="width:150px;height:150px"></div>
-                            <div class="position-absolute" style="bottom:0;left:0;z-index:10">
-                                <div class="fw-bold bg-dark text-white" style="font-size:12px;padding:3px;border-top-right-radius:4px">${version}</div>
-                            </div>
+                            <div class="shimmer-box shimmer-square" data-thumb-id="${assetId}"></div>
+                            <div class="game-version-badge">${version}</div>
                         </span>
                     </div>
                     <div class="game-card-title" title="${title}">${title}</div>
                     <div class="game-card-info">
-                        <span class="info-label"><span class="b-icon" style="font-size: 12px; margin-right: 2px;">thumb-up</span></span>
-                        <span class="info-label vote-percentage-label" style="margin-right: 8px;">${votePercentage}%</span>
-                        <span class="info-label"><span class="b-icon" style="font-size: 12px; margin-right: 2px;">people</span></span>
+                        <span class="info-label"><span class="b-icon game-card-stats-icon">thumb-up</span></span>
+                        <span class="info-label vote-percentage-label game-card-stats-value">${votePercentage}%</span>
+                        <span class="info-label"><span class="b-icon game-card-stats-icon">people</span></span>
                         <span class="info-label playing-counts-label">${this.formatNumber(playerCount)}</span>
                     </div>
                 </a>
@@ -355,10 +366,7 @@ class HomeRenderer {
             } else {
                 const img = document.createElement('img');
                 img.src = imageUrl;
-                img.style.width = '100%';
-                img.style.height = '100%';
-                img.style.objectFit = 'cover';
-                img.style.display = 'block';
+                img.className = 'thumbnail-img';
                 el.innerHTML = '';
                 el.appendChild(img)
             }

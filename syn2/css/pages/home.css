@@ -202,6 +202,19 @@ body {
     scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
 }
 
+/* Shimmer Placeholders */
+.shimmer-landscape {
+    width: 280px;
+    height: 158px;
+    display: block;
+    aspect-ratio: 16/9;
+}
+
+.shimmer-square {
+    width: 150px;
+    height: 150px;
+}
+
 /* Friend Card Styling */
 .friend-card {
     background-color: rgba(255, 255, 255, 0.05);
@@ -214,31 +227,41 @@ body {
     align-items: center;
     transition: background-color 0.2s;
     text-align: center;
-    margin-right: 0 !important;
-    /* Override bootstrap me-3 if needed, but flex gap handles it */
+    cursor: pointer;
+    /* Margin handled by flex gap */
 }
 
 .friend-card:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    transform: none !important;
 }
 
-.friend-card .image-container {
+.friend-card-image-container {
+    position: relative;
     margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
 }
 
-.friend-card img {
-    border-radius: 50% !important;
-    width: 80px !important;
-    height: 80px !important;
+.friend-card-img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
-.friend-card p {
+.friend-card-name {
     font-weight: 600;
-    font-size: 13px !important;
-    color: #ddd !important;
+    font-size: 13px;
+    color: #ddd;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
 }
 
 /* Game Card Styles */
@@ -250,6 +273,101 @@ body {
     flex: 0 0 auto;
     width: 150px;
     list-style: none;
+}
+
+/* Utility Classes */
+.empty-message {
+    margin: auto;
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Landscape Game Card */
+.game-card-landscape {
+    text-decoration: none;
+    flex-shrink: 0;
+    width: 280px;
+    display: block;
+}
+
+.game-card-landscape-thumb-container {
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+    aspect-ratio: 16/9;
+}
+
+.game-card-landscape-thumb {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.game-card-landscape-title {
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.game-card-landscape-info {
+    color: #6c757d;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.game-category-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 8px;
+    z-index: 1;
+    font-size: 11px;
+    background-color: #0d6efd;
+    /* bg-primary */
+    color: white;
+    padding: 0.25em 0.4em;
+    border-radius: 0.25rem;
+}
+
+.game-version-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    font-size: 12px;
+    background-color: #212529;
+    /* bg-dark */
+    color: white;
+    padding: 3px;
+    border-top-right-radius: 4px;
+}
+
+.game-version-badge-landscape {
+    margin: 8px;
+    border-radius: 0.25rem;
+    /* Standard badge radius */
+    padding: 0.25em 0.4em;
+}
+
+/* Stats Icons */
+.game-card-stats-icon {
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.game-card-stats-value {
+    margin-right: 8px;
 }
 
 .game-card:hover {
@@ -370,6 +488,20 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: #fff;
+}
+
+#todays-picks-title {
+    display: none;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#todays-picks-subtitle {
+    display: none;
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
 /* Override inline padding for game lists to prevent shadow clipping */
