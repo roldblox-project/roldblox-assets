@@ -149,6 +149,25 @@ body {
     margin-bottom: 2px;
 }
 
+.nav-item-link .svg-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.nav-item-link .svg-icon-filled {
+    display: none;
+}
+
+.nav-item-link:hover .svg-icon-regular {
+    display: none;
+}
+
+.nav-item-link:hover .svg-icon-filled {
+    display: block;
+}
+
 .nav-item-link .nav-label {
     font-size: 12px;
     font-weight: normal;
@@ -487,6 +506,12 @@ body {
     .navbar-brand-link {
         width: auto;
         padding: 0 10px;
+    }
+
+    /* Remove horizontal padding and normalize height for nav links on small screens */
+    .navbar .nav-item-link {
+        padding: 0;
+        height: 56px;
     }
 
     .sidebar {

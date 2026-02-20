@@ -32,7 +32,8 @@
             <span class="nav-label currency-amount" data-value="{$user_data['robux']}">{$user_data["robux"]}</span>
         </a>
         <a href="{url page="transactions"}" class="nav-item-link" title="{$user_data['tickets']} Tix">
-            <span class="b-icon" style="font-size: 20px; margin-top: 2px;">ticket</span>
+            <img class="svg-icon svg-icon-regular" src="https://raw.githack.com/roldblox-project/roldblox-assets/main/icons/SVG/Regular/tix.svg?v={time()}" alt="Tix" width="24" height="24">
+            <img class="svg-icon svg-icon-filled" src="https://raw.githack.com/roldblox-project/roldblox-assets/main/icons/SVG/Filled/tix.svg?v={time()}" alt="Tix" width="24" height="24">
             <span class="nav-label currency-amount" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</span>
         </a>
         <div class="nav-item-link settings-dropdown" onclick="toggleDropdown(event)" style="cursor: pointer;">
