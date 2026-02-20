@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+    src: url('https://raw.githack.com/roldblox-project/roldblox-assets/main/fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+    src: url('https://raw.githack.com/roldblox-project/roldblox-assets/main/fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/fonts/SourceSansPro/SourceSansPro-Light.ttf') format('truetype');
+    src: url('https://raw.githack.com/roldblox-project/roldblox-assets/main/fonts/SourceSansPro/SourceSansPro-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('https://cdn.jsdelivr.net/gh/roldblox-project/roldblox-assets@main/fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
+    src: url('https://raw.githack.com/roldblox-project/roldblox-assets/main/fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
@@ -122,10 +122,12 @@ body {
 
 .user-stat .b-icon {
     font-size: 24px;
+    font-weight: normal;
 }
 
 .user-stat span {
     font-size: 14px;
+    font-weight: normal;
 }
 
 .user-stat:hover {
@@ -155,7 +157,7 @@ body {
     top: 100%;
     background-color: rgb(30, 30, 40);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1001;
     border-radius: 4px;
     padding: 5px 0;
@@ -166,7 +168,7 @@ body {
     display: block;
 }
 
-.dropdown-content a, 
+.dropdown-content a,
 .dropdown-content button {
     color: white;
     padding: 10px 15px;
@@ -182,7 +184,7 @@ body {
     box-sizing: border-box;
 }
 
-.dropdown-content a:hover, 
+.dropdown-content a:hover,
 .dropdown-content button:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -301,7 +303,8 @@ body {
 /* Main Container Adjustment for Fixed Sidebar */
 .main-container {
     margin-top: 56px;
-    margin-left: 220px; /* Sidebar width + padding */
+    margin-left: 220px;
+    /* Sidebar width + padding */
     min-height: calc(100vh - 56px);
     display: block;
 }
@@ -331,7 +334,6 @@ body {
 .navbar-nav-links {
     display: flex;
     align-items: center;
-    gap: 15px;
     margin-left: 20px;
 }
 
@@ -355,9 +357,20 @@ body {
 .nav-item-link .b-icon {
     font-size: 24px;
     margin-bottom: 2px;
+    font-weight: normal;
+}
+
+.nav-item-link:hover .b-icon {
+    font-weight: bold;
 }
 
 .nav-item-link .nav-label {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: normal;
+    color: #ccc;
+}
+
+.nav-item-link:hover .nav-label {
+    font-weight: bold;
+    color: #fff;
 }

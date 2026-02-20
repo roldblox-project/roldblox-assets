@@ -2,9 +2,6 @@
 <html>
 <head>
     <title>Home - ROLDBLOX</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
     <link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/pages/home.css?v={time()}">
 </head>
@@ -108,6 +105,6 @@
         </div>
     </div>
     
-    <script src="https://raw.githack.com/roldblox-project/roldblox-assets/main/home.js?v={time()}"></script>
+    <script src="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/js/home.js?v={time()}"></script>
 </body>
 </html>
