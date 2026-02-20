@@ -200,178 +200,106 @@ body {
     scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
 }
 
-.friend-list::-webkit-scrollbar {
-    height: 6px;
-}
-
-.friend-list::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.friend-list::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 3px;
-}
-
-.section-header {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    color: #fff;
-    border-bottom: 1px solid rgb(50, 50, 60);
-    padding-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.feed-item {
-    background-color: rgb(30, 30, 40);
-    border: 1px solid rgb(50, 50, 60);
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
+/* Friend Card Styling */
 .friend-card {
-    background-color: transparent;
-    border: none;
-    border-radius: 6px;
-    padding: 5px;
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 10px;
+    min-width: 100px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none;
-    transition: background-color 0.2s ease;
-    cursor: pointer;
-    width: 100px;
-    flex-shrink: 0;
+    transition: background-color 0.2s;
+    text-align: center;
+    margin-right: 0 !important;
+    /* Override bootstrap me-3 if needed, but flex gap handles it */
 }
 
 .friend-card:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    transform: none;
+    transform: none !important;
 }
 
-.friend-avatar-wrapper {
-    position: relative;
-    margin-bottom: 4px;
-    width: 90px;
-    height: 90px;
-    margin: 0 auto;
+.friend-card .image-container {
+    margin-bottom: 5px;
 }
 
-.friend-avatar {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
+.friend-card img {
+    border-radius: 50% !important;
+    width: 80px !important;
+    height: 80px !important;
     object-fit: cover;
-    background-color: #000;
-    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.friend-name {
-    font-size: 12px;
-    color: #ccc;
-    font-weight: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 100%;
-    margin-top: 4px;
-}
-
-/* Container backgrounds */
-.friends-carousel-wrapper,
-.game-carousel-container {
-    background-color: rgba(30, 30, 40, 0.75);
-    backdrop-filter: blur(8px);
-    border-radius: 8px;
-    padding: 15px 35px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+.friend-card p {
+    font-weight: 600;
+    font-size: 13px !important;
+    color: #ddd !important;
 }
 
 /* Game Card Styles */
-.game-list {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    padding: 5px 0;
-    margin: 0;
-    list-style: none;
-    scrollbar-width: none;
-}
-
-.game-list::-webkit-scrollbar {
-    display: none;
-}
-
 .game-card {
+    background-color: rgba(30, 30, 40, 0.75);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex: 0 0 auto;
     width: 150px;
-    flex-shrink: 0;
-    transition: transform 0.2s;
+    list-style: none;
 }
 
 .game-card:hover {
     transform: none;
+    /* Disabled as requested */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .game-card-link {
     text-decoration: none;
-    color: white;
+    color: inherit;
     display: block;
+    height: 100%;
 }
 
 .game-card-thumb-container {
-    position: relative;
-    width: 150px;
+    width: 100%;
     height: 150px;
-    margin-bottom: 5px;
-    border-radius: 4px;
     overflow: hidden;
-    background: #000;
+    position: relative;
+    background-color: #000;
 }
 
-.game-card-thumb img {
+.game-card-thumb {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
-.game-card-name {
-    font-weight: 700;
-    font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 2px;
-    color: #fff;
+.game-card:hover .game-card-thumb {
+    transform: scale(1.05);
 }
 
 .game-card-info {
-    font-size: 11px;
-    color: #aaa;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+    padding: 10px;
 }
 
 .game-card-title {
-    font-weight: 600;
-    font-size: 13px;
-    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
+    color: #fff;
 }
 
 .game-rating-container {
-    width: 100%;
-    margin-bottom: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .vote-bar-bg {
@@ -396,9 +324,8 @@ body {
 .rating-icons {
     display: flex;
     align-items: center;
-    width: 100%;
-    font-size: 10px;
-    color: #bbb;
+    font-size: 11px;
+    color: #aaa;
 }
 
 .rating-icon-item {
@@ -407,11 +334,30 @@ body {
     gap: 3px;
 }
 
-.rating-icon-item .b-icon {
+.rating-icons .b-icon {
     font-size: 12px;
 }
 
-.info-label {
+/* Scroll Buttons Fix */
+.carousel-btn.prev {
+    left: -40px !important;
+}
+
+.carousel-btn.next {
+    right: -40px !important;
+}
+
+/* Utility */
+.section-header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 15px;
+}
+
+.section-header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
 }

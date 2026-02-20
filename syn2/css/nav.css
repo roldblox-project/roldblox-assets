@@ -56,7 +56,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 0 0 10px;
+    padding: 0;
     /* Removed right padding */
     position: fixed;
     top: 0;
@@ -81,7 +81,7 @@ body {
 
 .navbar-logo {
     height: 30px;
-    margin-right: 20px;
+    margin-right: 0;
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -94,6 +94,7 @@ body {
     height: 56px;
     padding: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 

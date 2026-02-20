@@ -130,7 +130,7 @@ class HomeRenderer {
         } else if (isOnline) {
             statusIcon = '<div class="status-icon"></div>'
         }
-        card.innerHTML = `<div class="image-container" style="position:relative"><img class="rounded w-100" data-thumb-id="${friend.friend_id}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="width:100px;height:100px;margin:0 auto;opacity:0;transition:opacity 0.3s">${statusIcon}</div><p class="text-white w-100 text-center d-inline-block m-0 text-truncate" style="font-size: 12px;">${this.escapeHtml(friend.username)}</p>`;
+        card.innerHTML = `<div class="image-container" style="position:relative"><img class="rounded w-100" data-thumb-id="${friend.friend_id}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="margin:0 auto;opacity:0;transition:opacity 0.3s">${statusIcon}</div><p class="text-white w-100 text-center d-inline-block m-0 text-truncate" style="font-size: 12px;">${this.escapeHtml(friend.username)}</p>`;
         card.onclick = () => window.location.href = `/users/${friend.friend_id}/profile`;
         return card
     }
