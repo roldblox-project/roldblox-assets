@@ -108,6 +108,6 @@
         </div>
     </div>
     
-    <!-- Inline script removed as home.js handles it now -->
+    <script src="https://raw.githack.com/roldblox-project/roldblox-assets/main/home.js?v={time()}"></script>
 </body>
 </html>

@@ -10,7 +10,7 @@
         </a>
         <div class="navbar-nav-links">
             <a href="{url page="games"}" class="nav-item-link">
-                <span class="b-icon">controller</span>
+                <span class="b-icon">chart-three-vertical-bars</span>
                 <span class="nav-label">Games</span>
             </a>
             <a href="{url page="catalog"}" class="nav-item-link">
@@ -64,10 +64,10 @@
         <h3 class="sidebar-header">GENERAL</h3>
         <ul class="sidebar-menu">
             <li><a href="{url page="home"}"><span class="b-icon">house</span> Home</a></li>
-            <li><a href="https://sitetest9.synt2x.xyz/games"><span class="b-icon">controller</span> Games</a></li>
-            <li><a href="https://sitetest9.synt2x.xyz/catalog"><span class="b-icon">shopping-cart</span> Avatar Shop</a></li>
-            <li><a href="https://sitetest9.synt2x.xyz/develop"><span class="b-icon">square-code</span> Create</a></li>
-            <li><a href="https://sitetest9.synt2x.xyz/library"><span class="b-icon">book</span> Library</a></li>
+            <li><a href="{url page="games"}"><span class="b-icon">chart-three-vertical-bars</span> Games</a></li>
+            <li><a href="{url page="catalog"}"><span class="b-icon">shopping-cart</span> Avatar Shop</a></li>
+            <li><a href="{url page="develop"}"><span class="b-icon">square-code</span> Create</a></li>
+            <li><a href="{url page="library"}"><span class="b-icon">rectangle-list</span> Library</a></li>
             <li><a href="{url page="upgrade"}"><span class="b-icon">robux</span> Robux</a></li>
         </ul>
     </div>
@@ -81,15 +81,15 @@
             <li><a href="{url page="avatar"}"><span class="b-icon">circle-person</span> My Avatar</a></li>
             <li><a href="{url page="inventory"}"><span class="b-icon">backpack</span> My Inventory</a></li>
             <li><a href="{url page="groups"}"><span class="b-icon">three-people</span> My Groups</a></li>
-            <li><a href="{url page="trade"}"><span class="b-icon">refresh</span> My Trades</a></li>
+            <li><a href="{url page="trade"}"><span class="b-icon">hand-two-arrows-horizontal</span> My Trades</a></li>
         </ul>
     </div>
 
     <div class="sidebar-section">
         <h3 class="sidebar-header">COMMUNITY</h3>
         <ul class="sidebar-menu">
-            <li><a href="https://discord.gg/cDdneWefw5" target="_blank"><span class="b-icon">chat</span> Discord</a></li>
-            <li><a href="/download"><span class="b-icon">download</span> Downloads</a></li>
+            <li><a href="https://discord.gg/cDdneWefw5" target="_blank"><span class="b-icon">discord</span> Discord</a></li>
+            <li><a href="/download"><span class="b-icon">arrow-down-to-line</span> Downloads</a></li>
         </ul>
     </div>
 </div>
