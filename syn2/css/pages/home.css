@@ -571,19 +571,21 @@ body {
 
 .stat-item {
     min-width: 70px;
+}
 
-    /* Keep carousel buttons visible on small screens */
-    @media (max-width: 900px) {
-        .carousel-btn.prev {
-            left: 10px !important;
-        }
+/* Keep carousel buttons visible on small screens */
+@media (max-width: 900px) {
+    .carousel-btn.prev {
+        left: 10px !important;
+    }
 
-        .carousel-btn.next {
-            right: 10px !important;
-        }
+    .carousel-btn.next {
+        right: 10px !important;
+    }
+}
 
-        /* Always show carousel buttons, overlapping the content */
-        .carousel-btn {
-            display: flex !important;
-            opacity: 1 !important;
-        }
+/* Always show carousel buttons, overlapping the content */
+.carousel-btn {
+    display: flex !important;
+    opacity: 1 !important;
+}
