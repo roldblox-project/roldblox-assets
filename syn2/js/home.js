@@ -2,6 +2,7 @@ class HomeRenderer {
     constructor() {
         this.loadedThumbnails = new Map();
         this.pendingBatchRequests = new Map();
+        this.API_BASE = 'https://synt2x.xyz';
         this.init()
     }
     async init() {
@@ -39,7 +40,7 @@ class HomeRenderer {
         try {
             const id = (window.CURRENT_USER_ID || '').toString();
             if (!id) return;
-            const res = await fetch(`/v1/users/${id}/friends/count`, { credentials: 'include' });
+            const res = await fetch(`${this.API_BASE}/v1/users/${id}/friends/count`, { credentials: 'include' });
             if (!res.ok) return;
             const data = await res.json();
             const n = (data && (data.count ?? data.data ?? data.total)) || 0;
@@ -53,8 +54,8 @@ class HomeRenderer {
             const id = (window.CURRENT_USER_ID || '').toString();
             if (!id) return;
             const [followersRes, followingsRes] = await Promise.all([
-                fetch(`/v1/users/${id}/followers/count`, { credentials: 'include' }),
-                fetch(`/v1/users/${id}/followings/count`, { credentials: 'include' })
+                fetch(`${this.API_BASE}/v1/users/${id}/followers/count`, { credentials: 'include' }),
+                fetch(`${this.API_BASE}/v1/users/${id}/followings/count`, { credentials: 'include' })
             ]);
             if (followersRes && followersRes.ok) {
                 const d = await followersRes.json();
