@@ -193,10 +193,6 @@ body {
     margin-bottom: 20px;
 }
 
-.friends-section {
-    /* Full width wrapper for friends */
-}
-
 .friend-list {
     display: flex;
     flex-direction: row;

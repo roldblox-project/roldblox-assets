@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
-    <link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/pages/home.css?v={time()}">
+    <link rel="stylesheet" href="/css/pages/home.css?v={time()}">
 </head>
 <body>
 
@@ -58,49 +58,32 @@
                 </div>
             </div>
 
+            <div class="friends-section-wrapper">
+                <div class="friends-section">
+                    <h3 class="section-header"><div>My Friends (<span id="friend-count">0</span>)</div> <a href="/users" style="font-size: 12px; font-weight: normal; color: #00a2ff; text-decoration: none;">Find Friends</a></h3>
+                    <div class="friend-list" id="friend-list-container">
+                            <!-- Placeholder friends for visual appeal if the list is empty/unavailable -->
+                    </div>
+                    <div id="no-friends-msg" style="text-align: center; padding: 20px; color: #666; font-size: 13px; font-style: italic;">
+                        You don't have any friends yet.
+                    </div>
+                </div>
+            </div>
+
             <div class="home-layout">
                 <div class="feed-section">
-                    <h2 class="section-header">My Feed</h2>
-
+                    <h3 class="section-header">My Feed</h3>
+                    
                     <div class="feed-item">
                         <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <img src="https://github.com/roldblox-project/roldblox-assets/blob/main/images/logo.png?raw=true" style="width: 32px; height: 32px; margin-right: 10px;">
+                            <img src="/img/logo_small.png" style="width: 32px; height: 32px; border-radius: 50%; margin-right: 10px;">
                             <div>
-                                <strong style="display: block; font-size: 14px;">ROLDBLOX System</strong>
+                                <span style="font-weight: bold; display: block;">ROLDBLOX System</span>
                                 <span style="font-size: 12px; color: #888;">Just now</span>
                             </div>
                         </div>
                         <p style="margin: 0; font-size: 14px; line-height: 1.4;">Welcome to the new ROLDBLOX home page! We've updated the look and feel to make it better for everyone.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="friends-section-wrapper">
-            <div class="friends-section">
-                <h3 class="section-header"><div>My Friends (<span id="friend-count">0</span>)</div> <a href="/users" style="font-size: 12px; font-weight: normal; color: #00a2ff; text-decoration: none;">Find Friends</a></h3>
-                <div class="friend-list" id="friend-list-container">
-                        <!-- Placeholder friends for visual appeal if the list is empty/unavailable -->
-                </div>
-                <div id="no-friends-msg" style="text-align: center; padding: 20px; color: #666; font-size: 13px; font-style: italic;">
-                    You don't have any friends yet.
-                </div>
-            </div>
-        </div>
-
-        <div class="home-layout">
-            <div class="feed-section">
-                <h3 class="section-header">My Feed</h3>
-                
-                <div class="feed-item">
-                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                        <img src="/img/logo_small.png" style="width: 32px; height: 32px; border-radius: 50%; margin-right: 10px;">
-                        <div>
-                            <span style="font-weight: bold; display: block;">ROLDBLOX System</span>
-                            <span style="font-size: 12px; color: #888;">Just now</span>
-                        </div>
-                    </div>
-                    <p style="margin: 0; font-size: 14px; line-height: 1.4;">Welcome to the new ROLDBLOX home page! We've updated the look and feel to make it better for everyone.</p>
                 </div>
             </div>
         </div>
@@ -125,8 +108,8 @@
                         // Clear existing content (placeholders)
                         friendListContainer.innerHTML = '';
                         
-                        // Limit to first 9 friends for home page
-                        const friendsToShow = data.slice(0, 9);
+                        // Show more friends for horizontal scroll
+                        const friendsToShow = data.slice(0, 50);
                         
                         friendsToShow.forEach(friend => {
                             const friendCard = document.createElement('a');
