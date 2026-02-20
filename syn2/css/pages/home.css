@@ -20,7 +20,7 @@ body {
     background-color: rgba(30, 30, 40, 0.75);
     backdrop-filter: blur(8px);
     border: 1px solid rgb(50, 50, 60);
-    border-radius: 8px;
+    border-radius: 4px;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -45,7 +45,7 @@ body {
 .profile-avatar {
     width: 84px;
     height: 84px;
-    border-radius: 6px;
+    border-radius: 4px;
     object-fit: cover;
     background-color: #000;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -180,14 +180,16 @@ body {
 
 .friends-carousel-wrapper {
     background-color: rgba(30, 30, 40, 0.75);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .game-carousel-container {
     background-color: rgba(30, 30, 40, 0.75);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .friend-list {
@@ -203,7 +205,7 @@ body {
 /* Friend Card Styling */
 .friend-card {
     background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 10px;
     min-width: 100px;
     width: 100px;
@@ -242,7 +244,7 @@ body {
 /* Game Card Styles */
 .game-card {
     background-color: rgba(30, 30, 40, 0.75);
-    border-radius: 6px;
+    border-radius: 4px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     flex: 0 0 auto;
@@ -353,6 +355,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
 }
 
 .section-header h3 {
@@ -360,4 +364,10 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: #fff;
+}
+
+/* Override inline padding for game lists to prevent shadow clipping */
+.game-list,
+#todays-picks-container {
+    padding: 20px 10px !important;
 }
