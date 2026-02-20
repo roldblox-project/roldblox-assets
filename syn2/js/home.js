@@ -22,7 +22,10 @@ class HomeRenderer {
         if (this._refreshTimer) clearInterval(this._refreshTimer);
         this._refreshTimer = setInterval(() => {
             this.loadFriendCount();
-            this.loadFollowCounts();
+            // Back off follower/following polling if repeated server errors
+            if (!this._followBackoffUntil || Date.now() > this._followBackoffUntil) {
+                this.loadFollowCounts();
+            }
             this.refreshFriends();
         }, 5000);
     }
@@ -67,7 +70,15 @@ class HomeRenderer {
                 const n2 = (d2 && (d2.count ?? d2.data ?? d2.total)) || 0;
                 document.querySelectorAll('.following-count-display').forEach(el => el.textContent = n2);
             }
+            if ((followersRes && !followersRes.ok) || (followingsRes && !followingsRes.ok)) {
+                // Back off for 30s to avoid flooding console with 500s
+                this._followBackoffUntil = Date.now() + 30000;
+            } else {
+                this._followBackoffUntil = 0;
+            }
         } catch (e) {
+            // On unexpected error, also back off
+            this._followBackoffUntil = Date.now() + 30000;
         }
     }
     async loadFriends() {
@@ -273,35 +284,39 @@ class HomeRenderer {
         const bottomCount = layout.bottom;
         if (topCount > 0) {
             const topGames = games.slice(0, topCount);
-            document.getElementById('recommended-top-section').style.display = 'block';
+            const section = document.getElementById('recommended-top-section');
             const container = document.getElementById('recommended-top-container');
-            container.innerHTML = '';
-            topGames.forEach(game => {
-                const card = this.createGameCard(game, 'landscape');
-                container.appendChild(card)
+            if (section) section.style.display = 'block';
+            if (container) {
+                container.innerHTML = '';
+                topGames.forEach(game => {
+                    const card = this.createGameCard(game, 'landscape');
+                    container.appendChild(card)
+                });
+                this.batchLoadThumbnails(topGames.map(g => ({
+                    id: g.asset_id,
+                    type: 'Asset',
+                    size: '280x158'
+                })))
             }
-            );
-            this.batchLoadThumbnails(topGames.map(g => ({
-                id: g.asset_id,
-                type: 'Asset',
-                size: '280x158'
-            })))
         }
         if (bottomCount > 0) {
             const bottomGames = games.slice(topCount, topCount + bottomCount);
-            document.getElementById('recommended-bottom-section').style.display = 'block';
+            const section = document.getElementById('recommended-bottom-section');
             const container = document.getElementById('recommended-bottom-container');
-            container.innerHTML = '';
-            bottomGames.forEach(game => {
-                const card = this.createGameCard(game, 'landscape');
-                container.appendChild(card)
+            if (section) section.style.display = 'block';
+            if (container) {
+                container.innerHTML = '';
+                bottomGames.forEach(game => {
+                    const card = this.createGameCard(game, 'landscape');
+                    container.appendChild(card)
+                });
+                this.batchLoadThumbnails(bottomGames.map(g => ({
+                    id: g.asset_id,
+                    type: 'Asset',
+                    size: '280x158'
+                })))
             }
-            );
-            this.batchLoadThumbnails(bottomGames.map(g => ({
-                id: g.asset_id,
-                type: 'Asset',
-                size: '280x158'
-            })))
         }
     }
     renderRecent(games) {
@@ -329,17 +344,17 @@ class HomeRenderer {
         })))
     }
     renderSponsored(games) {
-        if (!games || games.length === 0)
-            return;
-        document.getElementById('sponsored-section').style.display = 'block';
+        if (!games || games.length === 0) return;
+        const section = document.getElementById('sponsored-section');
         const container = document.getElementById('sponsored-container');
+        if (section) section.style.display = 'block';
+        if (!container) return;
         container.innerHTML = '';
         games.forEach(game => {
             game.is_sponsored = game.campaign_id;
             const card = this.createGameCard(game, 'square');
             container.appendChild(card)
-        }
-        );
+        });
         this.batchLoadThumbnails(games.map(g => ({
             id: g.asset_id,
             type: 'GameIcon',
@@ -468,14 +483,20 @@ class HomeRenderer {
         const elements = document.querySelectorAll(`[data-thumb-id="${id}"]`);
         elements.forEach(el => {
             if (el.tagName === 'IMG') {
-                el.src = imageUrl;
+                if (el.src !== imageUrl) {
+                    el.src = imageUrl;
+                }
                 el.style.opacity = '1'
             } else {
-                const img = document.createElement('img');
-                img.src = imageUrl;
-                img.className = 'thumbnail-img';
-                el.innerHTML = '';
-                el.appendChild(img)
+                const existing = el.querySelector('img');
+                if (existing) {
+                    if (existing.src !== imageUrl) existing.src = imageUrl;
+                } else {
+                    const img = document.createElement('img');
+                    img.src = imageUrl;
+                    img.className = 'thumbnail-img';
+                    el.appendChild(img)
+                }
             }
         }
         )
