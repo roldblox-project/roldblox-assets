@@ -24,30 +24,28 @@
         </div>
     </div>
     <div class="navbar-right">
-    <div class="user-stat" title="{$user_data['robux']} Robux">
-        <a href="{url page="transactions"}" class="stat-link">
-            <strong class="currency-amount" data-value="{$user_data['robux']}">{$user_data["robux"]}</strong> <span class="b-icon">robux</span>
+        <a href="{url page="transactions"}" class="nav-item-link" title="{$user_data['robux']} Robux">
+            <span class="b-icon">robux</span>
+            <span class="nav-label" data-value="{$user_data['robux']}">{$user_data["robux"]}</span>
         </a>
-    </div>
-    <div class="user-stat" title="{$user_data['tickets']} Tix">
-        <a href="{url page="transactions"}" class="stat-link">
-            <strong class="currency-amount" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</strong> <span>Tix</span>
+        <a href="{url page="transactions"}" class="nav-item-link" title="{$user_data['tickets']} Tix">
+            <span class="b-icon" style="font-size: 20px; margin-top: 2px;">ticket</span>
+            <span class="nav-label" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</span>
         </a>
-    </div>
-    <div class="user-stat settings-dropdown" onclick="toggleDropdown(event)">
-        <span class="b-icon">gear</span>
-        <div id="settingsDropdown" class="dropdown-content">
-            <a href="/settings">Settings</a>
-            <a href="/membership">Membership</a>
-            <a href="/giftcard-redeem">Redeem Codes</a>
-            <a href="/switch-accounts">Switch Accounts</a>
-            <form action="/logout" method="post" class="logout-form">
-                <input type="hidden" name="csrf_token" value="{$csrf_token}">
-                <button type="submit" class="logout-btn">Logout</button>
-            </form>
+        <div class="nav-item-link settings-dropdown" onclick="toggleDropdown(event)" style="cursor: pointer;">
+            <span class="b-icon">gear</span>
+            <div id="settingsDropdown" class="dropdown-content">
+                <a href="/settings">Settings</a>
+                <a href="/membership">Membership</a>
+                <a href="/giftcard-redeem">Redeem Codes</a>
+                <a href="/switch-accounts">Switch Accounts</a>
+                <form action="/logout" method="post" class="logout-form">
+                    <input type="hidden" name="csrf_token" value="{$csrf_token}">
+                    <button type="submit" class="logout-btn">Logout</button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 </div>
 
 <!-- Sidebar -->

@@ -239,55 +239,53 @@ body {
 }
 
 .friend-card {
-    background-color: rgb(30, 30, 40);
-    border: 1px solid rgb(50, 50, 60);
+    background-color: transparent;
+    border: none;
     border-radius: 6px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: background-color 0.2s ease;
     cursor: pointer;
-    min-width: 80px;
-    /* Ensure consistent width */
-    max-width: 100px;
+    width: 100px;
     flex-shrink: 0;
-    /* Prevent shrinking */
 }
 
 .friend-card:hover {
-    background-color: rgb(40, 40, 50);
-    transform: translateY(-2px);
-    border-color: #00a2ff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: none;
+    box-shadow: none;
 }
 
 .friend-avatar-wrapper {
     position: relative;
-    margin-bottom: 8px;
-    width: 60px;
-    height: 60px;
+    margin-bottom: 4px;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
 }
 
 .friend-avatar {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     object-fit: cover;
     background-color: #000;
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: none;
 }
 
 .friend-name {
-    font-size: 13px;
-    color: #fff;
-    font-weight: 600;
+    font-size: 12px;
+    color: #ccc;
+    font-weight: normal;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     max-width: 100%;
+    margin-top: 4px;
 }
 
 .friend-card:hover {
