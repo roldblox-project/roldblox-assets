@@ -28,14 +28,14 @@
 
 @font-face {
     font-family: 'BuilderIcons';
-    src: url('../../icons/BuilderIcons-Regular.ttf') format('truetype');
+    src: url('https://raw.githack.com/roldblox-project/roldblox-assets/main/icons/BuilderIcons-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'BuilderIcons';
-    src: url('../../icons/BuilderIcons-Filled.ttf') format('truetype');
+    src: url('https://raw.githack.com/roldblox-project/roldblox-assets/main/icons/BuilderIcons-Filled.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
