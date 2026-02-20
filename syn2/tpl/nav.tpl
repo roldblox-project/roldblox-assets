@@ -5,7 +5,7 @@
     <div style="font-family: 'BuilderIcons'; font-weight: bold; opacity: 0; position: absolute; pointer-events: none;">.</div>
     
     <div class="navbar-left">
-        <button class="navbar-toggle" onclick="toggleSidebar()">
+        <button class="navbar-toggle" onclick="toggleSidebar()" style="display: none;">
             <span class="b-icon">three-bars-horizontal</span>
         </button>
         <a href="{url page="home"}" class="navbar-brand-link">
@@ -99,18 +99,20 @@
     function toggleSidebar() {
         const sidebar = document.querySelector('.sidebar');
         sidebar.classList.toggle('active');
-        const overlay = document.getElementById('sidebar-overlay');
-        if (overlay) {
-            overlay.classList.toggle('active');
-        } else if (sidebar.classList.contains('active')) {
-             // Create overlay if it doesn't exist and sidebar is active
-            const newOverlay = document.createElement('div');
-            newOverlay.id = 'sidebar-overlay';
-            newOverlay.className = 'sidebar-overlay';
-            newOverlay.onclick = toggleSidebar;
-            document.body.appendChild(newOverlay);
-            // Small delay to allow transition
-            setTimeout(() => newOverlay.classList.add('active'), 10);
+        
+        let overlay = document.getElementById('sidebar-overlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'sidebar-overlay';
+            overlay.className = 'sidebar-overlay';
+            overlay.onclick = toggleSidebar;
+            document.body.appendChild(overlay);
+        }
+        
+        if (sidebar.classList.contains('active')) {
+            overlay.classList.add('active');
+        } else {
+            overlay.classList.remove('active');
         }
     }
 

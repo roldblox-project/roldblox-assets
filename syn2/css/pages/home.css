@@ -24,10 +24,7 @@ body {
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-    /* Removed extra top padding */
 }
-
-/* Removed Profile Cover and Greeting Styles */
 
 .profile-content {
     display: flex;
@@ -39,7 +36,6 @@ body {
 .profile-avatar-container {
     margin-right: 15px;
     position: relative;
-    /* Removed negative margin */
 }
 
 .profile-avatar {
@@ -318,12 +314,13 @@ body {
     color: #bbb;
 }
 
-/* Responsive Styles */
+/* --- Mobile Compatibility Styles --- */
 @media (max-width: 900px) {
     .content {
         padding: 10px;
     }
 
+    /* Profile Header Adjustments */
     .profile-content {
         flex-direction: column;
         text-align: center;
@@ -358,22 +355,15 @@ body {
     .stat-item {
         min-width: auto;
         flex: 1 0 30%;
-        /* 3 items per row approx */
     }
 
-    /* Ensure carousels don't overflow */
+    /* Carousel Adjustments */
     .friends-carousel-wrapper,
     .game-carousel-container {
         padding: 5px;
     }
 
-    .friend-list,
-    .game-list,
-    #todays-picks-container,
-    #recommended-top-container,
-    #recommended-bottom-container,
-    #sponsored-container,
-    #favorites-container {
+    .friend-list {
         gap: 10px;
     }
 }

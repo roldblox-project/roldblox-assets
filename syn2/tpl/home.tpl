@@ -99,49 +99,6 @@
                              <button id="picks-next" class="carousel-btn next" style="display: none; position: absolute; right: -40px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
                         </div>
                     </div>
-
-                    <!-- Recommended Top -->
-                    <div id="recommended-top-section" style="display: none; margin-bottom: 20px;">
-                        <div class="section-header">
-                            <h3>Recommended for You</h3>
-                        </div>
-                        <div class="game-carousel-container" style="position: relative;">
-                             <button id="rec-top-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -40px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
-                             <div id="recommended-top-container" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; scrollbar-width: none;"></div>
-                             <button id="rec-top-next" class="carousel-btn next" style="display: none; position: absolute; right: -40px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
-                        </div>
-                    </div>
-
-                    <!-- Recommended Bottom -->
-                    <div id="recommended-bottom-section" style="display: none; margin-bottom: 20px;">
-                        <div class="game-carousel-container" style="position: relative;">
-                             <div id="recommended-bottom-container" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; scrollbar-width: none;"></div>
-                        </div>
-                    </div>
-
-                    <!-- Sponsored -->
-                    <div id="sponsored-section" style="display: none; margin-bottom: 20px;">
-                        <div class="section-header">
-                            <h3>Sponsored</h3>
-                        </div>
-                        <div class="game-carousel-container" style="position: relative;">
-                             <button id="sponsored-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -40px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
-                             <div id="sponsored-container" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; scrollbar-width: none;"></div>
-                             <button id="sponsored-next" class="carousel-btn next" style="display: none; position: absolute; right: -40px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
-                        </div>
-                    </div>
-
-                    <!-- Favorites -->
-                    <div id="favorites-section" style="display: none; margin-bottom: 20px;">
-                        <div class="section-header">
-                            <h3>My Favorites</h3>
-                        </div>
-                        <div class="game-carousel-container" style="position: relative;">
-                             <button id="fav-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -40px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
-                             <div id="favorites-container" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; scrollbar-width: none;"></div>
-                             <button id="fav-next" class="carousel-btn next" style="display: none; position: absolute; right: -40px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-right</span></button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

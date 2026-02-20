@@ -56,8 +56,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
-    /* Removed right padding */
+    padding: 0 20px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -293,9 +292,21 @@ body {
     font-size: 14px;
 }
 
-/* Navbar Toggle Button (Hidden by default) */
+.navbar-nav-links {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.main-container {
+    margin-left: 250px;
+    padding-top: 56px;
+}
+
+/* --- Mobile Compatibility Styles --- */
+
+/* Navbar Toggle Button Style */
 .navbar-toggle {
-    display: none;
     background: none;
     border: none;
     color: white;
@@ -304,49 +315,44 @@ body {
     cursor: pointer;
     height: 100%;
     align-items: center;
+    /* Display is controlled by media query and inline style */
 }
 
 .navbar-toggle:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Sidebar Overlay Style (Mobile Only) */
 .sidebar-overlay {
     display: none;
-    position: fixed;
-    top: 56px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 899;
-    opacity: 0;
-    transition: opacity 0.3s;
 }
 
-.sidebar-overlay.active {
-    display: block;
-    opacity: 1;
-}
-
-.navbar-nav-links {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-/* Main Container Layout */
-.main-container {
-    margin-left: 250px;
-    padding-top: 56px;
-    transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Responsive Styles */
 @media (max-width: 900px) {
-    .navbar-toggle {
-        display: flex;
+
+    /* Sidebar Overlay */
+    .sidebar-overlay {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 899;
+        opacity: 0;
+        transition: opacity 0.3s;
     }
 
+    .sidebar-overlay.active {
+        display: block;
+        opacity: 1;
+    }
+
+    /* Show Toggle Button */
+    .navbar-toggle {
+        display: flex !important;
+    }
+
+    /* Adjust Navbar Brand */
     .navbar-brand-link {
         width: auto;
         padding: 0 10px;
@@ -356,43 +362,31 @@ body {
         height: 24px;
     }
 
-    /* Hide sidebar by default on mobile */
+    /* Hide Sidebar by Default */
     .sidebar {
         transform: translateX(-100%);
         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        width: 250px;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
     }
 
+    /* Show Sidebar when Active */
     .sidebar.active {
         transform: translateX(0);
     }
 
-    /* Adjust main container when sidebar is hidden */
+    /* Adjust Main Container (Full Width) */
     .main-container {
         margin-left: 0;
+        transition: margin-left 0.3s;
     }
 
-    /* Hide text labels in navbar on smaller screens */
+    /* Hide Navbar Labels to Save Space */
     .nav-item-link .nav-label {
         display: none;
     }
 
-    .navbar-left .nav-item-link {
-        width: 48px;
-    }
-
+    .navbar-left .nav-item-link,
     .navbar-right .nav-item-link {
         width: 48px;
-    }
-
-    /* Hide navbar links (Games, Catalog, etc) on very small screens if needed, 
-       or keep them as icons-only. 
-       Let's hide them on very small screens to save space */
-    @media (max-width: 500px) {
-        .navbar-nav-links {
-            display: none;
-            /* Users can use sidebar for navigation */
-        }
     }
 }
