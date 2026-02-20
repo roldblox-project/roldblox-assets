@@ -278,7 +278,7 @@ class HomeRenderer {
                     <div class="game-version-badge game-version-badge-landscape">${version}</div>
                 </div>
                 <h6 class="game-card-landscape-title">${title}</h6>
-                ${playerCount > 0 ? `<p class="game-card-landscape-info"><span class="b-icon game-card-stats-icon">people</span> ${this.formatNumber(playerCount)} playing</p>` : ''}
+                ${playerCount > 0 ? `<p class="game-card-landscape-info"><span class="b-icon game-card-stats-icon">person-play</span> ${this.formatNumber(playerCount)} playing</p>` : ''}
             `;
             return a
         } else {
@@ -297,7 +297,7 @@ class HomeRenderer {
                     <div class="game-card-info">
                         <span class="info-label"><span class="b-icon game-card-stats-icon">thumb-up</span></span>
                         <span class="info-label vote-percentage-label game-card-stats-value">${votePercentage}%</span>
-                        <span class="info-label"><span class="b-icon game-card-stats-icon">people</span></span>
+                        <span class="info-label"><span class="b-icon game-card-stats-icon">person-play</span></span>
                         <span class="info-label playing-counts-label">${this.formatNumber(playerCount)}</span>
                     </div>
                 </a>
