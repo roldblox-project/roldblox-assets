@@ -557,12 +557,15 @@ body {
         align-items: center;
         text-align: center;
         gap: 8px;
+
+        .profile-avatar-container {
+            margin-right: 0;
+        }
     }
 }
 
 .profile-stats {
     width: 100%;
-    margin-left: 0;
     padding-right: 0;
     justify-content: center;
     gap: 16px;
@@ -588,4 +591,47 @@ body {
 .carousel-btn {
     display: flex !important;
     opacity: 1 !important;
+}
+
+.friends-carousel-wrapper,
+.game-carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.friends-carousel-wrapper::before,
+.friends-carousel-wrapper::after,
+.game-carousel-container::before,
+.game-carousel-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 5;
+}
+
+.friends-carousel-wrapper::before,
+.game-carousel-container::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(10, 10, 20, 0.9), rgba(10, 10, 20, 0));
+}
+
+.friends-carousel-wrapper::after,
+.game-carousel-container::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(10, 10, 20, 0.9), rgba(10, 10, 20, 0));
+}
+
+.friends-carousel-wrapper.fade-left::before,
+.game-carousel-container.fade-left::before {
+    opacity: 1;
+}
+
+.friends-carousel-wrapper.fade-right::after,
+.game-carousel-container.fade-right::after {
+    opacity: 1;
 }

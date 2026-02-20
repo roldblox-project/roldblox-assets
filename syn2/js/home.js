@@ -8,6 +8,7 @@ class HomeRenderer {
         try {
             await Promise.all([this.loadFriends(), this.loadTodaysPicks(), this.loadRecommended(), this.loadRecent(), this.loadSponsored(), this.loadFavorites()]);
             this.setupCarousels();
+            this.setupScrollFades();
             this.setupLauncher()
         } catch (error) {
             console.error('Error initializing home:', error)
@@ -409,8 +410,8 @@ class HomeRenderer {
             const container = document.getElementById(c.container);
             if (prevBtn && nextBtn && container) {
                 const updateButtons = () => {
-                    prevBtn.style.display = 'flex';
-                    nextBtn.style.display = 'flex';
+                    prevBtn.style.display = 'none';
+                    nextBtn.style.display = 'none';
                 };
                 prevBtn.onclick = () => container.scrollBy({
                     left: -300,
@@ -425,6 +426,30 @@ class HomeRenderer {
             }
         }
         )
+    }
+    setupScrollFades() {
+        const ids = ['friends-container', 'todays-picks-container', 'recommended-top-container', 'recent-container', 'sponsored-container', 'favorites-container', 'recommended-bottom-container'];
+        const update = (el) => {
+            if (!el) return;
+            const wrapper = el.parentElement;
+            if (!wrapper) return;
+            const hasLeft = el.scrollLeft > 5;
+            const hasRight = el.scrollLeft < el.scrollWidth - el.clientWidth - 5;
+            if (hasLeft) wrapper.classList.add('fade-left'); else wrapper.classList.remove('fade-left');
+            if (hasRight) wrapper.classList.add('fade-right'); else wrapper.classList.remove('fade-right');
+        };
+        ids.forEach(id => {
+            const el = document.getElementById(id);
+            if (!el) return;
+            update(el);
+            el.addEventListener('scroll', () => update(el));
+        });
+        window.addEventListener('resize', () => {
+            ids.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) update(el);
+            });
+        });
     }
     setupLauncher() {
         const closeBtn = document.getElementById('close-launcher-btn');
