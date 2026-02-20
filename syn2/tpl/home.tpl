@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
-    <link rel="stylesheet" href="/css/pages/home.css?v={time()}">
+    <link rel="stylesheet" href="https://raw.githack.com/roldblox-project/roldblox-assets/main/syn2/css/pages/home.css?v={time()}">
 </head>
 <body>
 
@@ -36,7 +36,7 @@
                         <div class="profile-stats">
                             <div class="stat-item">
                                 <span class="stat-label">Friends</span>
-                                <a href="/users/{$user_data['id']}/friends" class="stat-value">28</a>
+                                <a href="/users/{$user_data['id']}/friends" class="stat-value" id="friend-count">...</a>
                             </div>
                             <div class="stat-item">
                                 <span class="stat-label">Followers</span>
@@ -60,90 +60,54 @@
 
             <div class="friends-section-wrapper">
                 <div class="friends-section">
-                    <h3 class="section-header"><div>My Friends (<span id="friend-count">0</span>)</div> <a href="/users" style="font-size: 12px; font-weight: normal; color: #00a2ff; text-decoration: none;">Find Friends</a></h3>
-                    <div class="friend-list" id="friend-list-container">
-                            <!-- Placeholder friends for visual appeal if the list is empty/unavailable -->
+                    <h3 class="section-header"><div>My Friends (<span id="friend-count">...</span>)</div> <a href="/users" style="font-size: 12px; font-weight: normal; color: #00a2ff; text-decoration: none;">Find Friends</a></h3>
+                    <div class="friends-carousel-wrapper" style="position: relative;">
+                        <button id="friends-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&lt;</button>
+                        <div class="friend-list" id="friends-container" style="display: flex; overflow-x: auto; scrollbar-width: none; gap: 10px;">
+                            <!-- Friends injected here by home.js -->
+                        </div>
+                        <button id="friends-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&gt;</button>
                     </div>
-                    <div id="no-friends-msg" style="text-align: center; padding: 20px; color: #666; font-size: 13px; font-style: italic;">
+                    <div id="no-friends-msg" style="text-align: center; padding: 20px; color: #666; font-size: 13px; font-style: italic; display: none;">
                         You don't have any friends yet.
                     </div>
                 </div>
             </div>
 
             <div class="home-layout">
+                <div class="games-section-wrapper">
+                    <!-- Recently Played -->
+                    <div id="recent-section" style="margin-bottom: 20px;">
+                        <div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                            <h3 style="margin: 0; font-size: 20px; font-weight: 600;">Continue</h3>
+                        </div>
+                        <div class="game-carousel-container" style="position: relative;">
+                            <button id="recent-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&lt;</button>
+                            <ul id="recent-container" class="game-list" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; margin: 0; list-style: none; scrollbar-width: none;">
+                            </ul>
+                            <button id="recent-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&gt;</button>
+                        </div>
+                    </div>
+
+                    <!-- Today's Picks -->
+                    <div id="todays-picks-wrapper" style="display: none; margin-bottom: 20px;">
+                        <h3 id="todays-picks-title" style="display: none; margin: 0; font-size: 20px; font-weight: 600;">Today's Picks</h3>
+                        <div id="todays-picks-subtitle" style="display: none; color: #666; font-size: 12px; margin-bottom: 10px;">Highlights from the community</div>
+                        <div class="game-carousel-container" style="position: relative;">
+                             <button id="picks-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&lt;</button>
+                             <div id="todays-picks-container" style="display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; scrollbar-width: none;"></div>
+                             <button id="picks-next" class="carousel-btn next" style="display: none; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&gt;</button>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="feed-section">
                     <h3 class="section-header">My Feed</h3>
-                    
-                    <div class="feed-item">
-                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <img src="/img/logo_small.png" style="width: 32px; height: 32px; border-radius: 50%; margin-right: 10px;">
-                            <div>
-                                <span style="font-weight: bold; display: block;">ROLDBLOX System</span>
-                                <span style="font-size: 12px; color: #888;">Just now</span>
-                            </div>
-                        </div>
-                        <p style="margin: 0; font-size: 14px; line-height: 1.4;">Welcome to the new ROLDBLOX home page! We've updated the look and feel to make it better for everyone.</p>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
     
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            fetch('/api/home-friends')
-                .then(response => response.json())
-                .then(data => {
-                    const friendListContainer = document.getElementById('friend-list-container');
-                    const friendCountSpan = document.getElementById('friend-count');
-                    const noFriendsMsg = document.getElementById('no-friends-msg');
-                    
-                    if (data && data.length > 0) {
-                        // Update count
-                        friendCountSpan.textContent = data.length;
-                        
-                        // Hide no friends message
-                        if (noFriendsMsg) noFriendsMsg.style.display = 'none';
-                        
-                        // Clear existing content (placeholders)
-                        friendListContainer.innerHTML = '';
-                        
-                        // Show more friends for horizontal scroll
-                        const friendsToShow = data.slice(0, 50);
-                        
-                        friendsToShow.forEach(friend => {
-                            const friendCard = document.createElement('a');
-                            friendCard.className = 'friend-card';
-                            friendCard.href = '/users/' + friend.friend_id + '/profile';
-                            
-                            // Determine status color (green if online/recent, gray otherwise)
-                            // This is a simple heuristic based on available data
-                            let statusClass = 'offline';
-                            // If needed we can parse friend_status or last_played_at
-                            
-                            friendCard.innerHTML = `
-                                <div class="friend-avatar-wrapper">
-                                    <img src="/Thumbs/Head.ashx?x=100&y=100&userId=${friend.friend_id}" class="friend-avatar" alt="${friend.username}">
-                                </div>
-                                <span class="friend-name">${friend.username}</span>
-                            `;
-                            
-                            friendListContainer.appendChild(friendCard);
-                        });
-                    } else {
-                        friendCountSpan.textContent = '0';
-                        if (noFriendsMsg) noFriendsMsg.style.display = 'block';
-                    }
-                })
-                .catch(error => {
-                    console.error('Error fetching friends:', error);
-                    const friendCountSpan = document.getElementById('friend-count');
-                    const noFriendsMsg = document.getElementById('no-friends-msg');
-                    
-                    if (friendCountSpan) friendCountSpan.textContent = '0';
-                    if (noFriendsMsg) noFriendsMsg.style.display = 'block';
-                });
-        });
-    </script>
+    <!-- Inline script removed as home.js handles it now -->
 </body>
 </html>

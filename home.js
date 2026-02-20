@@ -80,6 +80,10 @@ class HomeRenderer {
         }
     }
     renderFriends(friends) {
+        const countSpan = document.getElementById('friend-count');
+        if (countSpan) {
+            countSpan.textContent = friends ? friends.length : 0;
+        }
         const container = document.getElementById('friends-container');
         const prevBtn = document.getElementById('friends-prev');
         const nextBtn = document.getElementById('friends-next');

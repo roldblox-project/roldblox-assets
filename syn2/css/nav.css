@@ -281,6 +281,7 @@ body {
 .sidebar-menu a:hover {
     background-color: rgba(255, 255, 255, 0.08);
     color: #fff;
+    font-weight: 600;
 }
 
 .sidebar-menu a .b-icon {
@@ -324,4 +325,39 @@ body {
 
 .logout-form {
     margin: 0;
+}
+
+/* New Navbar Nav Links */
+.navbar-nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.nav-item-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    min-width: 60px;
+}
+
+.nav-item-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-item-link .b-icon {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.nav-item-link .nav-label {
+    font-size: 14px;
+    font-weight: 600;
 }
