@@ -12,8 +12,27 @@ class HomeRenderer {
             this.setupCarousels();
             this.setupScrollFades();
             this.setupLauncher()
+            this.startAutoRefresh()
         } catch (error) {
             console.error('Error initializing home:', error)
+        }
+    }
+    startAutoRefresh() {
+        if (this._refreshTimer) clearInterval(this._refreshTimer);
+        this._refreshTimer = setInterval(() => {
+            this.loadFriendCount();
+            this.loadFollowCounts();
+            this.refreshFriends();
+        }, 5000);
+    }
+    async refreshFriends() {
+        if (this._friendsRefreshing) return;
+        this._friendsRefreshing = true;
+        try {
+            await this.loadFriends();
+        } catch (_) {
+        } finally {
+            this._friendsRefreshing = false;
         }
     }
     async loadFriendCount() {
@@ -142,7 +161,6 @@ class HomeRenderer {
     }
     createFriendCard(friend) {
         const card = document.createElement('div');
-        card.className = 'friend-card';
         card.setAttribute('data-friend-id', friend.friend_id);
         card.setAttribute('data-friend-name', friend.username);
         card.setAttribute('data-game-title', friend.game_title || '');
@@ -156,18 +174,24 @@ class HomeRenderer {
         const isIngame = (now - playedTime) <= 20;
         const isInstudio = (now - studioTime) <= 30;
         let statusClass = '';
+        let statusText = '';
         if (isInstudio) {
             statusClass = 'status-instudio';
+            statusText = 'In Studio';
         } else if (isIngame) {
             statusClass = 'status-ingame';
+            statusText = `Playing ${friend.game_title || 'a game'}`;
         } else if (isOnline) {
             statusClass = 'status-online';
+            statusText = 'Online';
         }
+        card.className = `friend-card ${statusClass}`;
         card.innerHTML = `
             <div class="friend-card-image-container ${statusClass}">
                 <img class="friend-card-img" data-thumb-id="${friend.friend_id}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
             </div>
             <p class="friend-card-name">${this.escapeHtml(friend.username)}</p>
+            <p class="friend-card-status">${this.escapeHtml(statusText)}</p>
         `;
         card.onclick = () => window.location.href = `/users/${friend.friend_id}/profile`;
         return card

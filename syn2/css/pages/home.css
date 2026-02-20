@@ -276,6 +276,25 @@ body {
     margin: 0;
 }
 
+.friend-card-status {
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.friend-card.status-online .friend-card-status {
+    color: #00a2ff;
+}
+
+.friend-card.status-ingame .friend-card-status {
+    color: #2ea44f;
+}
+
+.friend-card.status-instudio .friend-card-status {
+    color: #ff8c00;
+}
+
 .game-card {
     background-color: rgba(20, 20, 30, 0.8);
     border-radius: 6px;
