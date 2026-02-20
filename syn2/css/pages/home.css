@@ -1,11 +1,12 @@
 /* Body Background - Pattern with Vignette */
 body {
-    background: radial-gradient(circle at center, rgba(10, 10, 20, 0.4) 0%, rgba(5, 5, 10, 0.95) 100%), 
-                url('https://github.com/roldblox-project/roldblox-assets/blob/main/images/backgrounds/pattern.png?raw=true');
+    background: radial-gradient(circle at center, rgba(10, 10, 20, 0.4) 0%, rgba(5, 5, 10, 0.95) 100%),
+        url('https://github.com/roldblox-project/roldblox-assets/blob/main/images/backgrounds/pattern.png?raw=true');
     background-size: cover, cover;
     background-position: center, center;
     background-attachment: fixed;
-    background-color: rgb(10, 10, 20); /* Fallback */
+    background-color: rgb(10, 10, 20);
+    /* Fallback */
 }
 
 .content {
@@ -20,7 +21,7 @@ body {
     border: 1px solid rgb(50, 50, 60);
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     /* Removed extra top padding */
 }
@@ -30,7 +31,8 @@ body {
 .profile-content {
     display: flex;
     padding: 15px;
-    align-items: center; /* Vertically center everything */
+    align-items: center;
+    /* Vertically center everything */
 }
 
 .profile-avatar-container {
@@ -54,7 +56,8 @@ body {
     right: 5px;
     width: 14px;
     height: 14px;
-    background-color: #2ea44f; /* Online green */
+    background-color: #2ea44f;
+    /* Online green */
     border: 2px solid rgb(30, 30, 40);
     border-radius: 50%;
 }
@@ -90,18 +93,19 @@ body {
 
 .profile-username {
     margin: 0;
-    font-size: 16px; /* Smaller username */
+    font-size: 16px;
+    /* Smaller username */
     font-weight: 700;
     color: #fff;
     line-height: 1.2;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .profile-handle {
     margin: 0;
     font-size: 12px;
     color: #bbb;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .status-form {
@@ -114,7 +118,8 @@ body {
     background-color: rgba(20, 20, 30, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 4px;
-    padding: 6px 10px; /* Smaller padding */
+    padding: 6px 10px;
+    /* Smaller padding */
     color: white;
     font-family: inherit;
     font-size: 13px;
@@ -131,19 +136,24 @@ body {
 
 .profile-stats {
     display: flex;
-    gap: 30px; /* Increased gap for cleaner look */
+    gap: 30px;
+    /* Increased gap for cleaner look */
     /* background-color: rgba(0, 0, 0, 0.2); Removed background */
-    padding: 0; /* Removed padding */
-    padding-right: 30px; /* Add padding to move away from edge */
+    padding: 0;
+    /* Removed padding */
+    padding-right: 30px;
+    /* Add padding to move away from edge */
     /* border-radius: 6px; */
     /* backdrop-filter: blur(5px); */
     /* border: 1px solid rgba(255,255,255,0.05); */
     margin-top: 0;
-    margin-left: auto; /* Push to the right */
+    margin-left: auto;
+    /* Push to the right */
 }
 
 .stat-item {
-    text-align: center; /* Center align text */
+    text-align: center;
+    /* Center align text */
     min-width: 50px;
 }
 
@@ -155,7 +165,7 @@ body {
     color: #ccc;
     margin-bottom: 4px;
     font-weight: 600;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .stat-value {
@@ -164,7 +174,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .stat-value:hover {
@@ -173,9 +183,42 @@ body {
 
 /* Home Layout */
 .home-layout {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
+    display: block;
+    /* Removed grid for full width feed */
+    /* grid-template-columns: 2fr 1fr; */
+    /* gap: 20px; */
+}
+
+.friends-section-wrapper {
+    margin-bottom: 20px;
+}
+
+.friends-section {
+    /* Full width wrapper for friends */
+}
+
+.friend-list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    /* Hide scrollbar for cleaner look but keep functionality */
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.friend-list::-webkit-scrollbar {
+    height: 6px;
+}
+
+.friend-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.friend-list::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
 }
 
 .section-header {
@@ -196,13 +239,7 @@ body {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 15px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.friend-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .friend-card {
@@ -217,6 +254,11 @@ body {
     text-decoration: none;
     transition: all 0.2s ease;
     cursor: pointer;
+    min-width: 80px;
+    /* Ensure consistent width */
+    max-width: 100px;
+    flex-shrink: 0;
+    /* Prevent shrinking */
 }
 
 .friend-card:hover {
