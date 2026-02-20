@@ -271,7 +271,26 @@ class HomeRenderer {
         } else {
             const li = document.createElement('li');
             li.className = 'list-item game-card game-tile';
-            li.innerHTML = `<div class="game-card-container"><a class="game-card-link" href="${gameUrl}" tabindex="0"><div class="game-card-thumb-container"><span class="thumbnail-2d-container game-card-thumb position-relative"><div class="shimmer-box" data-thumb-id="${assetId}" style="width:150px;height:150px"></div><div class="position-absolute" style="bottom:0;left:0;z-index:10"><div class="fw-bold bg-dark text-white" style="font-size:12px;padding:3px;border-top-right-radius:4px">${version}</div></div></span></div><div class="game-card-name game-name-title" title="${title}">${title}</div><div class="game-card-info"><span class="info-label icon-votes-gray"></span><span class="info-label vote-percentage-label">${votePercentage}%</span><span class="info-label icon-playing-counts-gray"></span><span class="info-label playing-counts-label">${this.formatNumber(playerCount)}</span></div></a></div>`;
+            li.innerHTML = `
+            <div class="game-card-container">
+                <a class="game-card-link" href="${gameUrl}" tabindex="0">
+                    <div class="game-card-thumb-container">
+                        <span class="thumbnail-2d-container game-card-thumb position-relative">
+                            <div class="shimmer-box" data-thumb-id="${assetId}" style="width:150px;height:150px"></div>
+                            <div class="position-absolute" style="bottom:0;left:0;z-index:10">
+                                <div class="fw-bold bg-dark text-white" style="font-size:12px;padding:3px;border-top-right-radius:4px">${version}</div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="game-card-title" title="${title}">${title}</div>
+                    <div class="game-card-info">
+                        <span class="info-label"><span class="b-icon" style="font-size: 12px; margin-right: 2px;">thumb-up</span></span>
+                        <span class="info-label vote-percentage-label" style="margin-right: 8px;">${votePercentage}%</span>
+                        <span class="info-label"><span class="b-icon" style="font-size: 12px; margin-right: 2px;">people</span></span>
+                        <span class="info-label playing-counts-label">${this.formatNumber(playerCount)}</span>
+                    </div>
+                </a>
+            </div>`;
             return li
         }
     }

@@ -57,7 +57,10 @@
 
             <div class="friends-section-wrapper">
                 <div class="friends-section">
-                    <h3 class="section-header"><div>My Friends (<span class="friend-count-display">...</span>)</div> <a href="/users" style="font-size: 12px; font-weight: normal; color: #00a2ff; text-decoration: none;">Find Friends</a></h3>
+                    <div class="section-header">
+                        <h3>My Friends (<span class="friend-count-display">...</span>)</h3>
+                        <a href="/users" style="font-size: 12px; font-weight: normal; color: #00a2ff; text-decoration: none;">Find Friends</a>
+                    </div>
                     <div class="friends-carousel-wrapper" style="position: relative;">
                         <button id="friends-prev" class="carousel-btn prev" style="display: none; position: absolute; left: -40px; top: 50%; transform: translateY(-50%); z-index: 10; border: none; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="b-icon" style="font-size: 30px;">chevron-large-left</span></button>
                         <div class="friend-list" id="friends-container" style="display: flex; overflow-x: auto; scrollbar-width: none; gap: 10px;">
