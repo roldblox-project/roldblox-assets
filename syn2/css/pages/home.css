@@ -33,6 +33,10 @@ body {
     padding: 15px;
     align-items: center;
     /* Vertically center everything */
+    background-color: rgba(20, 20, 30, 0.6);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
 }
 
 .profile-avatar-container {
@@ -559,7 +563,9 @@ body {
         gap: 8px;
 
         .profile-avatar-container {
-            margin-right: 0;
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+            margin: 0 auto !important;
         }
     }
 }
