@@ -131,18 +131,18 @@ body {
 
 .profile-stats {
     display: flex;
-    gap: 20px; /* Slightly tighter gap */
-    /* align-self: center; Removed to respect parent alignment */
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 8px 15px; /* Smaller padding */
-    border-radius: 6px;
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255,255,255,0.05);
-    margin-top: 0; /* Reset margin */
+    gap: 30px; /* Increased gap for cleaner look */
+    /* background-color: rgba(0, 0, 0, 0.2); Removed background */
+    padding: 0; /* Removed padding */
+    /* border-radius: 6px; */
+    /* backdrop-filter: blur(5px); */
+    /* border: 1px solid rgba(255,255,255,0.05); */
+    margin-top: 0;
+    margin-left: auto; /* Push to the right */
 }
 
 .stat-item {
-    text-align: center;
+    text-align: right; /* Right align text for better flow */
     min-width: 50px;
 }
 

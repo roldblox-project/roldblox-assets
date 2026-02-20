@@ -56,9 +56,8 @@
                         <input type="text" id="status" name="status" class="status-input-field" value="{$user_data['status']}" placeholder="What are you up to?" maxlength="255">
                     </form> -->
                 </div>
-                </div>
             </div>
-            
+
             <div class="home-layout">
                 <div class="feed-section">
                     <h2 class="section-header">My Feed</h2>
