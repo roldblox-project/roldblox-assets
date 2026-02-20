@@ -155,18 +155,17 @@ class HomeRenderer {
         const isOnline = (now - statusTime) <= 60;
         const isIngame = (now - playedTime) <= 20;
         const isInstudio = (now - studioTime) <= 30;
-        let statusIcon = '';
+        let statusClass = '';
         if (isInstudio) {
-            statusIcon = '<div class="status-icon status-icon-orange"></div>'
+            statusClass = 'status-instudio';
         } else if (isIngame) {
-            statusIcon = '<div class="status-icon status-icon-green"></div>'
+            statusClass = 'status-ingame';
         } else if (isOnline) {
-            statusIcon = '<div class="status-icon"></div>'
+            statusClass = 'status-online';
         }
         card.innerHTML = `
-            <div class="friend-card-image-container">
+            <div class="friend-card-image-container ${statusClass}">
                 <img class="friend-card-img" data-thumb-id="${friend.friend_id}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                ${statusIcon}
             </div>
             <p class="friend-card-name">${this.escapeHtml(friend.username)}</p>
         `;
