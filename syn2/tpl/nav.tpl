@@ -29,11 +29,11 @@
     <div class="navbar-right">
         <a href="{url page="transactions"}" class="nav-item-link" title="{$user_data['robux']} Robux">
             <span class="b-icon">robux</span>
-            <span class="nav-label" data-value="{$user_data['robux']}">{$user_data["robux"]}</span>
+            <span class="nav-label currency-amount" data-value="{$user_data['robux']}">{$user_data["robux"]}</span>
         </a>
         <a href="{url page="transactions"}" class="nav-item-link" title="{$user_data['tickets']} Tix">
             <span class="b-icon" style="font-size: 20px; margin-top: 2px;">ticket</span>
-            <span class="nav-label" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</span>
+            <span class="nav-label currency-amount" data-value="{$user_data['tickets']}">{$user_data["tickets"]}</span>
         </a>
         <div class="nav-item-link settings-dropdown" onclick="toggleDropdown(event)" style="cursor: pointer;">
             <span class="b-icon">gear</span>

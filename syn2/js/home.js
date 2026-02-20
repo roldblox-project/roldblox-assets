@@ -409,16 +409,9 @@ class HomeRenderer {
             const container = document.getElementById(c.container);
             if (prevBtn && nextBtn && container) {
                 const updateButtons = () => {
-                    const hasScroll = container.scrollWidth > container.clientWidth;
-                    if (!hasScroll) {
-                        prevBtn.style.display = 'none';
-                        nextBtn.style.display = 'none';
-                        return
-                    }
-                    prevBtn.style.display = container.scrollLeft > 0 ? 'flex' : 'none';
-                    nextBtn.style.display = container.scrollLeft < container.scrollWidth - container.clientWidth - 10 ? 'flex' : 'none'
-                }
-                    ;
+                    prevBtn.style.display = 'flex';
+                    nextBtn.style.display = 'flex';
+                };
                 prevBtn.onclick = () => container.scrollBy({
                     left: -300,
                     behavior: 'smooth'

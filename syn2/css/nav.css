@@ -64,7 +64,7 @@ body {
     z-index: 1000;
     box-sizing: border-box;
     flex-wrap: nowrap;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .navbar-headshot {
@@ -73,6 +73,7 @@ body {
     border-radius: 4px;
     margin-right: 10px;
     object-fit: cover;
+    background-color: rgb(20, 20, 30);
 }
 
 .navbar-left {
@@ -269,7 +270,7 @@ body {
     border-radius: 4px;
     margin-right: 10px;
     object-fit: cover;
-    background-color: #000;
+    background-color: rgb(20, 20, 30);
 }
 
 .sidebar-username {
@@ -450,6 +451,10 @@ body {
 
     .navbar-right .nav-label {
         display: none;
+    }
+
+    .navbar-right .currency-amount {
+        display: inline;
     }
 
     .navbar-right .nav-item-link {
