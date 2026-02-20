@@ -202,7 +202,7 @@ body {
 .friend-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 12px;
 }
 
 .friend-card {
@@ -215,7 +215,41 @@ body {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    transition: transform 0.2s, background-color 0.2s;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.friend-card:hover {
+    background-color: rgb(40, 40, 50);
+    transform: translateY(-2px);
+    border-color: #00a2ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.friend-avatar-wrapper {
+    position: relative;
+    margin-bottom: 8px;
+    width: 60px;
+    height: 60px;
+}
+
+.friend-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #000;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.friend-name {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
 }
 
 .friend-card:hover {

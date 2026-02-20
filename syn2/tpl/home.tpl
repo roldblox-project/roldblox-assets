@@ -75,8 +75,8 @@
                 </div>
                 
                 <div class="friends-section">
-                    <h3 class="section-header">My Friends (0)</h3>
-                    <div class="friend-list">
+                    <h3 class="section-header">My Friends (<span id="friend-count">0</span>)</h3>
+                    <div class="friend-list" id="friend-list-container">
                          <!-- Placeholder friends for visual appeal if the list is empty/unavailable -->
                          <!-- 
                          <a href="#" class="friend-card">
@@ -85,7 +85,7 @@
                          </a>
                          -->
                     </div>
-                    <div style="text-align: center; padding: 20px; color: #666; font-size: 13px; font-style: italic;">
+                    <div id="no-friends-msg" style="text-align: center; padding: 20px; color: #666; font-size: 13px; font-style: italic;">
                         You don't have any friends yet.
                     </div>
                     <p style="margin-top: 15px; font-size: 12px; color: #666; text-align: center;">
@@ -95,5 +95,62 @@
             </div>
         </div>
     </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('/api/home-friends')
+                .then(response => response.json())
+                .then(data => {
+                    const friendListContainer = document.getElementById('friend-list-container');
+                    const friendCountSpan = document.getElementById('friend-count');
+                    const noFriendsMsg = document.getElementById('no-friends-msg');
+                    
+                    if (data && data.length > 0) {
+                        // Update count
+                        friendCountSpan.textContent = data.length;
+                        
+                        // Hide no friends message
+                        if (noFriendsMsg) noFriendsMsg.style.display = 'none';
+                        
+                        // Clear existing content (placeholders)
+                        friendListContainer.innerHTML = '';
+                        
+                        // Limit to first 9 friends for home page
+                        const friendsToShow = data.slice(0, 9);
+                        
+                        friendsToShow.forEach(friend => {
+                            const friendCard = document.createElement('a');
+                            friendCard.className = 'friend-card';
+                            friendCard.href = '/users/' + friend.friend_id + '/profile';
+                            
+                            // Determine status color (green if online/recent, gray otherwise)
+                            // This is a simple heuristic based on available data
+                            let statusClass = 'offline';
+                            // If needed we can parse friend_status or last_played_at
+                            
+                            friendCard.innerHTML = `
+                                <div class="friend-avatar-wrapper">
+                                    <img src="/Thumbs/Head.ashx?x=100&y=100&userId=${friend.friend_id}" class="friend-avatar" alt="${friend.username}">
+                                </div>
+                                <span class="friend-name">${friend.username}</span>
+                            `;
+                            
+                            friendListContainer.appendChild(friendCard);
+                        });
+                    } else {
+                        friendCountSpan.textContent = '0';
+                        if (noFriendsMsg) noFriendsMsg.style.display = 'block';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching friends:', error);
+                    const friendCountSpan = document.getElementById('friend-count');
+                    const noFriendsMsg = document.getElementById('no-friends-msg');
+                    
+                    if (friendCountSpan) friendCountSpan.textContent = '0';
+                    if (noFriendsMsg) noFriendsMsg.style.display = 'block';
+                });
+        });
+    </script>
 </body>
 </html>
