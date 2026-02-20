@@ -63,6 +63,8 @@ body {
     width: 100%;
     z-index: 1000;
     box-sizing: border-box;
+    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 .navbar-headshot {
@@ -419,6 +421,14 @@ body {
     box-sizing: border-box;
 }
 
+.navbar-burger .b-icon {
+    font-size: 30px;
+}
+
+.navbar-burger.active .b-icon {
+    font-weight: bold;
+}
+
 /* Backdrop for mobile sidebar */
 .sidebar-backdrop {
     display: none;
@@ -436,6 +446,19 @@ body {
 
     .main-container {
         margin-left: 0;
+    }
+
+    .navbar-right .nav-label {
+        display: none;
+    }
+
+    .navbar-right .nav-item-link {
+        width: 48px;
+    }
+
+    .navbar-brand-link {
+        width: auto;
+        padding: 0 10px;
     }
 
     .sidebar {

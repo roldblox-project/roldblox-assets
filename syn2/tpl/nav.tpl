@@ -150,6 +150,7 @@
             sidebar.classList.add('open');
             backdrop.classList.add('show');
             document.body.style.overflow = 'hidden';
+            if (burger) burger.classList.add('active');
         }
 
         function closeMenu() {
@@ -157,6 +158,7 @@
             sidebar.classList.remove('open');
             backdrop.classList.remove('show');
             document.body.style.overflow = '';
+            if (burger) burger.classList.remove('active');
         }
 
         if (burger) {
