@@ -5,9 +5,6 @@
     <div style="font-family: 'BuilderIcons'; font-weight: bold; opacity: 0; position: absolute; pointer-events: none;">.</div>
     
     <div class="navbar-left">
-        <button class="navbar-toggle" onclick="toggleSidebar()" style="display: none;">
-            <span class="b-icon">three-bars-horizontal</span>
-        </button>
         <a href="{url page="home"}" class="navbar-brand-link">
             <img src="https://github.com/roldblox-project/roldblox-assets/blob/main/images/logo.png?raw=true" alt="ROLDBLOX" class="navbar-logo">
         </a>
@@ -96,26 +93,6 @@
 </div>
 
 <script>
-    function toggleSidebar() {
-        const sidebar = document.querySelector('.sidebar');
-        sidebar.classList.toggle('active');
-        
-        let overlay = document.getElementById('sidebar-overlay');
-        if (!overlay) {
-            overlay = document.createElement('div');
-            overlay.id = 'sidebar-overlay';
-            overlay.className = 'sidebar-overlay';
-            overlay.onclick = toggleSidebar;
-            document.body.appendChild(overlay);
-        }
-        
-        if (sidebar.classList.contains('active')) {
-            overlay.classList.add('active');
-        } else {
-            overlay.classList.remove('active');
-        }
-    }
-
     function toggleDropdown(event) {
         event.stopPropagation();
         document.getElementById("settingsDropdown").classList.toggle("show");
