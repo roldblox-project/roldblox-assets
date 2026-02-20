@@ -6,12 +6,12 @@ class HomeRenderer {
     }
     async init() {
         try {
+            this.loadFriendCount();
+            this.loadFollowCounts();
             await Promise.all([this.loadFriends(), this.loadTodaysPicks(), this.loadRecommended(), this.loadRecent(), this.loadSponsored(), this.loadFavorites()]);
             this.setupCarousels();
             this.setupScrollFades();
             this.setupLauncher()
-            this.loadFriendCount()
-            this.loadFollowCounts()
         } catch (error) {
             console.error('Error initializing home:', error)
         }
@@ -117,10 +117,6 @@ class HomeRenderer {
         }
     }
     renderFriends(friends) {
-        const countElements = document.querySelectorAll('.friend-count-display');
-        countElements.forEach(el => {
-            el.textContent = friends ? friends.length : 0;
-        });
         const container = document.getElementById('friends-container');
         const prevBtn = document.getElementById('friends-prev');
         const nextBtn = document.getElementById('friends-next');
