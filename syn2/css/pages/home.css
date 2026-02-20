@@ -175,6 +175,7 @@ body {
 
 .friends-carousel-wrapper {
     background-color: rgba(30, 30, 40, 0.75);
+    backdrop-filter: blur(8px);
     border-radius: 4px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -182,6 +183,7 @@ body {
 
 .game-carousel-container {
     background-color: rgba(30, 30, 40, 0.75);
+    backdrop-filter: blur(8px);
     border-radius: 4px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
