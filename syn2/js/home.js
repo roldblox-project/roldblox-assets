@@ -11,6 +11,7 @@ class HomeRenderer {
             this.setupScrollFades();
             this.setupLauncher()
             this.loadFriendCount()
+            this.loadFollowCounts()
         } catch (error) {
             console.error('Error initializing home:', error)
         }
@@ -25,6 +26,27 @@ class HomeRenderer {
             const n = (data && (data.count ?? data.data ?? data.total)) || 0;
             const els = document.querySelectorAll('.friend-count-display');
             els.forEach(el => el.textContent = n);
+        } catch (e) {
+        }
+    }
+    async loadFollowCounts() {
+        try {
+            const id = (window.CURRENT_USER_ID || '').toString();
+            if (!id) return;
+            const [followersRes, followingsRes] = await Promise.all([
+                fetch(`/v1/users/${id}/followers/count`, { credentials: 'include' }),
+                fetch(`/v1/users/${id}/followings/count`, { credentials: 'include' })
+            ]);
+            if (followersRes && followersRes.ok) {
+                const d = await followersRes.json();
+                const n = (d && (d.count ?? d.data ?? d.total)) || 0;
+                document.querySelectorAll('.follower-count-display').forEach(el => el.textContent = n);
+            }
+            if (followingsRes && followingsRes.ok) {
+                const d2 = await followingsRes.json();
+                const n2 = (d2 && (d2.count ?? d2.data ?? d2.total)) || 0;
+                document.querySelectorAll('.following-count-display').forEach(el => el.textContent = n2);
+            }
         } catch (e) {
         }
     }

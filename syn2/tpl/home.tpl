@@ -37,11 +37,11 @@
                             </div>
                             <div class="stat-item">
                                 <span class="stat-label">Followers</span>
-                                <a href="/users/{$user_data['id']}/followers" class="stat-value">4</a>
+                                <a href="/users/{$user_data['id']}/followers" class="stat-value follower-count-display">...</a>
                             </div>
                             <div class="stat-item">
                                 <span class="stat-label">Following</span>
-                                <a href="/users/{$user_data['id']}/following" class="stat-value">0</a>
+                                <a href="/users/{$user_data['id']}/following" class="stat-value following-count-display">...</a>
                             </div>
                             <div class="stat-item">
                                 <span class="stat-label">User RAP</span>
