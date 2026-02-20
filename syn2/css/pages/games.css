@@ -1,4 +1,27 @@
 /* Games page styles */
+.content {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+}
+
+.section-header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
 .game-carousel-container {
     background-color: rgba(30, 30, 40, 0.75);
     backdrop-filter: blur(8px);
@@ -47,6 +70,54 @@
 .carousel-btn {
     display: flex !important;
     opacity: 1 !important;
+}
+
+/* Search form styling (top right) */
+#game-search-form {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#game-search-form input[type="text"] {
+    background-color: rgba(20, 20, 30, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 13px;
+    outline: none;
+    transition: all 0.2s ease;
+    min-width: 220px;
+}
+
+#game-search-form input[type="text"]:focus {
+    background-color: rgba(25, 25, 35, 0.8);
+    border-color: #00a2ff;
+    box-shadow: 0 0 0 2px rgba(0, 162, 255, 0.2);
+}
+
+#game-search-form .btn-search {
+    height: 32px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #0d6efd;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#game-search-form .btn-search:hover {
+    background-color: #0b5ed7;
+}
+
+#game-search-form .btn-search .b-icon {
+    font-size: 16px;
 }
 
 .game-card {
