@@ -1,0 +1,157 @@
+/* Games page styles */
+.game-carousel-container {
+    background-color: rgba(30, 30, 40, 0.75);
+    backdrop-filter: blur(8px);
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.game-list,
+#search-results-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto !important;
+    padding: 20px 10px !important;
+    margin: 0;
+    list-style: none;
+    scrollbar-width: auto !important;
+}
+
+.game-list::-webkit-scrollbar,
+#search-results-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.game-list::-webkit-scrollbar-thumb,
+#search-results-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.game-list::-webkit-scrollbar-track,
+#search-results-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.carousel-btn.prev {
+    left: -40px !important;
+}
+
+.carousel-btn.next {
+    right: -40px !important;
+}
+
+.carousel-btn {
+    display: flex !important;
+    opacity: 1 !important;
+}
+
+.game-card {
+    background-color: rgba(20, 20, 30, 0.8);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex: 0 0 auto;
+    width: 150px;
+    list-style: none;
+}
+
+.game-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.game-card-thumb-container {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.game-card-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover .game-card-thumb {
+    transform: scale(1.05);
+}
+
+.game-card-name,
+.game-name-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+    color: #fff;
+    padding: 8px 10px 0 10px;
+    line-height: 1.2;
+}
+
+.game-card-info {
+    padding: 5px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: #aaa;
+    gap: 6px;
+}
+
+.game-card-info .info-label {
+    margin-right: 6px;
+}
+
+.friends-carousel-wrapper::before,
+.friends-carousel-wrapper::after,
+.game-carousel-container::before,
+.game-carousel-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 5;
+}
+
+.game-carousel-container::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(10, 10, 20, 0.9), rgba(10, 10, 20, 0));
+}
+
+.game-carousel-container::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(10, 10, 20, 0.9), rgba(10, 10, 20, 0));
+}
+
+.game-carousel-container.fade-left::before {
+    opacity: 1;
+}
+
+.game-carousel-container.fade-right::after {
+    opacity: 1;
+}
+
+@media (max-width: 900px) {
+    .carousel-btn.prev {
+        left: 10px !important;
+    }
+    .carousel-btn.next {
+        right: 10px !important;
+    }
+}
