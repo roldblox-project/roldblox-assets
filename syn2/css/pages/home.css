@@ -134,6 +134,7 @@ body {
     gap: 30px; /* Increased gap for cleaner look */
     /* background-color: rgba(0, 0, 0, 0.2); Removed background */
     padding: 0; /* Removed padding */
+    padding-right: 30px; /* Add padding to move away from edge */
     /* border-radius: 6px; */
     /* backdrop-filter: blur(5px); */
     /* border: 1px solid rgba(255,255,255,0.05); */
@@ -142,7 +143,7 @@ body {
 }
 
 .stat-item {
-    text-align: right; /* Right align text for better flow */
+    text-align: center; /* Center align text */
     min-width: 50px;
 }
 
