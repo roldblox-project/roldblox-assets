@@ -25,11 +25,12 @@
                         <div class="status-icon"></div>
                     </div>
                     <div class="profile-info">
-                        <div class="welcome-text">Welcome back, {$user_data['username']}!</div>
-                        <div class="profile-names-row">
-                        <div class="profile-names">
-                            <h1 class="profile-username">{$user_data['username']}</h1>
-                            <p class="profile-handle">@{$user_data['username']}</p>
+                        <div class="profile-text-content">
+                            <div class="welcome-text">Welcome back, {$user_data['username']}!</div>
+                            <div class="profile-names">
+                                <h1 class="profile-username">{$user_data['username']}</h1>
+                                <p class="profile-handle">@{$user_data['username']}</p>
+                            </div>
                         </div>
                         
                         <div class="profile-stats">
@@ -51,7 +52,6 @@
                             </div>
                         </div>
                     </div>
-                    
                     <!-- <form action="/users/{$user_data['id']}/profile" method="post" class="status-form">
                         <input type="text" id="status" name="status" class="status-input-field" value="{$user_data['status']}" placeholder="What are you up to?" maxlength="255">
                     </form> -->
