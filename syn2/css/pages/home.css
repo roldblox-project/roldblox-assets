@@ -17,7 +17,7 @@ body {
 
 /* Profile Header Styles */
 .profile-header {
-    background-color: rgba(30, 30, 40, 0.75);
+    background-color: rgba(30, 30, 40, 0.85);
     backdrop-filter: blur(8px);
     border: 1px solid rgb(50, 50, 60);
     border-radius: 4px;
@@ -179,14 +179,14 @@ body {
 }
 
 .friends-carousel-wrapper {
-    background-color: rgba(30, 30, 40, 0.75);
+    background-color: rgba(30, 30, 40, 0.85);
     border-radius: 4px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .game-carousel-container {
-    background-color: rgba(30, 30, 40, 0.75);
+    background-color: rgba(30, 30, 40, 0.85);
     border-radius: 4px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
