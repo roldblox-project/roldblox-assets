@@ -570,10 +570,10 @@ class GameRenderer {
             <div class="game-card-container">
                 <a class="game-card-link" href="${this.formatGameUrl(game)}${campaignParam}" tabindex="0">
                     <div class="game-card-thumb-container">
-                        <span class="thumbnail-2d-container game-card-thumb position-relative">
+                        <div class="thumbnail-2d-container game-card-thumb position-relative">
                             <div class="shimmer-box" data-game-id="${safePlaceId}" style="width: 100%; height: 100%; aspect-ratio: 1/1;"></div>
                             <div class="game-version-badge">${safeVersion}</div>
-                        </span>
+                        </div>
                     </div>
                     <div class="game-card-title" title="${safeTitle}">${safeTitle}</div>
                     ${infoHtml}
