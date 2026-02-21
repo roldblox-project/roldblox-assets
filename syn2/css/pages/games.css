@@ -45,6 +45,7 @@
     font-size: 20px;
     font-weight: 600;
     color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .game-carousel-container {
@@ -203,7 +204,6 @@
     align-items: center;
     font-size: 11px;
     color: #aaa;
-    gap: 6px;
 }
 
 .game-card-stats-icon {

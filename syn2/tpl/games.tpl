@@ -11,7 +11,7 @@
     <div class="main-container">
         <div class="content">
             <div class="section-header">
-                <h2 class="mb-0">Trending</h2>
+                <h3 class="mb-0">Trending</h3>
                 <form id="game-search-form" class="ms-auto">
                     <input id="search-input" type="text" name="q" placeholder="Search games" class="form-control" />
                     <button type="submit" class="btn-search"><span class="b-icon">magnifying-glass</span> Search</button>
@@ -24,7 +24,7 @@
             </div>
 
             <div class="section-header">
-                <h2 class="mb-0">Popular</h2>
+                <h3 class="mb-0">Popular</h3>
             </div>
             <div class="carousel-container game-carousel-container">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('popular-games-container', -400)"><span class="b-icon">chevron-left</span></a>
@@ -33,7 +33,7 @@
             </div>
 
             <div class="section-header">
-                <h2 class="mb-0">Top Rated</h2>
+                <h3 class="mb-0">Top Rated</h3>
             </div>
             <div class="carousel-container game-carousel-container">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('top-rated-games-container', -400)"><span class="b-icon">chevron-left</span></a>
@@ -42,7 +42,7 @@
             </div>
 
             <div class="section-header">
-                <h2 class="mb-0">Playing Now</h2>
+                <h3 class="mb-0">Playing Now</h3>
             </div>
             <div class="carousel-container game-carousel-container">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('playing-now-games-container', -400)"><span class="b-icon">chevron-left</span></a>
@@ -51,7 +51,7 @@
             </div>
 
             <div class="section-header">
-                <h2 class="mb-0">Upcoming</h2>
+                <h3 class="mb-0">Upcoming</h3>
             </div>
             <div class="carousel-container game-carousel-container">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('upcoming-games-container', -400)"><span class="b-icon">chevron-left</span></a>
@@ -60,7 +60,7 @@
             </div>
 
             <div class="section-header">
-                <h2 class="mb-0">Friends Are Playing</h2>
+                <h3 class="mb-0">Friends Are Playing</h3>
             </div>
             <div class="carousel-container game-carousel-container">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('friends-games-container', -400)"><span class="b-icon">chevron-left</span></a>
@@ -70,7 +70,7 @@
 
             <section id="search-results-section" style="display:none;">
                 <div class="d-flex align-items-center mt-4">
-                    <h2 id="search-results-title" class="mb-0">Search</h2>
+                    <h3 id="search-results-title" class="mb-0">Search</h3>
                     <div class="ms-auto d-flex align-items-center" id="pagination-container" style="gap: 8px;">
                         <a href="#" id="prev-page" class="text-secondary">Prev</a>
                         <span id="page-info" class="text-secondary">Page 1</span>
