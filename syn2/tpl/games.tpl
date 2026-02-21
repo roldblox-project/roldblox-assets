@@ -23,7 +23,7 @@
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('trending-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="d-flex align-items-center mt-4">
+            <div class="section-header">
                 <h2 class="mb-0">Popular</h2>
             </div>
             <div class="carousel-container game-carousel-container">
@@ -32,7 +32,7 @@
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('popular-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="d-flex align-items-center mt-4">
+            <div class="section-header">
                 <h2 class="mb-0">Top Rated</h2>
             </div>
             <div class="carousel-container game-carousel-container">
@@ -41,7 +41,7 @@
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('top-rated-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="d-flex align-items-center mt-4">
+            <div class="section-header">
                 <h2 class="mb-0">Playing Now</h2>
             </div>
             <div class="carousel-container game-carousel-container">
@@ -50,7 +50,7 @@
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('playing-now-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="d-flex align-items-center mt-4">
+            <div class="section-header">
                 <h2 class="mb-0">Upcoming</h2>
             </div>
             <div class="carousel-container game-carousel-container">
@@ -59,7 +59,7 @@
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('upcoming-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="d-flex align-items-center mt-4">
+            <div class="section-header">
                 <h2 class="mb-0">Friends Are Playing</h2>
             </div>
             <div class="carousel-container game-carousel-container">
