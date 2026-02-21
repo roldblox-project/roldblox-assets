@@ -206,6 +206,36 @@
     gap: 6px;
 }
 
+.game-card-stats-icon {
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.game-card-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+    color: #fff;
+    padding: 8px 10px 0 10px;
+    line-height: 1.2;
+}
+
+.game-version-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    font-size: 12px;
+    background-color: #212529;
+    color: white;
+    padding: 3px;
+    border-top-right-radius: 4px;
+}
+
 .game-card-info .info-label {
     margin-right: 6px;
 }

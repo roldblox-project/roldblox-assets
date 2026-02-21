@@ -531,10 +531,10 @@ class GameRenderer {
         const infoHtml = isSponsored 
             ? '<div class="game-card-sponsored-badge"><span class="badge bg-warning">Sponsored</span></div>'
             : `<div class="game-card-info">
-                <span class="info-label icon-votes-gray"></span>
-                <span class="info-label vote-percentage-label">${voteDisplay}</span>
-                <span class="info-label icon-playing-counts-gray"></span>
-                <span class="info-label playing-counts-label">${formatCount(safePlaying)}</span>
+                <span class="info-label"><span class="b-icon game-card-stats-icon">thumb-up</span></span>
+                <span class="info-label vote-percentage-label game-card-stats-value">${voteDisplay}</span>
+                <span class="info-label"><span class="b-icon game-card-stats-icon">person-play</span></span>
+                <span class="info-label playing-counts-label game-card-stats-value">${formatCount(safePlaying)}</span>
             </div>`;
 
         const cardHtml = `
@@ -543,12 +543,10 @@ class GameRenderer {
                     <div class="game-card-thumb-container">
                         <span class="thumbnail-2d-container game-card-thumb position-relative">
                             <div class="shimmer-box" data-game-id="${safePlaceId}" style="width: 100%; height: 100%; aspect-ratio: 1/1;"></div>
-                            <div class="position-absolute" style="bottom: 0px;left: 0px;z-index: 10;">
-                                <div class="fw-bold bg-dark text-white" style="font-size: 12px;padding: 3px;border-top-right-radius: 4px;">${safeVersion}</div>
-                            </div>
+                            <div class="game-version-badge">${safeVersion}</div>
                         </span>
                     </div>
-                    <div class="game-card-name game-name-title" title="${safeTitle}">${safeTitle}</div>
+                    <div class="game-card-title" title="${safeTitle}">${safeTitle}</div>
                     ${infoHtml}
                 </a>
             </div>
@@ -556,7 +554,6 @@ class GameRenderer {
         
         listItem.innerHTML = cardHtml;
         return listItem;
-    }
     
     createOldStyleCard(game, type = 'default') {
         const card = document.createElement('a');
@@ -785,6 +782,37 @@ class GameRenderer {
 
 document.addEventListener('DOMContentLoaded', () => {
     window.gameRenderer = new GameRenderer();
+    // Scroll fade setup for carousels
+    const containers = [
+        'trending-games-container',
+        'popular-games-container',
+        'top-rated-games-container',
+        'playing-now-games-container',
+        'upcoming-games-container',
+        'friends-games-container',
+        'search-results-container'
+    ];
+    function updateFade(el) {
+        if (!el) return;
+        const wrapper = el.closest('.game-carousel-container');
+        if (!wrapper) return;
+        const hasLeft = el.scrollLeft > 5;
+        const hasRight = el.scrollLeft < el.scrollWidth - el.clientWidth - 5;
+        wrapper.classList.toggle('fade-left', hasLeft);
+        wrapper.classList.toggle('fade-right', hasRight);
+    }
+    containers.forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        updateFade(el);
+        el.addEventListener('scroll', () => updateFade(el));
+    });
+    window.addEventListener('resize', () => {
+        containers.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) updateFade(el);
+        });
+    });
     
     const carousels = document.querySelectorAll('.games-carousel');
     carousels.forEach(carousel => {
