@@ -10,24 +10,12 @@
 
     <div class="main-container">
         <div class="content">
-            <div class="d-md-flex align-items-center w-100">
-                <div class="d-flex align-items-center">
-                    <h1 class="mb-0">Continue</h1>
-                </div>
-                <form id="game-search-form" class="ms-auto d-flex" style="gap: 8px;">
-                    <input id="search-input" type="text" name="q" placeholder="Search games" class="form-control" />
-                    <button type="submit" class="btn btn-primary">Search</button>
-                </form>
-            </div>
-
-            <div class="carousel-container game-carousel-container mt-2">
-                <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" style="z-index: 10;" onclick="scrollCarousel('recent-games-container', -400)"><span class="b-icon">chevron-left</span></a>
-                <ul id="recent-games-container" class="list-unstyled d-flex games-carousel game-list gap-3 m-0"></ul>
-                <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" style="z-index: 10; right: 0;" onclick="scrollCarousel('recent-games-container', 400)"><span class="b-icon">chevron-right</span></a>
-            </div>
-
-            <div class="d-flex align-items-center mt-4">
+            <div class="section-header">
                 <h2 class="mb-0">Trending</h2>
+                <form id="game-search-form" class="ms-auto">
+                    <input id="search-input" type="text" name="q" placeholder="Search games" class="form-control" />
+                    <button type="submit" class="btn-search"><span class="b-icon">magnifying-glass</span> Search</button>
+                </form>
             </div>
             <div class="carousel-container game-carousel-container">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('trending-games-container', -400)"><span class="b-icon">chevron-left</span></a>
