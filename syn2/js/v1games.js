@@ -296,9 +296,9 @@ class GameRenderer {
             searchInput.value = this.searchQuery;
         }
 
-        // Hide all section headers and carousels
-        document.querySelectorAll('.section-header').forEach(el => el.style.display = 'none');
-        document.querySelectorAll('.game-carousel-container').forEach(el => el.style.display = 'none');
+        // Hide all category section headers and carousels (not the search header)
+        document.querySelectorAll('.category-header').forEach(el => el.style.display = 'none');
+        document.querySelectorAll('.category-carousel').forEach(el => el.style.display = 'none');
 
         if (this.options.searchResultsSection) {
             this.options.searchResultsSection.style.display = 'block';
@@ -308,9 +308,9 @@ class GameRenderer {
     }
 
     handleDefaultState() {
-        // Show all section headers and carousels
-        document.querySelectorAll('.section-header').forEach(el => el.style.display = 'flex');
-        document.querySelectorAll('.game-carousel-container').forEach(el => el.style.display = 'block');
+        // Show all category section headers and carousels
+        document.querySelectorAll('.category-header').forEach(el => el.style.display = 'flex');
+        document.querySelectorAll('.category-carousel').forEach(el => el.style.display = 'block');
 
         if (this.options.searchResultsSection) {
             this.options.searchResultsSection.style.display = 'none';

@@ -195,6 +195,11 @@ body {
     list-style: none;
 }
 
+.game-card:hover {
+    transform: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
 .game-card-link {
     text-decoration: none;
     color: inherit;
@@ -215,12 +220,12 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
 }
 
-.game-card:hover .game-card-thumb {
+/* .game-card:hover .game-card-thumb {
     transform: scale(1.05);
-}
+} */
 
 .game-card-name,
 .game-name-title,

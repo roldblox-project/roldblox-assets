@@ -10,59 +10,63 @@
 
     <div class="main-container">
         <div class="content">
-            <div class="section-header">
-                <h3 class="mb-0">Trending</h3>
-                <form id="game-search-form" class="ms-auto">
+            <div class="section-header search-header" style="border-bottom: none; margin-bottom: 0;">
+                <h3 class="mb-0" style="visibility: hidden; height: 0; width: 0; overflow: hidden;">Search</h3>
+                <form id="game-search-form" class="ms-auto w-100 d-flex justify-content-end">
                     <input id="search-input" type="text" name="q" placeholder="Search games" class="form-control" />
                     <button type="submit" class="btn-search"><span class="b-icon">magnifying-glass</span> Search</button>
                 </form>
             </div>
-            <div class="carousel-container game-carousel-container">
+
+            <div class="section-header category-header">
+                <h3 class="mb-0">Trending</h3>
+            </div>
+            <div class="carousel-container game-carousel-container category-carousel">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('trending-games-container', -400)"><span class="b-icon">chevron-left</span></a>
                 <ul id="trending-games-container" class="list-unstyled d-flex games-carousel game-list gap-3 m-0"></ul>
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('trending-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="section-header">
+            <div class="section-header category-header">
                 <h3 class="mb-0">Popular</h3>
             </div>
-            <div class="carousel-container game-carousel-container">
+            <div class="carousel-container game-carousel-container category-carousel">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('popular-games-container', -400)"><span class="b-icon">chevron-left</span></a>
                 <ul id="popular-games-container" class="list-unstyled d-flex games-carousel game-list gap-3 m-0"></ul>
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('popular-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="section-header">
+            <div class="section-header category-header">
                 <h3 class="mb-0">Top Rated</h3>
             </div>
-            <div class="carousel-container game-carousel-container">
+            <div class="carousel-container game-carousel-container category-carousel">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('top-rated-games-container', -400)"><span class="b-icon">chevron-left</span></a>
                 <ul id="top-rated-games-container" class="list-unstyled d-flex games-carousel game-list gap-3 m-0"></ul>
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('top-rated-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="section-header">
+            <div class="section-header category-header">
                 <h3 class="mb-0">Playing Now</h3>
             </div>
-            <div class="carousel-container game-carousel-container">
+            <div class="carousel-container game-carousel-container category-carousel">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('playing-now-games-container', -400)"><span class="b-icon">chevron-left</span></a>
                 <ul id="playing-now-games-container" class="list-unstyled d-flex games-carousel game-list gap-3 m-0"></ul>
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('playing-now-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="section-header">
+            <div class="section-header category-header">
                 <h3 class="mb-0">Upcoming</h3>
             </div>
-            <div class="carousel-container game-carousel-container">
+            <div class="carousel-container game-carousel-container category-carousel">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('upcoming-games-container', -400)"><span class="b-icon">chevron-left</span></a>
                 <ul id="upcoming-games-container" class="list-unstyled d-flex games-carousel game-list gap-3 m-0"></ul>
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('upcoming-games-container', 400)"><span class="b-icon">chevron-right</span></a>
             </div>
 
-            <div class="section-header">
+            <div class="section-header category-header">
                 <h3 class="mb-0">Friends Are Playing</h3>
             </div>
-            <div class="carousel-container game-carousel-container">
+            <div class="carousel-container game-carousel-container category-carousel">
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('friends-games-container', -400)"><span class="b-icon">chevron-left</span></a>
                 <ul id="friends-games-container" class="list-unstyled d-flex games-carousel game-list gap-3 m-0"></ul>
                 <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('friends-games-container', 400)"><span class="b-icon">chevron-right</span></a>
