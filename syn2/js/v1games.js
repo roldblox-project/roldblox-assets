@@ -679,6 +679,7 @@ class GameRenderer {
                 <a class="game-card-link" href="${this.formatGameUrl(game)}${campaignParam}" tabindex="0">
                     <div class="game-card-thumb-container">
                         <div class="thumbnail-2d-container game-card-thumb position-relative">
+                            <div class="loading-spinner"></div>
                             <div class="shimmer-box" data-game-id="${safePlaceId}" style="width: 100%; height: 100%; aspect-ratio: 1/1;"></div>
                             <div class="game-version-badge">${safeVersion}</div>
                         </div>
@@ -742,6 +743,7 @@ class GameRenderer {
         const cardHtml = `
             <div class="overflow-hidden place-card w-100">
                 <div class="position-relative">
+                    <div class="loading-spinner"></div>
                     <div class="shimmer-box" data-game-id="${safePlaceId}" style="aspect-ratio: 1/1;"></div>
                     <div class="position-absolute" style="bottom: 0px;left: 0px;">
                         <div class="fw-bold bg-dark text-white" style="font-size: 12px;padding: 3px;border-top-right-radius: 4px;">${safeVersion}</div>
@@ -902,20 +904,42 @@ class GameRenderer {
             const img = document.createElement('img');
             img.src = imageUrl;
             img.alt = "Game thumbnail";
+            img.className = "game-card-thumb"; // Ensure class is added
             img.setAttribute('width', '100%');
             img.setAttribute('data-game-id', placeId);
             img.style.aspectRatio = "1/1";
+            // opacity handled by class in css, but set here to be safe if css fails
             img.style.opacity = "0";
-            img.style.transition = "opacity 0.3s ease-in-out";
+
+            // Handle load event
+            const onLoad = () => {
+                img.classList.add('loaded');
+                img.style.opacity = "1";
+                if (element.parentNode) {
+                    const spinner = element.parentNode.querySelector('.loading-spinner');
+                    if (spinner) {
+                        spinner.style.opacity = '0';
+                        setTimeout(() => spinner.remove(), 300);
+                    }
+                }
+            };
+
+            if (img.complete) {
+                onLoad();
+            } else {
+                img.onload = onLoad;
+                img.onerror = () => {
+                    // On error, maybe show a default icon or keep spinner? 
+                    // For now, let's just remove spinner so it doesn't spin forever
+                    if (element.parentNode) {
+                        const spinner = element.parentNode.querySelector('.loading-spinner');
+                        if (spinner) spinner.remove();
+                    }
+                };
+            }
 
             if (element && element.parentNode) {
                 element.parentNode.replaceChild(img, element);
-
-                void img.offsetWidth;
-
-                setTimeout(() => {
-                    img.style.opacity = "1";
-                }, 50);
             }
         });
     }

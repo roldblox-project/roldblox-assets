@@ -57,7 +57,10 @@
     <div class="sidebar-section">
         <h3 class="sidebar-header">SIGNED IN AS</h3>
         <a href="/users/{$user_data['id']}/profile" class="sidebar-user-link">
-            <img src="/Thumbs/Head.ashx?x=48&y=48&userId={$user_data['id']}" class="sidebar-headshot">
+            <div style="position: relative; width: 48px; height: 48px; flex-shrink: 0; margin-right: 12px;">
+                <div class="loading-spinner" style="width: 20px; height: 20px;"></div>
+                <img src="/Thumbs/Head.ashx?x=48&y=48&userId={$user_data['id']}" class="sidebar-headshot" style="margin-right: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 0.3s ease;" onload="this.style.opacity='1'; this.parentElement.querySelector('.loading-spinner').style.display='none';">
+            </div>
             <span class="sidebar-username">@{$user_data['username']}</span>
         </a>
     </div>

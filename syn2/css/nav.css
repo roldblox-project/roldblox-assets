@@ -99,95 +99,54 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom, #0055b3, #003366);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    margin-right: 15px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar-nav-links {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-item-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.nav-item-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.nav-item-link .b-icon {
+    font-size: 20px;
 }
 
 .navbar-right {
     display: flex;
     align-items: center;
-    height: 100%;
-    margin-right: 0;
+    gap: 5px;
+    padding-right: 20px;
+    margin-left: auto;
 }
 
-.nav-item-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 56px;
-    /* Full navbar height */
-    text-decoration: none;
-    color: white;
-    transition: background-color 0.2s;
-    box-sizing: border-box;
-}
-
-.navbar-left .nav-item-link {
-    width: 64px;
-}
-
-.navbar-right .nav-item-link {
-    width: 56px;
-}
-
-.nav-item-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.b-icon {
-    font-family: 'BuilderIcons';
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.nav-item-link .b-icon {
-    font-size: 24px;
-    margin-bottom: 2px;
-}
-
-.nav-item-link .svg-icon {
-    width: 24px;
-    height: 24px;
-    margin-bottom: 2px;
-    display: block;
-}
-
-.nav-item-link .svg-icon-filled {
-    display: none;
-}
-
-.nav-item-link:hover .svg-icon-regular {
-    display: none;
-}
-
-.nav-item-link:hover .svg-icon-filled {
-    display: block;
-}
-
-.nav-item-link .nav-label {
-    font-size: 12px;
-    font-weight: normal;
-}
-
-.nav-item-link:hover .nav-label {
-    font-weight: bold;
-}
-
-/* Remove old user-stat styles if they conflict or reuse them */
-.user-stat {
-    display: none;
-    /* Deprecated in favor of nav-item-link */
-}
-
-
-/* Settings Dropdown */
+/* Dropdown Styles */
 .settings-dropdown {
     position: relative;
-    cursor: pointer;
+    display: inline-block;
 }
 
 .dropdown-content {
@@ -195,110 +154,146 @@ body {
     position: absolute;
     right: 0;
     top: 100%;
-    background-color: rgba(30, 30, 40, 0.75);
-    backdrop-filter: blur(8px);
+    background-color: rgba(30, 30, 40, 0.95);
+    backdrop-filter: blur(10px);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1001;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    z-index: 1;
     border-radius: 4px;
-    padding: 5px 0;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    margin-top: 5px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.2s, transform 0.2s;
 }
 
 .dropdown-content.show {
     display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .dropdown-content a,
-.dropdown-content button {
+.dropdown-content form button {
     color: white;
-    padding: 10px 15px;
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
     font-size: 14px;
+    transition: background-color 0.2s;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
     background: none;
     border: none;
-    width: 100%;
-    cursor: pointer;
     font-family: inherit;
-    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .dropdown-content a:hover,
-.dropdown-content button:hover {
+.dropdown-content form button:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.logout-form {
+    margin: 0;
+    padding: 0;
+}
+
 .logout-btn {
-    color: rgb(255, 6, 60) !important;
-    font-weight: 600;
+    color: #ff6b6b !important;
 }
 
 /* Sidebar Styles */
+.navbar-burger {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 5px;
+}
+
 .sidebar {
-    width: 200px;
-    box-sizing: border-box;
-    background-color: rgba(10, 10, 20, 0.75);
-    backdrop-filter: blur(8px);
-    padding: 15px 10px;
-    border-right: 1px solid rgb(40, 40, 50);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
     position: fixed;
-    top: 56px;
-    left: 0;
-    bottom: 0;
+    top: 0;
+    left: -280px;
+    width: 280px;
+    height: 100%;
+    background-color: rgb(20, 20, 30);
+    z-index: 2000;
+    transition: left 0.3s ease-in-out;
+    padding-top: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
     overflow-y: auto;
-    z-index: 900;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(2px);
+}
+
+.sidebar-backdrop.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 .sidebar-section {
-    display: flex;
-    flex-direction: column;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-header {
-    font-size: 11px;
-    font-weight: 800;
-    color: #666;
-    text-transform: uppercase;
+    color: #888;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0;
     letter-spacing: 0.5px;
-    margin-bottom: 5px;
-    padding-left: 10px;
 }
 
 .sidebar-user-link {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #fff;
-    padding: 6px 10px;
-    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
     transition: background-color 0.2s;
-    margin-bottom: 2px;
 }
 
 .sidebar-user-link:hover {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-headshot {
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-    margin-right: 10px;
-    object-fit: cover;
-    background-color: rgb(20, 20, 30);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 12px;
+    background-color: #000;
 }
 
 .sidebar-username {
     font-weight: 600;
-    font-size: 13px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    font-size: 16px;
 }
 
 .sidebar-menu {
@@ -308,238 +303,75 @@ body {
 }
 
 .sidebar-menu li {
-    margin-bottom: 1px;
+    margin-bottom: 2px;
 }
 
 .sidebar-menu a {
     display: flex;
     align-items: center;
+    padding: 10px 15px;
+    color: #cbd5e1;
     text-decoration: none;
-    color: #ccc;
-    font-size: 14px;
-    padding: 6px 10px;
-    border-radius: 4px;
-    transition: all 0.2s ease;
-    border-left: 3px solid transparent;
+    border-radius: 6px;
+    transition: all 0.2s;
+    font-size: 15px;
 }
 
 .sidebar-menu a:hover {
-    background-color: rgba(255, 255, 255, 0.08);
-    color: #fff;
-    font-weight: 600;
-}
-
-.sidebar-menu a .b-icon {
-    margin-right: 10px;
-    font-size: 18px;
-    width: 18px;
-    text-align: center;
-    display: inline-block;
-    color: #888;
-}
-
-.sidebar-menu a:hover .b-icon {
-    color: #fff;
-    font-weight: bold;
-}
-
-/* Main Container Adjustment for Fixed Sidebar */
-.main-container {
-    margin-top: 56px;
-    margin-left: 220px;
-    /* Sidebar width + padding */
-    min-height: calc(100vh - 56px);
-    display: block;
-}
-
-/* Helpers for removing inline styles */
-.navbar-brand-link {
-    display: flex;
-    align-items: center;
-}
-
-.stat-link {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-}
-
-.logout-form {
-    margin: 0;
-}
-
-/* New Navbar Nav Links */
-.navbar-nav-links {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.nav-item-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 0 10px;
-    transition: background-color 0.2s;
-    width: 64px;
-    height: 100%;
-    /* Ensure it takes full height */
-    box-sizing: border-box;
-}
-
-.nav-item-link:hover {
     background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding-left: 20px;
 }
 
-.nav-item-link .b-icon {
-    font-size: 24px;
-    margin-bottom: 2px;
-    font-weight: normal;
+.sidebar-menu .b-icon {
+    margin-right: 12px;
+    width: 20px;
+    text-align: center;
 }
 
-.nav-item-link:hover .b-icon {
-    font-weight: bold;
-}
-
-.nav-item-link .nav-label {
-    font-size: 14px;
-    font-weight: normal;
-    color: #ccc;
-    line-height: 1;
-}
-
-.nav-item-link:hover .nav-label {
-    font-weight: bold;
-    color: #fff;
-}
-
-/* Right side specific adjustments if needed */
-.navbar-right {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-/* Burger button (hidden by default, shown on small screens) */
-.navbar-burger {
-    display: none;
-    width: 56px;
-    height: 56px;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    box-sizing: border-box;
-}
-
-.navbar-burger .b-icon {
-    font-size: 30px;
-}
-
-.navbar-burger.active .b-icon {
-    font-weight: bold;
-}
-
-/* Backdrop for mobile sidebar */
-.sidebar-backdrop {
-    display: none;
-}
-
-/* Responsive adjustments for small screens */
+/* Responsive */
 @media (max-width: 900px) {
-    .navbar {
-        height: auto;
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .navbar-left {
-        width: 100%;
-        justify-content: center;
-        position: relative;
-    }
-
-    .navbar-burger {
-        display: flex;
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-
     .navbar-nav-links {
         display: none;
     }
 
-    .main-container {
-        margin-left: 0;
-        margin-top: 112px;
-    }
-
-    .navbar-right .nav-label {
-        display: none;
-    }
-
-    .navbar-right .currency-amount {
-        display: inline;
-    }
-
-    .navbar-right {
-        width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .navbar-right .nav-item-link {
-        width: 56px;
+    .navbar-burger {
+        display: block;
     }
 
     .navbar-brand-link {
         width: auto;
-        padding: 0 10px;
+        background: none;
+        clip-path: none;
     }
 
-    /* Remove horizontal padding and normalize height for nav links on small screens */
-    .navbar .nav-item-link {
-        padding: 0;
-        height: 56px;
+    .navbar-left {
+        padding-left: 15px;
+    }
+}
+
+/* Loading Spinner */
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
     }
 
-    .sidebar {
-        width: 100%;
-        left: 0;
-        top: 112px;
-        bottom: 0;
-        transform: translateX(-100%);
-        transition: transform 0.25s ease;
-        background-color: rgba(10, 10, 20, 0.5);
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
     }
+}
 
-    .sidebar.open {
-        transform: translateX(0);
-    }
-
-    .sidebar-backdrop {
-        display: none;
-        position: fixed;
-        top: 112px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.6);
-        z-index: 800;
-    }
-
-    .sidebar-backdrop.show {
-        display: block;
-    }
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background: url('https://raw.githubusercontent.com/roldblox-project/roldblox-assets/main/images/misc/loadingcircle.png') no-repeat center center;
+    background-size: contain;
+    animation: spin 1s linear infinite;
+    z-index: 1;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
 }
