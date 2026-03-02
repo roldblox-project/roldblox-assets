@@ -250,7 +250,9 @@ class GameRenderer {
                     this.searchQuery = searchInput.value.trim();
                     this.updateURL(this.searchQuery);
                     this.currentPage = 1;
-                    window.location.href = window.location.href;
+
+                    // Trigger search without reload
+                    this.handleSearchState(this.searchQuery);
                 }
             });
         }
@@ -281,32 +283,40 @@ class GameRenderer {
         const keywords = urlParams.get('q');
 
         if (keywords && keywords.trim() !== '') {
-            this.searchQuery = keywords.trim();
-            const searchInput = document.querySelector('#search-input');
-            if (searchInput) {
-                searchInput.value = this.searchQuery;
-            }
-
-            // Hide all section headers and carousels
-            document.querySelectorAll('.section-header').forEach(el => el.style.display = 'none');
-            document.querySelectorAll('.game-carousel-container').forEach(el => el.style.display = 'none');
-
-            if (this.options.searchResultsSection) {
-                this.options.searchResultsSection.style.display = 'block';
-            }
-
-            this.searchGames(this.searchQuery);
+            this.handleSearchState(keywords.trim());
         } else {
-            // Show all section headers and carousels
-            document.querySelectorAll('.section-header').forEach(el => el.style.display = 'flex');
-            document.querySelectorAll('.game-carousel-container').forEach(el => el.style.display = 'block');
-
-            if (this.options.searchResultsSection) {
-                this.options.searchResultsSection.style.display = 'none';
-            }
-
-            this.loadAllGameCategories();
+            this.handleDefaultState();
         }
+    }
+
+    handleSearchState(query) {
+        this.searchQuery = query;
+        const searchInput = document.querySelector('#search-input');
+        if (searchInput) {
+            searchInput.value = this.searchQuery;
+        }
+
+        // Hide all section headers and carousels
+        document.querySelectorAll('.section-header').forEach(el => el.style.display = 'none');
+        document.querySelectorAll('.game-carousel-container').forEach(el => el.style.display = 'none');
+
+        if (this.options.searchResultsSection) {
+            this.options.searchResultsSection.style.display = 'block';
+        }
+
+        this.searchGames(this.searchQuery);
+    }
+
+    handleDefaultState() {
+        // Show all section headers and carousels
+        document.querySelectorAll('.section-header').forEach(el => el.style.display = 'flex');
+        document.querySelectorAll('.game-carousel-container').forEach(el => el.style.display = 'block');
+
+        if (this.options.searchResultsSection) {
+            this.options.searchResultsSection.style.display = 'none';
+        }
+
+        this.loadAllGameCategories();
     }
 
     updateURL(query) {
@@ -563,7 +573,7 @@ class GameRenderer {
                 <span class="info-label"><span class="b-icon game-card-stats-icon">thumb-up</span></span>
                 <span class="info-label vote-percentage-label game-card-stats-value">${voteDisplay}</span>
                 <span class="info-label"><span class="b-icon game-card-stats-icon">person-play</span></span>
-                <span class="info-label playing-counts-label game-card-stats-value">${formatCount(safePlaying)}</span>
+                <span class="info-label playing-counts-label">${formatCount(safePlaying)}</span>
             </div>`;
 
         const cardHtml = `
