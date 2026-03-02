@@ -137,6 +137,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right, rgba(0, 50, 150, 0.8), rgba(0, 0, 0, 0));
 }
 
 .navbar-right {
