@@ -50,6 +50,7 @@ class GameRenderer {
         this.categoryElements = new Map();
 
         this.setupEventListeners();
+        this.setupEraButton();
         this.createBackButton();
         this.checkForSearchQuery();
         this.sessionId = this.getOrCreateSessionId();
@@ -110,6 +111,103 @@ class GameRenderer {
 
         // Expose update function for use after rendering
         this.updateScrollFades = setupMonitor;
+    }
+
+    setupEraButton() {
+        const eraBtn = document.getElementById('sort-era-btn');
+        if (eraBtn) {
+            eraBtn.addEventListener('click', () => {
+                if (this.isEraMode) {
+                    this.disableEraMode();
+                    eraBtn.innerHTML = '<span class="b-icon">filter</span> Sort by Era';
+                    eraBtn.classList.remove('active');
+                } else {
+                    this.enableEraMode();
+                    eraBtn.innerHTML = '<span class="b-icon">filter-off</span> Default View';
+                    eraBtn.classList.add('active');
+                }
+            });
+        }
+    }
+
+    enableEraMode() {
+        this.isEraMode = true;
+        // Hide standard categories
+        document.querySelectorAll('.category-header').forEach(el => el.style.display = 'none');
+        document.querySelectorAll('.category-carousel').forEach(el => el.style.display = 'none');
+
+        // Show Era section
+        const eraSection = document.getElementById('era-games-section');
+        if (eraSection) {
+            eraSection.style.display = 'block';
+            if (!this.eraLoaded) {
+                this.loadEraCategories(eraSection);
+                this.eraLoaded = true;
+            }
+        }
+    }
+
+    disableEraMode() {
+        this.isEraMode = false;
+        // Show standard categories
+        document.querySelectorAll('.category-header').forEach(el => el.style.display = 'flex');
+        document.querySelectorAll('.category-carousel').forEach(el => el.style.display = 'block');
+
+        // Hide Era section
+        const eraSection = document.getElementById('era-games-section');
+        if (eraSection) {
+            eraSection.style.display = 'none';
+        }
+    }
+
+    loadEraCategories(container) {
+        container.innerHTML = ''; // Clear previous content
+        const years = [2016, 2017, 2018, 2019, 2020, 2021, 2022];
+
+        years.forEach(year => {
+            // Create Header
+            const header = document.createElement('div');
+            header.className = 'section-header';
+            header.innerHTML = `<h3 class="mb-0">${year}</h3>`;
+            container.appendChild(header);
+
+            // Create Carousel Container
+            const carouselContainer = document.createElement('div');
+            carouselContainer.className = 'carousel-container game-carousel-container';
+            const carouselId = `era-${year}-games-container`;
+
+            carouselContainer.innerHTML = `
+                <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn prev" onclick="scrollCarousel('${carouselId}', -400)"><span class="b-icon">chevron-left</span></a>
+                <ul id="${carouselId}" class="list-unstyled d-flex games-carousel game-list gap-3 m-0"></ul>
+                <a class="btn btn-dark position-absolute top-50 translate-middle-y carousel-btn next" onclick="scrollCarousel('${carouselId}', 400)"><span class="b-icon">chevron-right</span></a>
+            `;
+            container.appendChild(carouselContainer);
+
+            // Fetch and Render Games
+            const listContainer = carouselContainer.querySelector('ul');
+            this.showSkeletons(listContainer);
+
+            // Fetch games for the year using 'type' parameter
+            fetch(`/v1/games/?type=${year}&limit=${this.options.itemsPerPage}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.data && data.data.length > 0) {
+                        this.renderGames(data.data, listContainer, 'era');
+                        this.observeGameCards(listContainer);
+                        // Setup scroll fade for new container
+                        if (this.updateScrollFades) this.updateScrollFades();
+                    } else {
+                        // Hide section if no games found
+                        header.style.display = 'none';
+                        carouselContainer.style.display = 'none';
+                    }
+                })
+                .catch(error => {
+                    console.error(`Error loading ${year} games:`, error);
+                    header.style.display = 'none';
+                    carouselContainer.style.display = 'none';
+                });
+        });
     }
 
     mapCategoryElements() {

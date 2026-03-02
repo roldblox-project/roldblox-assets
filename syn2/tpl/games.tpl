@@ -12,10 +12,19 @@
         <div class="content">
             <div class="section-header search-header" style="border-bottom: none; margin-bottom: 0;">
                 <h3 class="mb-0" style="visibility: hidden; height: 0; width: 0; overflow: hidden;">Search</h3>
-                <form id="game-search-form" class="ms-auto w-100 d-flex justify-content-end">
-                    <input id="search-input" type="text" name="q" placeholder="Search games" class="form-control" />
-                    <button type="submit" class="btn-search"><span class="b-icon">magnifying-glass</span> Search</button>
-                </form>
+                <div class="d-flex w-100 align-items-center">
+                    <button id="sort-era-btn" class="btn btn-outline-light btn-sm me-3" style="white-space: nowrap;">
+                        <span class="b-icon">filter</span> Sort by Era
+                    </button>
+                    <form id="game-search-form" class="ms-auto d-flex justify-content-end flex-grow-1">
+                        <input id="search-input" type="text" name="q" placeholder="Search games" class="form-control" />
+                        <button type="submit" class="btn-search"><span class="b-icon">magnifying-glass</span> Search</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="era-games-section" style="display: none;">
+                <!-- Era categories will be injected here -->
             </div>
 
             <div class="section-header category-header">
