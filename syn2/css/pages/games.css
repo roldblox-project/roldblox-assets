@@ -216,20 +216,11 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-/* Loading Spinner styles moved to nav.css */
-
 .game-card-thumb {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    position: relative;
-    z-index: 2;
-}
-
-.game-card-thumb.loaded {
-    opacity: 1;
+    /* transition: transform 0.3s ease; */
 }
 
 /* .game-card:hover .game-card-thumb {
