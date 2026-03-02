@@ -492,14 +492,28 @@ class HomeRenderer {
                 if (existing) {
                     if (existing.src !== imageUrl) existing.src = imageUrl;
                 } else {
+                    // Add loading spinner class to container
+                    el.classList.add('has-loading-spinner');
+                    
                     const img = document.createElement('img');
+                    img.onload = () => {
+                        el.classList.add('loaded');
+                        img.style.opacity = '1';
+                    };
                     img.src = imageUrl;
                     img.className = 'thumbnail-img';
-                    el.appendChild(img)
+                    img.style.opacity = '0';
+                    img.style.transition = 'opacity 0.3s ease';
+                    
+                    el.appendChild(img);
+                    
+                    if (img.complete) {
+                        el.classList.add('loaded');
+                        img.style.opacity = '1';
+                    }
                 }
             }
-        }
-        )
+        });
     }
     setupCarousels() {
         const carousels = [{

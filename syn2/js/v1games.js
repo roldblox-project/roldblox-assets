@@ -909,13 +909,21 @@ class GameRenderer {
             img.style.transition = "opacity 0.3s ease-in-out";
 
             if (element && element.parentNode) {
+                // Add loading spinner class to parent
+                element.parentNode.classList.add('has-loading-spinner');
+                
                 element.parentNode.replaceChild(img, element);
 
-                void img.offsetWidth;
-
-                setTimeout(() => {
+                img.onload = () => {
+                    element.parentNode.classList.add('loaded');
                     img.style.opacity = "1";
-                }, 50);
+                };
+                
+                // Fallback for cached images
+                if (img.complete) {
+                    element.parentNode.classList.add('loaded');
+                    img.style.opacity = "1";
+                }
             }
         });
     }
